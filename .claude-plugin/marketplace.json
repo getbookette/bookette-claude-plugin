@@ -1,0 +1,14 @@
+{
+  "name": "bookette",
+  "owner": {
+    "name": "Bookette"
+  },
+  "description": "Bookette for Claude Code: books for a tax-year folder, kept in your own session.",
+  "plugins": [
+    {
+      "name": "bookette",
+      "source": "./plugins/bookette",
+      "description": "Keep a tax-year folder's books from your own Claude Code session: stage receipts and statements, follow the Bookette books skill over the run, import through Bookette's checks, then review questions and Abacus's figures."
+    }
+  ]
+}

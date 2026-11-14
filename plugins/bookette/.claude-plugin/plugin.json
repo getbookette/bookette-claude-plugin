@@ -1,0 +1,8 @@
+{
+  "name": "bookette",
+  "version": "0.1.0",
+  "description": "Keep a tax-year folder's books from your own Claude Code session: stage receipts and statements, follow the Bookette books skill over the run, import through Bookette's checks, then review questions and Abacus's figures.",
+  "author": {
+    "name": "Alan Ho"
+  }
+}

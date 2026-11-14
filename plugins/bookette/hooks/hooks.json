@@ -1,0 +1,60 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "sh",
+            "args": [
+              "-c",
+              "p=$1; case \"$p\" in /*) while [ ! -e \"$p/bookette.json\" ]; do case \"$p\" in / | //) exit 0;; esac; p=$(dirname -- \"$p\") || exit 2; done;; esac; command -v npx >/dev/null 2>&1 || { echo 'Bookette'\\''s plugin needs Node.js 24 or later and found no npx. Install Node.js 24 or later: on macOS `brew install node`, on Linux the installer at https://nodejs.org/en/download. In Claude Code, the bookette plugin can be turned off with /plugin.' >&2; exit 2; }; cd \"$2\" || exit 2; t=$(mktemp -d) || { echo 'Refused: Bookette'\\''s hook could not run, so the call is refused. Its package downloads when the bookette server first starts: wait a minute, or run /mcp, and try again. In Claude Code, the bookette plugin can be turned off with /plugin.' >&2; exit 2; }; trap 'rm -rf \"$t\"' EXIT; trap 'kill \"$n\" 2>/dev/null; exit 2' HUP INT TERM; cat >\"$t/in\" || exit 2; exec 3<\"$t/in\"; rm -f \"$t/in\"; npx --yes --offline --no-update-notifier --registry=https://registry.npmjs.org/ --package=bookette@0.1.0 -- bookette-hook <&3 >\"$t/out\" 2>\"$t/err\" & n=$!; exec 3<&-; ( trap - EXIT HUP INT TERM; sleep 25; kill \"$n\" ) >/dev/null 2>&1 </dev/null & w=$!; wait \"$n\" 2>/dev/null; s=$?; kill \"$w\" 2>/dev/null; cat \"$t/out\"; cat \"$t/err\" >&2; [ \"$s\" = 0 ] || { echo 'Refused: Bookette'\\''s hook could not run, so the call is refused. Its package downloads when the bookette server first starts: wait a minute, or run /mcp, and try again. In Claude Code, the bookette plugin can be turned off with /plugin.' >&2; exit 2; }",
+              "bookette-hook",
+              "${CLAUDE_PROJECT_DIR}",
+              "${CLAUDE_PLUGIN_ROOT}"
+            ],
+            "timeout": 30
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "sh",
+            "args": [
+              "-c",
+              "p=$1; case \"$p\" in /*) while [ ! -e \"$p/bookette.json\" ]; do case \"$p\" in / | //) exit 0;; esac; p=$(dirname -- \"$p\") || exit 0; done;; esac; command -v npx >/dev/null 2>&1 || { echo 'Bookette'\\''s plugin needs Node.js 24 or later and found no npx. Install Node.js 24 or later: on macOS `brew install node`, on Linux the installer at https://nodejs.org/en/download. In Claude Code, the bookette plugin can be turned off with /plugin.' >&2; exit 0; }; cd \"$2\" || exit 0; t=$(mktemp -d) || { echo 'Refused: Bookette'\\''s hook could not run, so the call is refused. Its package downloads when the bookette server first starts: wait a minute, or run /mcp, and try again. In Claude Code, the bookette plugin can be turned off with /plugin.' >&2; exit 0; }; trap 'rm -rf \"$t\"' EXIT; trap 'kill \"$n\" 2>/dev/null; exit 0' HUP INT TERM; cat >\"$t/in\" || exit 0; exec 3<\"$t/in\"; rm -f \"$t/in\"; npx --yes --offline --no-update-notifier --registry=https://registry.npmjs.org/ --package=bookette@0.1.0 -- bookette-hook <&3 >\"$t/out\" 2>\"$t/err\" & n=$!; exec 3<&-; ( trap - EXIT HUP INT TERM; sleep 25; kill \"$n\" ) >/dev/null 2>&1 </dev/null & w=$!; wait \"$n\" 2>/dev/null; s=$?; kill \"$w\" 2>/dev/null; cat \"$t/out\"; cat \"$t/err\" >&2; [ \"$s\" = 0 ] || { echo 'Refused: Bookette'\\''s hook could not run, so the call is refused. Its package downloads when the bookette server first starts: wait a minute, or run /mcp, and try again. In Claude Code, the bookette plugin can be turned off with /plugin.' >&2; exit 0; }",
+              "bookette-hook",
+              "${CLAUDE_PROJECT_DIR}",
+              "${CLAUDE_PLUGIN_ROOT}"
+            ],
+            "timeout": 30
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "AskUserQuestion",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "sh",
+            "args": [
+              "-c",
+              "p=$1; case \"$p\" in /*) while [ ! -e \"$p/bookette.json\" ]; do case \"$p\" in / | //) exit 0;; esac; p=$(dirname -- \"$p\") || exit 0; done;; esac; command -v npx >/dev/null 2>&1 || { echo 'Bookette'\\''s plugin needs Node.js 24 or later and found no npx. Install Node.js 24 or later: on macOS `brew install node`, on Linux the installer at https://nodejs.org/en/download. In Claude Code, the bookette plugin can be turned off with /plugin.' >&2; exit 0; }; cd \"$2\" || exit 0; t=$(mktemp -d) || { echo 'Refused: Bookette'\\''s hook could not run, so the call is refused. Its package downloads when the bookette server first starts: wait a minute, or run /mcp, and try again. In Claude Code, the bookette plugin can be turned off with /plugin.' >&2; exit 0; }; trap 'rm -rf \"$t\"' EXIT; trap 'kill \"$n\" 2>/dev/null; exit 0' HUP INT TERM; cat >\"$t/in\" || exit 0; exec 3<\"$t/in\"; rm -f \"$t/in\"; npx --yes --offline --no-update-notifier --registry=https://registry.npmjs.org/ --package=bookette@0.1.0 -- bookette-hook <&3 >\"$t/out\" 2>\"$t/err\" & n=$!; exec 3<&-; ( trap - EXIT HUP INT TERM; sleep 25; kill \"$n\" ) >/dev/null 2>&1 </dev/null & w=$!; wait \"$n\" 2>/dev/null; s=$?; kill \"$w\" 2>/dev/null; cat \"$t/out\"; cat \"$t/err\" >&2; [ \"$s\" = 0 ] || { echo 'Refused: Bookette'\\''s hook could not run, so the call is refused. Its package downloads when the bookette server first starts: wait a minute, or run /mcp, and try again. In Claude Code, the bookette plugin can be turned off with /plugin.' >&2; exit 0; }",
+              "bookette-hook",
+              "${CLAUDE_PROJECT_DIR}",
+              "${CLAUDE_PLUGIN_ROOT}"
+            ],
+            "timeout": 30
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "bookette": {
+      "command": "sh",
+      "args": [
+        "-c",
+        "d=$2; case \"$d\" in '' | '$'{CLAUDE_PROJECT_DIR}) d=$PWD;; esac; cd \"$1\" || exit 1; exec npx --yes --prefer-offline --no-update-notifier --registry=https://registry.npmjs.org/ --package=bookette@0.1.0 -- bookette-mcp \"$d\"",
+        "bookette-mcp",
+        "${CLAUDE_PLUGIN_ROOT}",
+        "${CLAUDE_PROJECT_DIR}"
+      ]
+    }
+  }
+}
