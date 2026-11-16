@@ -1,0 +1,27 @@
+{
+  "ent_1": {
+    "usps_standard": "1180 QUILLFEATHER LN",
+    "city": "Denver",
+    "region": "CO",
+    "country": "US"
+  },
+  "ent_2": {
+    "usps_standard": "48 PINECONE HOLW",
+    "city": "Estes Park",
+    "region": "CO",
+    "country": "US"
+  },
+  "ent_3": null,
+  "ent_4": {
+    "usps_standard": "1650 BRINDLEWOOD CT UNIT 4B",
+    "city": "Boulder",
+    "region": "CO",
+    "country": "US"
+  },
+  "ent_5": {
+    "usps_standard": "915 SALTGRASS BND",
+    "city": "Colorado Springs",
+    "region": "CO",
+    "country": "US"
+  }
+}

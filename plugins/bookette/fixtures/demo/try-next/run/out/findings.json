@@ -1,0 +1,100 @@
+[
+  {
+    "kind": "note",
+    "message": "The corrected Form 1099-NEC from Lumen Health Inc (lumen_1099nec_corrected.pdf) supersedes the original form from the same payer (lumen_1099nec.jpg); only the corrected form is booked.",
+    "cites": ["inbox/lumen_1099nec_corrected.pdf", "inbox/lumen_1099nec.jpg"]
+  },
+  {
+    "kind": "unreadable",
+    "message": "The photo IMG_2077.jpg is too blurred to read a vendor, date or total, so no line is booked from it.",
+    "cites": ["inbox/IMG_2077.jpg"]
+  },
+  {
+    "kind": "near_duplicate",
+    "message": "The Denver Treasury payment history (tax_payment_history.pdf) restates the first-half payment of 2026-02-27 that the payment confirmation carries; the payment is staged once, from the confirmation, and the history is the evidence for the 2026-06-12 payment.",
+    "cites": ["inbox/tax_payment_confirmation_0227.pdf", "inbox/tax_payment_history.pdf"]
+  },
+  {
+    "kind": "method_comparison",
+    "message": "The home office for Northpeak Consulting has both readings, simplified and regular, in books.json; the method is the accountant's choice.",
+    "cites": ["inbox/home_electric_2026.pdf", "inbox/home_insurance_2026.pdf"]
+  },
+  {
+    "kind": "method_comparison",
+    "message": "The water heater invoice of 2026-09-03 for 1180 Quillfeather Ln and the roof invoice of 2026-06-19 for 915 Saltgrass Bend each have both readings in books.json (expensed as a repair, or capitalized and depreciated); the building class is established for both.",
+    "cites": ["L0005", "L0008"]
+  },
+  {
+    "kind": "method_comparison",
+    "message": "The 14-inch laptop of Northpeak Consulting, placed in service 2026-03-14, has both readings in books.json (expensed in year one, or depreciated under MACRS); its class is shown as established from the invoice, for the accountant to decide.",
+    "cites": ["L0113"]
+  },
+  {
+    "kind": "fair_rental_days",
+    "message": "Cedar Cabin records 96 rental days, 12 personal-use days and 23 stays; the predicates are on the report, and no services note is recorded yet.",
+    "cites": ["inbox/cedar_stayhaven_summary_2026.pdf"]
+  },
+  {
+    "kind": "personal_use",
+    "message": "Cedar Cabin records 12 days of personal use in September; the ratios are on the report.",
+    "cites": ["inbox/cedar_stayhaven_summary_2026.pdf"]
+  },
+  {
+    "kind": "missing_receipt",
+    "message": "The EVA Air fare booked on 2026-03-02 from the card export prints no itinerary; the ticket would show where it went and which trip it belongs to.",
+    "cites": ["L0018"]
+  },
+  {
+    "kind": "missing_receipt",
+    "message": "Denver trip: no hotel or lodging receipt covers the nights of 2026-04-10 and 2026-04-11.",
+    "cites": ["trip:denver_apr"],
+    "gap": "lodging"
+  },
+  {
+    "kind": "missing_receipt",
+    "message": "Denver trip: no meal receipt is on record for the days 2026-04-10, 2026-04-11 and 2026-04-12.",
+    "cites": ["trip:denver_apr"],
+    "gap": "meal"
+  },
+  {
+    "kind": "missing_receipt",
+    "message": "Taipei stop: no hotel receipt covers the night of 2026-04-19.",
+    "cites": ["trip:taipei_austin_apr"],
+    "gap": "lodging"
+  },
+  {
+    "kind": "missing_receipt",
+    "message": "Taipei stop: no meal receipt is on record for 2026-04-20.",
+    "cites": ["trip:taipei_austin_apr"],
+    "gap": "meal"
+  },
+  {
+    "kind": "missing_receipt",
+    "message": "Austin stop: no meal receipt is on record for 2026-04-24, 2026-04-26 and 2026-04-27.",
+    "cites": ["trip:taipei_austin_apr"],
+    "gap": "meal"
+  },
+  {
+    "kind": "missing_receipt",
+    "message": "Estes Park trip: no hotel receipt covers the night of 2026-07-11.",
+    "cites": ["trip:estes_jul"],
+    "gap": "lodging"
+  },
+  {
+    "kind": "missing_receipt",
+    "message": "Estes Park trip: no meal receipt is on record for 2026-07-10 and 2026-07-12.",
+    "cites": ["trip:estes_jul"],
+    "gap": "meal"
+  },
+  {
+    "kind": "missing_receipt",
+    "message": "The mileage log does not count the drive of 2026-07-10 to 2026-07-12.",
+    "cites": ["trip:estes_jul", "inbox/northpeak_mileage_log_2026.pdf"],
+    "gap": "mileage"
+  },
+  {
+    "kind": "entity_unestablished",
+    "message": "The handwritten cash note note_yard_work.jpg (yard cleanup and haul-away paid to Jake on 2026-07-19) names no property, so its line is left unassigned for the person to place from the books.",
+    "cites": ["L0116", "inbox/note_yard_work.jpg"]
+  }
+]

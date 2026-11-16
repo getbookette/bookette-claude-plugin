@@ -1,0 +1,262 @@
+{
+  "rows": [
+    {
+      "date": "2026-01-05",
+      "description": "NETFLIX.COM",
+      "decision": "personal"
+    },
+    {
+      "date": "2026-02-03",
+      "description": "WHOLEFDS DEN …0432",
+      "decision": "personal"
+    },
+    {
+      "date": "2026-05-02",
+      "description": "SPOTIFY USA",
+      "decision": "personal"
+    },
+    {
+      "date": "2026-07-19",
+      "description": "AMAZON MKTPL*7719",
+      "decision": "personal"
+    },
+    {
+      "date": "2026-12-09",
+      "description": "COSTCO WHSE #0482",
+      "decision": "personal"
+    },
+    {
+      "date": "2026-09-09",
+      "description": "KING SOOPERS #34",
+      "decision": "personal"
+    },
+    {
+      "date": "2026-10-05",
+      "description": "ZELLE TO J RIVERA",
+      "decision": "personal"
+    },
+    {
+      "date": "2026-04-15",
+      "description": "IRS USATAXPYMT",
+      "decision": "elsewhere"
+    },
+    {
+      "date": "2026-06-15",
+      "description": "IRS USATAXPYMT",
+      "decision": "elsewhere"
+    },
+    {
+      "date": "2026-04-15",
+      "description": "AUTOMATIC PAYMENT - THANK YOU",
+      "decision": "elsewhere"
+    },
+    {
+      "date": "2026-08-15",
+      "description": "AUTOMATIC PAYMENT - THANK YOU",
+      "decision": "elsewhere"
+    },
+    {
+      "date": "2026-12-15",
+      "description": "AUTOMATIC PAYMENT - THANK YOU",
+      "decision": "elsewhere"
+    },
+    {
+      "date": "2026-01-02",
+      "description": "ZELLE FROM D OKONJO RENT 4B",
+      "decision": "keep"
+    },
+    {
+      "date": "2026-01-05",
+      "description": "ACH DEPOSIT L FAIRWEATHER RENT",
+      "decision": "keep"
+    },
+    {
+      "date": "2026-01-05",
+      "description": "BRINDLEWOOD HOA DUES",
+      "decision": "keep"
+    },
+    {
+      "date": "2026-02-02",
+      "description": "ZELLE FROM D OKONJO RENT 4B",
+      "decision": "keep"
+    },
+    {
+      "date": "2026-02-03",
+      "description": "ACH DEPOSIT L FAIRWEATHER RENT",
+      "decision": "keep"
+    },
+    {
+      "date": "2026-03-02",
+      "description": "ZELLE FROM D OKONJO RENT 4B",
+      "decision": "keep"
+    },
+    {
+      "date": "2026-03-03",
+      "description": "ACH DEPOSIT L FAIRWEATHER RENT",
+      "decision": "keep"
+    },
+    {
+      "date": "2026-03-31",
+      "description": "WICKERBILL WATER SEWER",
+      "decision": "keep"
+    },
+    {
+      "date": "2026-04-01",
+      "description": "ZELLE FROM D OKONJO RENT 4B",
+      "decision": "keep"
+    },
+    {
+      "date": "2026-04-03",
+      "description": "ACH DEPOSIT L FAIRWEATHER RENT",
+      "decision": "keep"
+    },
+    {
+      "date": "2026-04-03",
+      "description": "BRINDLEWOOD HOA DUES",
+      "decision": "keep"
+    },
+    {
+      "date": "2026-05-01",
+      "description": "ZELLE FROM D OKONJO RENT 4B",
+      "decision": "keep"
+    },
+    {
+      "date": "2026-05-04",
+      "description": "ACH DEPOSIT L FAIRWEATHER RENT",
+      "decision": "keep"
+    },
+    {
+      "date": "2026-06-01",
+      "description": "ZELLE FROM D OKONJO RENT 4B",
+      "decision": "keep"
+    },
+    {
+      "date": "2026-06-03",
+      "description": "ACH DEPOSIT L FAIRWEATHER RENT",
+      "decision": "keep"
+    },
+    {
+      "date": "2026-06-30",
+      "description": "WICKERBILL WATER SEWER",
+      "decision": "keep"
+    },
+    {
+      "date": "2026-07-03",
+      "description": "ACH DEPOSIT L FAIRWEATHER RENT",
+      "decision": "keep"
+    },
+    {
+      "date": "2026-07-06",
+      "description": "BRINDLEWOOD HOA DUES",
+      "decision": "keep"
+    },
+    {
+      "date": "2026-07-07",
+      "description": "LETBOARD RENTAL LISTING",
+      "decision": "keep"
+    },
+    {
+      "date": "2026-08-03",
+      "description": "ZELLE FROM M HALVORSEN RENT 4B",
+      "decision": "keep"
+    },
+    {
+      "date": "2026-08-04",
+      "description": "ACH DEPOSIT L FAIRWEATHER RENT",
+      "decision": "keep"
+    },
+    {
+      "date": "2026-09-01",
+      "description": "ZELLE FROM M HALVORSEN RENT 4B",
+      "decision": "keep"
+    },
+    {
+      "date": "2026-09-03",
+      "description": "ACH DEPOSIT L FAIRWEATHER RENT",
+      "decision": "keep"
+    },
+    {
+      "date": "2026-09-30",
+      "description": "WICKERBILL WATER SEWER",
+      "decision": "keep"
+    },
+    {
+      "date": "2026-10-01",
+      "description": "ZELLE FROM M HALVORSEN RENT 4B",
+      "decision": "keep"
+    },
+    {
+      "date": "2026-10-05",
+      "description": "ACH DEPOSIT L FAIRWEATHER RENT",
+      "decision": "keep"
+    },
+    {
+      "date": "2026-10-05",
+      "description": "BRINDLEWOOD HOA DUES",
+      "decision": "keep"
+    },
+    {
+      "date": "2026-11-02",
+      "description": "ZELLE FROM M HALVORSEN RENT 4B",
+      "decision": "keep"
+    },
+    {
+      "date": "2026-11-03",
+      "description": "ACH DEPOSIT L FAIRWEATHER RENT",
+      "decision": "keep"
+    },
+    {
+      "date": "2026-12-01",
+      "description": "ZELLE FROM M HALVORSEN RENT 4B",
+      "decision": "keep"
+    },
+    {
+      "date": "2026-12-03",
+      "description": "ACH DEPOSIT L FAIRWEATHER RENT",
+      "decision": "keep"
+    },
+    {
+      "date": "2026-12-31",
+      "description": "WICKERBILL WATER SEWER",
+      "decision": "keep"
+    }
+  ],
+  "lines": [
+    {
+      "source_file": "inbox/plumber_invoice.pdf"
+    },
+    {
+      "source_file": "inbox/1098_mortgage_2026.pdf"
+    },
+    {
+      "source_file": "inbox/cedar_stayhaven_summary_2026.pdf"
+    },
+    {
+      "source_file": "inbox/chicago_coffee_0817.png"
+    },
+    {
+      "source_file": "inbox/chicago_coffee_0818.jpg"
+    },
+    {
+      "source_file": "inbox/chicago_lunch_0818.png"
+    },
+    {
+      "source_file": "inbox/chicago_lunch_0819.jpg"
+    },
+    {
+      "source_file": "inbox/chicago_coffee_0820.png"
+    },
+    {
+      "source_file": "inbox/chicago_lunch_0820.pdf"
+    },
+    {
+      "source_file": "inbox/chicago_breakfast_0821.png"
+    },
+    {
+      "source_file": "inbox/brindlewood_1098_2026.pdf"
+    },
+    {
+      "source_file": "inbox/quarrystone_1098_2026.jpg"
+    }
+  ]
+}

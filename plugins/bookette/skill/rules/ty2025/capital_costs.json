@@ -1,0 +1,18 @@
+{
+  "personal_property_classes": {
+    "5_year_property": {
+      "recovery_years": "5",
+      "declining_balance_pct": "200",
+      "examples": "Computers and office machinery such as copiers; automobiles and light trucks; appliances, carpets and furniture used in a residential rental real estate activity"
+    },
+    "7_year_property": {
+      "recovery_years": "7",
+      "declining_balance_pct": "200",
+      "examples": "Office furniture and fixtures such as desks, files and safes; property with no class life that the law designates in no other class"
+    }
+  },
+  "mid_quarter_threshold_pct": "40",
+  "de_minimis_per_item_cents": "250000",
+  "de_minimis_per_item_with_afs_cents": "500000",
+  "rules_note": "Two readings of the same facts, neither applied. Improvement or repair: a ledger line tagged capital or repair is shown expensed in the year, and capitalized as an improvement to the building and depreciated over the class the entity's real-property register assets agree on (or the entity's kind where it names one class unambiguously), Publication 946 chapter 4's mid-month fraction for the month of the line's date. Expensing or MACRS: an equipment or improvement asset placed in service in the tax year whose class is personal property or not yet established is shown expensed in year one at its basis, and depreciated at the declining-balance rate (the percentage over the recovery years) times the convention's share of the first year, half-year unless the fourth quarter's personal-property basis is more than 40% of the year's (then mid-quarter: 10.5, 7.5, 4.5 or 1.5 months by quarter), one rounding at the cent; the Publication 946 appendix tables differ in the cents. Real property itself (land and a building) and an improvement with a real-property class are not in the expensing comparison: land is never depreciated and the register books a building's fraction. An equipment class is re-established from the examples above every run, from what the documents and answers say the asset is, and the accountant decides the class; whether any expensing provision is available for an asset is the accountant's call. The de minimis ceilings are per invoice or item (Treas. Reg. 1.263(a)-1(f): with an applicable financial statement, and without one as Notice 2015-82 set it)."
+}

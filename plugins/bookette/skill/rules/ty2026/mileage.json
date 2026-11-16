@@ -1,0 +1,8 @@
+{
+  "business_cents_per_mile": [
+    { "from": "2026-01-01", "to": "2026-06-30", "cents": "72.5", "announcement": "IR-2025-128" },
+    { "from": "2026-07-01", "to": "2026-12-31", "cents": "76", "announcement": "IR-2026-29" }
+  ],
+  "unavailable_when_vehicles_used_together_at_least": 5,
+  "rules_note": "The standard mileage rate must be chosen in the first year a car is used for business; not available with MACRS depreciation or five or more cars used at the same time. IRS Topic 510."
+}

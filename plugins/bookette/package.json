@@ -1,0 +1,27 @@
+{
+  "name": "bookette",
+  "version": "0.2.0",
+  "description": "The personal, file-based Bookette tool: a tax-year folder, the books runner, a headless CLI and the Ink interface",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/getbookette/bookette.git",
+    "directory": "apps/tui"
+  },
+  "bin": {
+    "bookette-cli": "dist/bin/cli.js",
+    "bookette-mcp": "dist/bin/mcp-bin.js"
+  },
+  "files": [
+    "dist/",
+    "skill/",
+    "fixtures/demo/",
+    "THIRD_PARTY_LICENSES.txt"
+  ],
+  "engines": {
+    "node": ">=24"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

@@ -1,0 +1,1392 @@
+{
+  "label": "Prepared from your records for review by your accountant. Not a tax return and not tax advice.",
+  "tax_year": 2026,
+  "entities": [
+    {
+      "key": "ent_1",
+      "name": "1180 Quillfeather Ln",
+      "kind": "residential_rental",
+      "schedule": "E",
+      "lines": {
+        "3": {
+          "label": "Rents received",
+          "total": "29400.00",
+          "total_cents": 2940000,
+          "income": true,
+          "entries": [
+            {
+              "ledger_id": "L0022",
+              "usd_cents": 245000,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0024",
+              "usd_cents": 245000,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0026",
+              "usd_cents": 245000,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0028",
+              "usd_cents": 245000,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0030",
+              "usd_cents": 245000,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0033",
+              "usd_cents": 245000,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0035",
+              "usd_cents": 245000,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0037",
+              "usd_cents": 245000,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0039",
+              "usd_cents": 245000,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0041",
+              "usd_cents": 245000,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0043",
+              "usd_cents": 245000,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0045",
+              "usd_cents": 245000,
+              "fx": null
+            }
+          ]
+        },
+        "6": {
+          "label": "Auto and travel",
+          "total": "355.35",
+          "total_cents": 35535,
+          "income": false,
+          "entries": [
+            {
+              "ledger_id": "L0019",
+              "usd_cents": 31240,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0020",
+              "usd_cents": 2310,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0021",
+              "usd_cents": 1985,
+              "fx": null
+            }
+          ]
+        },
+        "9": {
+          "label": "Insurance",
+          "total": "1188.00",
+          "total_cents": 118800,
+          "income": false,
+          "entries": [
+            {
+              "ledger_id": "L0098",
+              "usd_cents": 118800,
+              "fx": null
+            }
+          ]
+        },
+        "11": {
+          "label": "Management fees",
+          "total": "2352.00",
+          "total_cents": 235200,
+          "income": false,
+          "entries": [
+            {
+              "ledger_id": "L0023",
+              "usd_cents": 19600,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0025",
+              "usd_cents": 19600,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0027",
+              "usd_cents": 19600,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0029",
+              "usd_cents": 19600,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0031",
+              "usd_cents": 19600,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0034",
+              "usd_cents": 19600,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0036",
+              "usd_cents": 19600,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0038",
+              "usd_cents": 19600,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0040",
+              "usd_cents": 19600,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0042",
+              "usd_cents": 19600,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0044",
+              "usd_cents": 19600,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0046",
+              "usd_cents": 19600,
+              "fx": null
+            }
+          ]
+        },
+        "12": {
+          "label": "Mortgage interest paid to banks, etc.",
+          "total": "11284.52",
+          "total_cents": 1128452,
+          "income": false,
+          "entries": [
+            {
+              "ledger_id": "L0001",
+              "usd_cents": 1128452,
+              "fx": null
+            }
+          ]
+        },
+        "14": {
+          "label": "Repairs",
+          "total": "2527.00",
+          "total_cents": 252700,
+          "income": false,
+          "entries": [
+            {
+              "ledger_id": "L0032",
+              "usd_cents": 26500,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0119",
+              "usd_cents": 41200,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0005",
+              "usd_cents": 185000,
+              "fx": null
+            }
+          ]
+        },
+        "15": {
+          "label": "Supplies",
+          "total": "85.32",
+          "total_cents": 8532,
+          "income": false,
+          "entries": [
+            {
+              "ledger_id": "L0002",
+              "usd_cents": 8532,
+              "fx": null
+            }
+          ]
+        },
+        "16": {
+          "label": "Taxes",
+          "total": "2812.20",
+          "total_cents": 281220,
+          "income": false,
+          "entries": [
+            {
+              "tax": "00000-00-017-000",
+              "usd_cents": 105457,
+              "date": "2026-02-27",
+              "source_file": "inbox/tax_payment_confirmation_0227.pdf",
+              "steps": ["1054.57 = 1406.10 x 2109.15 / 2812.20 (largest remainder)"]
+            },
+            {
+              "tax": "00000-00-018-000",
+              "usd_cents": 35153,
+              "date": "2026-02-27",
+              "source_file": "inbox/tax_payment_confirmation_0227.pdf",
+              "steps": ["351.53 = 1406.10 x 703.05 / 2812.20 (largest remainder)"]
+            },
+            {
+              "tax": "00000-00-017-000",
+              "usd_cents": 105457,
+              "date": "2026-06-12",
+              "source_file": "inbox/tax_payment_history.pdf",
+              "steps": ["1054.57 = 1406.10 x 2109.15 / 2812.20 (largest remainder)"]
+            },
+            {
+              "tax": "00000-00-018-000",
+              "usd_cents": 35153,
+              "date": "2026-06-12",
+              "source_file": "inbox/tax_payment_history.pdf",
+              "steps": ["351.53 = 1406.10 x 703.05 / 2812.20 (largest remainder)"]
+            }
+          ]
+        }
+      },
+      "k1_boxes": {},
+      "income_total": "29400.00",
+      "income_total_cents": 2940000,
+      "expense_total": "20604.39",
+      "expense_total_cents": 2060439,
+      "net": "8795.61",
+      "net_cents": 879561
+    },
+    {
+      "key": "ent_2",
+      "name": "Cedar Cabin",
+      "kind": "short_term_rental",
+      "schedule": "E",
+      "lines": {
+        "3": {
+          "label": "Rents received",
+          "total": "18025.00",
+          "total_cents": 1802500,
+          "income": true,
+          "entries": [
+            {
+              "ledger_id": "L0010",
+              "usd_cents": 1802500,
+              "fx": null
+            }
+          ]
+        },
+        "6": {
+          "label": "Auto and travel",
+          "total": "266.77",
+          "total_cents": 26677,
+          "income": false,
+          "entries": [
+            {
+              "ledger_id": "L0127",
+              "usd_cents": 6245,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0061",
+              "usd_cents": 15975,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0060",
+              "usd_cents": 4457,
+              "fx": null
+            }
+          ]
+        },
+        "7": {
+          "label": "Cleaning and maintenance",
+          "total": "2415.00",
+          "total_cents": 241500,
+          "income": false,
+          "entries": [
+            {
+              "ledger_id": "L0016",
+              "usd_cents": 241500,
+              "fx": null
+            }
+          ]
+        },
+        "8": {
+          "label": "Commissions",
+          "total": "540.75",
+          "total_cents": 54075,
+          "income": false,
+          "entries": [
+            {
+              "ledger_id": "L0015",
+              "usd_cents": 54075,
+              "fx": null
+            }
+          ]
+        },
+        "14": {
+          "label": "Repairs",
+          "total": "200.99",
+          "total_cents": 20099,
+          "income": false,
+          "entries": [
+            {
+              "ledger_id": "L0011",
+              "usd_cents": 20099,
+              "fx": null
+            }
+          ]
+        },
+        "15": {
+          "label": "Supplies",
+          "total": "845.76",
+          "total_cents": 84576,
+          "income": false,
+          "entries": [
+            {
+              "ledger_id": "L0012",
+              "usd_cents": 61314,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0013",
+              "usd_cents": 23262,
+              "fx": null
+            }
+          ]
+        },
+        "17": {
+          "label": "Utilities",
+          "total": "312.40",
+          "total_cents": 31240,
+          "income": false,
+          "entries": [
+            {
+              "ledger_id": "L0014",
+              "usd_cents": 31240,
+              "fx": null
+            }
+          ]
+        }
+      },
+      "k1_boxes": {},
+      "income_total": "18025.00",
+      "income_total_cents": 1802500,
+      "expense_total": "4581.67",
+      "expense_total_cents": 458167,
+      "net": "13443.33",
+      "net_cents": 1344333
+    },
+    {
+      "key": "ent_3",
+      "name": "Northpeak Consulting",
+      "kind": "sole_proprietor",
+      "schedule": "C",
+      "lines": {
+        "1": {
+          "label": "Gross receipts or sales",
+          "total": "27650.00",
+          "total_cents": 2765000,
+          "income": true,
+          "entries": [
+            {
+              "ledger_id": "L0095",
+              "usd_cents": 1840000,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0115",
+              "usd_cents": 925000,
+              "fx": null
+            }
+          ]
+        },
+        "9": {
+          "label": "Car and truck expenses",
+          "total": "497.90",
+          "total_cents": 49790,
+          "income": false,
+          "entries": [
+            {
+              "ledger_id": "L0126",
+              "usd_cents": 5890,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0117",
+              "usd_cents": 43900,
+              "fx": null
+            }
+          ]
+        },
+        "18": {
+          "label": "Office expense",
+          "total": "1963.53",
+          "total_cents": 196353,
+          "income": false,
+          "entries": [
+            {
+              "ledger_id": "L0017",
+              "usd_cents": 5999,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0113",
+              "usd_cents": 190354,
+              "fx": null
+            }
+          ]
+        },
+        "22": {
+          "label": "Supplies",
+          "total": "47.90",
+          "total_cents": 4790,
+          "income": false,
+          "entries": [
+            {
+              "ledger_id": "L0118",
+              "usd_cents": 4790,
+              "fx": null
+            }
+          ]
+        },
+        "24a": {
+          "label": "Travel",
+          "total": "3762.86",
+          "total_cents": 376286,
+          "income": false,
+          "entries": [
+            {
+              "ledger_id": "L0018",
+              "usd_cents": 118400,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0004",
+              "usd_cents": 54840,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0103",
+              "usd_cents": 22900,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0099",
+              "usd_cents": 1374,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0107",
+              "usd_cents": 2599,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0104",
+              "usd_cents": 22900,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0100",
+              "usd_cents": 1374,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0108",
+              "usd_cents": 2599,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0105",
+              "usd_cents": 22900,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0101",
+              "usd_cents": 1374,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0109",
+              "usd_cents": 2599,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0106",
+              "usd_cents": 22900,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0102",
+              "usd_cents": 1374,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0110",
+              "usd_cents": 2599,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0057",
+              "usd_cents": 5550,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0121",
+              "usd_cents": 1695,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0122",
+              "usd_cents": 1740,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0123",
+              "usd_cents": 1580,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0124",
+              "usd_cents": 1810,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0058",
+              "usd_cents": 5200,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0130",
+              "usd_cents": 1110,
+              "fx": {
+                "amount": "350",
+                "currency": "TWD",
+                "rate": "31.5300",
+                "rate_date": "2026-04-20",
+                "source": "Federal Reserve H.10, series RXI_N.B.TA (Taiwanese N.T. Dollar)"
+              }
+            },
+            {
+              "ledger_id": "L0007",
+              "usd_cents": 76869,
+              "fx": null
+            }
+          ]
+        },
+        "24b": {
+          "label": "Meals",
+          "total": "443.86",
+          "total_cents": 44386,
+          "income": false,
+          "entries": [
+            {
+              "ledger_id": "L0111",
+              "usd_cents": 2850,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0048",
+              "usd_cents": 1000,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0051",
+              "usd_cents": 5102,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0049",
+              "usd_cents": 1050,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0054",
+              "usd_cents": 2179,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0052",
+              "usd_cents": 5364,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0055",
+              "usd_cents": 2179,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0050",
+              "usd_cents": 900,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0056",
+              "usd_cents": 1782,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0053",
+              "usd_cents": 9387,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0047",
+              "usd_cents": 2123,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0129",
+              "usd_cents": 4052,
+              "fx": {
+                "amount": "1280",
+                "currency": "TWD",
+                "rate": "31.5900",
+                "rate_date": "2026-04-17",
+                "source": "Federal Reserve H.10, series RXI_N.B.TA (Taiwanese N.T. Dollar)"
+              }
+            },
+            {
+              "ledger_id": "L0006",
+              "usd_cents": 6418,
+              "fx": null
+            }
+          ]
+        }
+      },
+      "k1_boxes": {},
+      "income_total": "27650.00",
+      "income_total_cents": 2765000,
+      "expense_total": "6716.05",
+      "expense_total_cents": 671605,
+      "net": "20933.95",
+      "net_cents": 2093395
+    },
+    {
+      "key": "ent_4",
+      "name": "Brindlewood Condo",
+      "kind": "residential_rental",
+      "schedule": "E",
+      "lines": {
+        "3": {
+          "label": "Rents received",
+          "total": "20725.00",
+          "total_cents": 2072500,
+          "income": true,
+          "entries": [
+            {
+              "ledger_id": "L0062",
+              "usd_cents": 185000,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0065",
+              "usd_cents": 185000,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0067",
+              "usd_cents": 185000,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0070",
+              "usd_cents": 185000,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0073",
+              "usd_cents": 185000,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0075",
+              "usd_cents": 185000,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0081",
+              "usd_cents": 192500,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0083",
+              "usd_cents": 192500,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0086",
+              "usd_cents": 192500,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0089",
+              "usd_cents": 192500,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0091",
+              "usd_cents": 192500,
+              "fx": null
+            }
+          ]
+        },
+        "5": {
+          "label": "Advertising",
+          "total": "49.00",
+          "total_cents": 4900,
+          "income": false,
+          "entries": [
+            {
+              "ledger_id": "L0080",
+              "usd_cents": 4900,
+              "fx": null
+            }
+          ]
+        },
+        "7": {
+          "label": "Cleaning and maintenance",
+          "total": "189.00",
+          "total_cents": 18900,
+          "income": false,
+          "entries": [
+            {
+              "ledger_id": "L0003",
+              "usd_cents": 18900,
+              "fx": null
+            }
+          ]
+        },
+        "9": {
+          "label": "Insurance",
+          "total": "512.00",
+          "total_cents": 51200,
+          "income": false,
+          "entries": [
+            {
+              "ledger_id": "L0114",
+              "usd_cents": 51200,
+              "fx": null
+            }
+          ]
+        },
+        "12": {
+          "label": "Mortgage interest paid to banks, etc.",
+          "total": "7416.83",
+          "total_cents": 741683,
+          "income": false,
+          "entries": [
+            {
+              "ledger_id": "L0009",
+              "usd_cents": 741683,
+              "fx": null
+            }
+          ]
+        },
+        "14": {
+          "label": "Repairs",
+          "total": "238.50",
+          "total_cents": 23850,
+          "income": false,
+          "entries": [
+            {
+              "ledger_id": "L0128",
+              "usd_cents": 23850,
+              "fx": null
+            }
+          ]
+        },
+        "16": {
+          "label": "Taxes",
+          "total": "2086.44",
+          "total_cents": 208644,
+          "income": false,
+          "entries": [
+            {
+              "tax": "00000-00-041-000",
+              "usd_cents": 208644,
+              "date": "2026-04-29",
+              "source_file": "inbox/boulder_county_tax_receipt_0429.pdf",
+              "steps": ["whole payment: 2086.44 to one covered parcel"]
+            }
+          ]
+        },
+        "17": {
+          "label": "Utilities",
+          "total": "61.87",
+          "total_cents": 6187,
+          "income": false,
+          "entries": [
+            {
+              "ledger_id": "L0059",
+              "usd_cents": 6187,
+              "fx": null
+            }
+          ]
+        },
+        "19": {
+          "label": "Other",
+          "total": "3780.00",
+          "total_cents": 378000,
+          "income": false,
+          "entries": [
+            {
+              "ledger_id": "L0064",
+              "usd_cents": 94500,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0072",
+              "usd_cents": 94500,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0079",
+              "usd_cents": 94500,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0088",
+              "usd_cents": 94500,
+              "fx": null
+            }
+          ]
+        }
+      },
+      "k1_boxes": {},
+      "income_total": "20725.00",
+      "income_total_cents": 2072500,
+      "expense_total": "14333.64",
+      "expense_total_cents": 1433364,
+      "net": "6391.36",
+      "net_cents": 639136
+    },
+    {
+      "key": "ent_5",
+      "name": "Saltgrass House",
+      "kind": "residential_rental",
+      "schedule": "E",
+      "lines": {
+        "3": {
+          "label": "Rents received",
+          "total": "28200.00",
+          "total_cents": 2820000,
+          "income": true,
+          "entries": [
+            {
+              "ledger_id": "L0063",
+              "usd_cents": 235000,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0066",
+              "usd_cents": 235000,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0068",
+              "usd_cents": 235000,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0071",
+              "usd_cents": 235000,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0074",
+              "usd_cents": 235000,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0076",
+              "usd_cents": 235000,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0078",
+              "usd_cents": 235000,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0082",
+              "usd_cents": 235000,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0084",
+              "usd_cents": 235000,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0087",
+              "usd_cents": 235000,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0090",
+              "usd_cents": 235000,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0092",
+              "usd_cents": 235000,
+              "fx": null
+            }
+          ]
+        },
+        "7": {
+          "label": "Cleaning and maintenance",
+          "total": "1160.00",
+          "total_cents": 116000,
+          "income": false,
+          "entries": [
+            {
+              "ledger_id": "L0125",
+              "usd_cents": 116000,
+              "fx": null
+            }
+          ]
+        },
+        "9": {
+          "label": "Insurance",
+          "total": "1396.00",
+          "total_cents": 139600,
+          "income": false,
+          "entries": [
+            {
+              "ledger_id": "L0096",
+              "usd_cents": 139600,
+              "fx": null
+            }
+          ]
+        },
+        "11": {
+          "label": "Management fees",
+          "total": "1320.00",
+          "total_cents": 132000,
+          "income": false,
+          "entries": [
+            {
+              "ledger_id": "L0097",
+              "usd_cents": 132000,
+              "fx": null
+            }
+          ]
+        },
+        "12": {
+          "label": "Mortgage interest paid to banks, etc.",
+          "total": "13054.62",
+          "total_cents": 1305462,
+          "income": false,
+          "entries": [
+            {
+              "ledger_id": "L0120",
+              "usd_cents": 1305462,
+              "fx": null
+            }
+          ]
+        },
+        "14": {
+          "label": "Repairs",
+          "total": "6292.00",
+          "total_cents": 629200,
+          "income": false,
+          "entries": [
+            {
+              "ledger_id": "L0094",
+              "usd_cents": 24700,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0008",
+              "usd_cents": 604500,
+              "fx": null
+            }
+          ]
+        },
+        "16": {
+          "label": "Taxes",
+          "total": "1742.18",
+          "total_cents": 174218,
+          "income": false,
+          "entries": [
+            {
+              "tax": "00000-00-063-000",
+              "usd_cents": 174218,
+              "date": "2026-04-27",
+              "source_file": "inbox/el_paso_tax_receipt_0427.pdf",
+              "steps": ["whole payment: 1742.18 to one covered parcel"]
+            }
+          ]
+        },
+        "17": {
+          "label": "Utilities",
+          "total": "740.05",
+          "total_cents": 74005,
+          "income": false,
+          "entries": [
+            {
+              "ledger_id": "L0069",
+              "usd_cents": 16842,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0077",
+              "usd_cents": 18107,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0085",
+              "usd_cents": 21466,
+              "fx": null
+            },
+            {
+              "ledger_id": "L0093",
+              "usd_cents": 17590,
+              "fx": null
+            }
+          ]
+        }
+      },
+      "k1_boxes": {},
+      "income_total": "28200.00",
+      "income_total_cents": 2820000,
+      "expense_total": "25704.85",
+      "expense_total_cents": 2570485,
+      "net": "2495.15",
+      "net_cents": 249515
+    }
+  ],
+  "expense_total_cents": 7194060,
+  "schedule_e_totals": {
+    "line_totals_cents": {
+      "3": 9635000,
+      "5": 4900,
+      "6": 62212,
+      "7": 376400,
+      "8": 54075,
+      "9": 309600,
+      "11": 367200,
+      "12": 3175597,
+      "14": 925849,
+      "15": 93108,
+      "16": 664082,
+      "17": 111432,
+      "19": 378000
+    },
+    "expense_total_cents": 6522455,
+    "net_cents": 3112545
+  },
+  "depreciation": [],
+  "depreciation_total_cents": 0,
+  "trips": [
+    {
+      "trip": "denver_apr",
+      "entity": "ent_1",
+      "days": 3,
+      "meal_limit_pct": "50",
+      "actual_meals": "0.00",
+      "actual_meals_cents": 0,
+      "actual_meals_at_limit": "0.00",
+      "actual_meals_at_limit_cents": 0,
+      "per_diem_applies": true,
+      "mie_per_diem": "230.00",
+      "mie_per_diem_cents": 23000,
+      "mie_per_diem_at_limit": "115.00",
+      "mie_per_diem_at_limit_cents": 11500,
+      "per_diem_complete": true,
+      "missing_rates": [],
+      "meal_items": [],
+      "per_diem_steps": [
+        "2026-04-10 Denver, CO: 69.00 (first or last day)",
+        "2026-04-11 Denver, CO: 92.00",
+        "2026-04-12 Denver, CO: 69.00 (first or last day)",
+        "meals at 50% = 0.00 x 50% = 0.00",
+        "per diem at 50% = 230.00 x 50% = 115.00"
+      ],
+      "note": "Both methods shown for the accountant. Lodging for self-employed travel is actual cost only."
+    },
+    {
+      "trip": "taipei_austin_apr",
+      "entity": "ent_3",
+      "days": 6,
+      "meal_limit_pct": "50",
+      "actual_meals": "104.70",
+      "actual_meals_cents": 10470,
+      "actual_meals_at_limit": "52.35",
+      "actual_meals_at_limit_cents": 5235,
+      "per_diem_applies": true,
+      "mie_per_diem": "494.25",
+      "mie_per_diem_cents": 49425,
+      "mie_per_diem_at_limit": "247.13",
+      "mie_per_diem_at_limit_cents": 24713,
+      "per_diem_complete": true,
+      "missing_rates": [],
+      "meal_items": ["L0129", "L0006"],
+      "per_diem_steps": [
+        "2026-04-19 Taipei, Taiwan: 83.25 (first or last day)",
+        "2026-04-20 Taipei, Taiwan: 111.00",
+        "2026-04-24 Austin, TX: 80.00",
+        "2026-04-25 Austin, TX: 80.00",
+        "2026-04-26 Austin, TX: 80.00",
+        "2026-04-27 Austin, TX: 60.00 (first or last day)",
+        "meals at 50% = 104.70 x 50% = 52.35",
+        "per diem at 50% = 494.25 x 50% = 247.13"
+      ],
+      "note": "Both methods shown for the accountant. Lodging for self-employed travel is actual cost only."
+    },
+    {
+      "trip": "estes_jul",
+      "entity": "ent_2",
+      "days": 3,
+      "meal_limit_pct": "50",
+      "actual_meals": "44.57",
+      "actual_meals_cents": 4457,
+      "actual_meals_at_limit": "22.29",
+      "actual_meals_at_limit_cents": 2229,
+      "per_diem_applies": true,
+      "mie_per_diem": "170.00",
+      "mie_per_diem_cents": 17000,
+      "mie_per_diem_at_limit": "85.00",
+      "mie_per_diem_at_limit_cents": 8500,
+      "per_diem_complete": true,
+      "missing_rates": [],
+      "meal_items": ["L0060"],
+      "per_diem_steps": [
+        "2026-07-10 Estes Park, CO: 51.00 (first or last day)",
+        "2026-07-11 Estes Park, CO: 68.00",
+        "2026-07-12 Estes Park, CO: 51.00 (first or last day)",
+        "meals at 50% = 44.57 x 50% = 22.29",
+        "per diem at 50% = 170.00 x 50% = 85.00"
+      ],
+      "note": "Both methods shown for the accountant. Lodging for self-employed travel is actual cost only."
+    },
+    {
+      "trip": "chicago_aug",
+      "entity": "ent_3",
+      "days": 5,
+      "meal_limit_pct": "50",
+      "actual_meals": "339.16",
+      "actual_meals_cents": 33916,
+      "actual_meals_at_limit": "169.58",
+      "actual_meals_at_limit_cents": 16958,
+      "per_diem_applies": true,
+      "mie_per_diem": "414.00",
+      "mie_per_diem_cents": 41400,
+      "mie_per_diem_at_limit": "207.00",
+      "mie_per_diem_at_limit_cents": 20700,
+      "per_diem_complete": true,
+      "missing_rates": [],
+      "meal_items": [
+        "L0111",
+        "L0048",
+        "L0051",
+        "L0049",
+        "L0054",
+        "L0052",
+        "L0055",
+        "L0050",
+        "L0056",
+        "L0053",
+        "L0047"
+      ],
+      "per_diem_steps": [
+        "2026-08-17 Chicago, IL: 69.00 (first or last day)",
+        "2026-08-18 Chicago, IL: 92.00",
+        "2026-08-19 Chicago, IL: 92.00",
+        "2026-08-20 Chicago, IL: 92.00",
+        "2026-08-21 Chicago, IL: 69.00 (first or last day)",
+        "meals at 50% = 339.16 x 50% = 169.58",
+        "per diem at 50% = 414.00 x 50% = 207.00"
+      ],
+      "note": "Both methods shown for the accountant. Lodging for self-employed travel is actual cost only."
+    }
+  ],
+  "vehicles": [
+    {
+      "vehicle": "odyssey",
+      "description": "2019 Honda Odyssey",
+      "first_year_method": null,
+      "standard_mileage": "2088.40",
+      "standard_mileage_cents": 208840,
+      "standard_complete": true,
+      "actual_cost": "497.90",
+      "actual_cost_cents": 49790,
+      "business_miles": "2840",
+      "miles_source": "stated",
+      "trip_miles": 0,
+      "trip_count": 0,
+      "trip_miles_unstated": 0,
+      "unavailable_reasons": [],
+      "uses": [
+        {
+          "use": "odyssey_use",
+          "entity": "ent_3",
+          "business_miles": "2840",
+          "miles_source": "stated",
+          "trip_miles": 0,
+          "trip_count": 0,
+          "trip_miles_unstated": 0,
+          "standard_mileage": "2088.40",
+          "standard_mileage_cents": 208840,
+          "standard_complete": true,
+          "steps": [
+            "band 2026-01-01 to 2026-06-30: 2000 miles x 72.5 cents = 1450.00",
+            "band 2026-07-01 to 2026-12-31: 840 miles x 76 cents = 638.40"
+          ]
+        }
+      ],
+      "steps": [
+        "band 2026-01-01 to 2026-06-30: 2000 miles x 72.5 cents = 1450.00",
+        "band 2026-07-01 to 2026-12-31: 840 miles x 76 cents = 638.40",
+        "L0126 = 58.90",
+        "L0117 = 439.00",
+        "actual cost = 497.90"
+      ],
+      "note": "Both methods shown for the accountant; the exclusions are listed, never applied. Parking and tolls stay on their own lines, in neither figure."
+    }
+  ],
+  "rental_use": [
+    {
+      "entity": "ent_2",
+      "schedule": "E",
+      "fair_rental_days": 96,
+      "personal_use_days": 12,
+      "stay_count": 23,
+      "services_note": null,
+      "rental_under_15": false,
+      "personal_over_14": false,
+      "personal_over_10_pct": true,
+      "residence_test": false,
+      "average_at_most_7": true,
+      "average_at_most_30": true,
+      "operating_allocated": "4072.60",
+      "operating_allocated_cents": 407260,
+      "interest_taxes_days": "0.00",
+      "interest_taxes_days_cents": 0,
+      "interest_taxes_year": "0.00",
+      "interest_taxes_year_cents": 0,
+      "steps": [
+        "operating by days = 4581.67 x 96 / 108 = 4072.60",
+        "interest and taxes by days = 0.00 x 96 / 108 = 0.00",
+        "interest and taxes by year = 0.00 x 96 / 365 = 0.00"
+      ],
+      "note": "Day ratios shown for the accountant; nothing is booked from them."
+    }
+  ],
+  "home_office": [
+    {
+      "entity": "ent_3",
+      "office_sq_ft": "168",
+      "home_sq_ft": "1400",
+      "business_use_bp": 1200,
+      "simplified_area_sq_ft": "168",
+      "simplified_cents": 84000,
+      "simplified": "840.00",
+      "home_costs_cents": 270000,
+      "direct_costs_cents": 0,
+      "regular_cents": 32400,
+      "regular": "324.00",
+      "regular_missing": [],
+      "costs": [
+        {
+          "source_file": "inbox/home_electric_2026.pdf",
+          "date": "2026-12-31",
+          "kind": "utilities",
+          "use": "home",
+          "usd_cents": 156000,
+          "fx": null
+        },
+        {
+          "source_file": "inbox/home_insurance_2026.pdf",
+          "date": "2026-01-05",
+          "kind": "insurance",
+          "use": "home",
+          "usd_cents": 114000,
+          "fx": null
+        }
+      ],
+      "steps": [
+        "simplified = 168 sq ft x $5.00 = $840.00",
+        "business use = 168 / 1400 sq ft = 12.00%",
+        "regular = $2,700.00 x 168 / 1400 + $0.00 = $324.00"
+      ],
+      "note": "Both readings shown for the accountant, whose choice the method is. Depreciation of the home, the income limit and any carryover are not applied to either."
+    }
+  ],
+  "improvement_repair": [],
+  "expense_macrs": [],
+  "donations": [
+    {
+      "organization": "Mile High Food Pantry",
+      "date": "2026-11-28",
+      "amount": "250.00",
+      "currency": "USD",
+      "form": "cash",
+      "goods_services_amount": null,
+      "source_file": "inbox/denver_food_bank.png"
+    }
+  ],
+  "unassigned": [
+    {
+      "id": "L0116",
+      "usd": "300.00",
+      "reason": "no entity"
+    },
+    {
+      "id": "L0112",
+      "usd": "86.40",
+      "reason": "no entity"
+    }
+  ],
+  "outside_year": [],
+  "fx_used": [
+    {
+      "id": "L0129",
+      "amount": "1280",
+      "usd": "40.52",
+      "currency": "TWD",
+      "requested_date": "2026-04-19",
+      "rate_date": "2026-04-17",
+      "rate": "31.5900",
+      "quote": "units_per_usd",
+      "source": "Federal Reserve H.10, series RXI_N.B.TA (Taiwanese N.T. Dollar)"
+    },
+    {
+      "id": "L0130",
+      "amount": "350",
+      "usd": "11.10",
+      "currency": "TWD",
+      "requested_date": "2026-04-20",
+      "rate_date": "2026-04-20",
+      "rate": "31.5300",
+      "quote": "units_per_usd",
+      "source": "Federal Reserve H.10, series RXI_N.B.TA (Taiwanese N.T. Dollar)"
+    }
+  ],
+  "checks": {
+    "passed": true,
+    "errors": [],
+    "warnings": [],
+    "ledger_items": 130
+  }
+}

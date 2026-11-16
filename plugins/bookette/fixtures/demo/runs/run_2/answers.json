@@ -1,0 +1,9 @@
+{
+  "open_ent_1_purchase": { "optionId": "record_from_documents" },
+  "open_ent_4_purchase": { "optionId": "record_from_documents" },
+  "open_ent_5_purchase": { "optionId": "record_from_documents" },
+  "open_laptop_invoice_asset": { "optionId": "record_equipment" },
+  "open_ashwood_water_heater_invoice_work": { "optionId": "new_unit" },
+  "open_bramblecrest_roof_invoice_work": { "optionId": "slopes_only" },
+  "office_home_bills_q": { "optionId": "same_home" }
+}

@@ -1,0 +1,49 @@
+{
+  "E": {
+    "3": "Rents received",
+    "4": "Royalties received",
+    "5": "Advertising",
+    "6": "Auto and travel",
+    "7": "Cleaning and maintenance",
+    "8": "Commissions",
+    "9": "Insurance",
+    "10": "Legal and other professional fees",
+    "11": "Management fees",
+    "12": "Mortgage interest paid to banks, etc.",
+    "13": "Other interest",
+    "14": "Repairs",
+    "15": "Supplies",
+    "16": "Taxes",
+    "17": "Utilities",
+    "18": "Depreciation expense or depletion",
+    "19": "Other"
+  },
+  "C": {
+    "1": "Gross receipts or sales",
+    "8": "Advertising",
+    "9": "Car and truck expenses",
+    "10": "Commissions and fees",
+    "11": "Contract labor",
+    "13": "Depreciation",
+    "15": "Insurance (other than health)",
+    "16a": "Mortgage interest",
+    "16b": "Other interest",
+    "17": "Legal and professional services",
+    "18": "Office expense",
+    "20a": "Rent or lease: vehicles, machinery, equipment",
+    "20b": "Rent or lease: other business property",
+    "21": "Repairs and maintenance",
+    "22": "Supplies",
+    "23": "Taxes and licenses",
+    "24a": "Travel",
+    "24b": "Meals",
+    "25": "Utilities",
+    "26": "Wages",
+    "27b": "Other expenses"
+  },
+  "income_lines": { "E": ["3", "4"], "C": ["1"] },
+  "treatment_ties": {
+    "C": { "13": "improvement or repair", "24b": "meal methods" },
+    "E": { "18": "improvement or repair" }
+  }
+}

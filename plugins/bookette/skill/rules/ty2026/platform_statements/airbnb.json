@@ -1,0 +1,120 @@
+{
+  "platform": "Airbnb",
+  "payers": ["Airbnb"],
+  "documents": [
+    {
+      "name": "Earnings dashboard CSV",
+      "columns": [
+        { "name": "Confirmation Code", "kind": "metadata", "confidence": "recalled" },
+        { "name": "Type", "kind": "metadata", "confidence": "documented" },
+        { "name": "Listing", "kind": "metadata", "confidence": "recalled" },
+        { "name": "Start Date", "kind": "metadata", "confidence": "recalled" },
+        { "name": "End Date", "kind": "metadata", "confidence": "recalled" },
+        { "name": "Currency", "kind": "metadata", "confidence": "recalled" },
+        { "name": "Earnings Year", "kind": "metadata", "confidence": "documented" },
+        {
+          "name": "Amount",
+          "kind": "gross-component",
+          "confidence": "documented",
+          "sign": "varies",
+          "sign_note": "Resolution Adjustment rows post negative; Reservation and Payout rows post positive"
+        },
+        { "name": "Host Fee", "kind": "fee", "confidence": "documented", "sign": "positive" },
+        {
+          "name": "Cleaning Fee",
+          "kind": "pass-through",
+          "confidence": "documented",
+          "sign": "positive"
+        },
+        {
+          "name": "Management Fee",
+          "kind": "pass-through",
+          "confidence": "documented",
+          "sign": "positive"
+        },
+        {
+          "name": "Occupancy Taxes",
+          "kind": "tax-seller-remitted",
+          "confidence": "documented",
+          "sign": "positive"
+        }
+      ],
+      "gross": {
+        "basis": "sum-of-components",
+        "columns": ["Amount", "Host Fee"],
+        "rows": ["earning"],
+        "carries": ["Host Fee", "Cleaning Fee", "Management Fee"]
+      },
+      "net": { "basis": "stated-column", "columns": ["Amount"], "rows": ["payout"] },
+      "rows": {
+        "column": "Type",
+        "classes": {
+          "Reservation": "earning",
+          "Resolution Adjustment": "adjustment",
+          "Payout": "payout"
+        }
+      },
+      "reconcile": {
+        "closed": true,
+        "equals": "net",
+        "terms": [{ "column": "Amount", "rows": ["earning", "adjustment"], "sign": "positive" }]
+      }
+    },
+    {
+      "name": "Annual earnings summary",
+      "columns": [
+        {
+          "name": "Gross Earnings",
+          "kind": "gross-component",
+          "confidence": "documented",
+          "sign": "positive"
+        },
+        {
+          "name": "Adjustments",
+          "kind": "refund",
+          "confidence": "documented",
+          "sign": "negative"
+        },
+        {
+          "name": "Airbnb Service Fees",
+          "kind": "fee",
+          "confidence": "documented",
+          "sign": "negative"
+        },
+        {
+          "name": "Taxes withheld",
+          "kind": "withholding",
+          "confidence": "documented",
+          "sign": "positive"
+        },
+        { "name": "Total net pay", "kind": "net", "confidence": "documented", "sign": "positive" },
+        { "name": "Earnings by listing", "kind": "metadata", "confidence": "recalled" }
+      ],
+      "gross": { "basis": "stated-column", "columns": ["Gross Earnings"] },
+      "net": { "basis": "stated-column", "columns": ["Total net pay"] },
+      "reconcile": { "closed": false, "reason": "no-component-identity" }
+    }
+  ],
+  "provenance": [
+    {
+      "url": "https://www.airbnb.com/help/article/414",
+      "what": "US tax documents from Airbnb: the earnings dashboard CSV's column names, the gross figure built from Amount plus Host Fee, the treatment of Resolution Adjustment rows, and the reconciliation to Form 1099-K. The page names the 1099-K issuer as Airbnb and prints no legal filer name."
+    },
+    {
+      "url": "https://www.airbnb.com/help/article/416",
+      "what": "Find your Airbnb earnings for tax purposes: how to open the earnings summary and get the CSV report from the earnings dashboard"
+    },
+    {
+      "url": "https://www.airbnb.com/help/article/3632",
+      "what": "Download your earnings: the earnings report's contents, from gross earnings and adjustments through host service fees, taxes withheld and total net pay"
+    },
+    {
+      "url": "https://www.airbnb.com/help/article/304",
+      "what": "Find your earnings: the earnings dashboard and its Paid breakdown of service fees, taxes and net total earnings"
+    },
+    {
+      "url": "https://news.airbnb.com/en-uk/how-to-find-a-summary-of-your-airbnb-earnings",
+      "what": "How to find a summary of your Airbnb earnings: the Amount column's meaning, gross earnings minus the host service fee"
+    }
+  ]
+}

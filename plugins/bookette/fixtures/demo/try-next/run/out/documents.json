@@ -1,0 +1,1448 @@
+[
+  {
+    "file": "inbox/1098_mortgage_2026.pdf",
+    "doc_type": "mortgage_interest_statement",
+    "fields": {
+      "vendor_or_payer": "Front Range Home Loans",
+      "payer_ein": "84-1234500",
+      "document_date": null,
+      "currency": "USD",
+      "total": "11284.52",
+      "addresses": [
+        {
+          "as_printed": "1180 Quillfeather Ln, Denver, CO 80220",
+          "usps_standard": "1180 QUILLFEATHER LN",
+          "city": "Denver",
+          "region": "CO",
+          "country": "US"
+        }
+      ],
+      "form_boxes": { "1": "11284.52" }
+    },
+    "confidence": { "vendor_or_payer": "high", "total": "high" },
+    "status": "booked",
+    "notes": "Form 1098 box 1, dated the tax year's last day."
+  },
+  {
+    "file": "inbox/IMG_2041 copy.png",
+    "doc_type": "receipt",
+    "fields": {
+      "vendor_or_payer": "The Home Depot",
+      "payer_ein": null,
+      "document_date": "2026-03-08",
+      "currency": "USD",
+      "total": "85.32",
+      "addresses": [
+        {
+          "as_printed": "1180 Quillfeather Ln",
+          "usps_standard": "1180 QUILLFEATHER LN",
+          "city": null,
+          "region": null,
+          "country": null
+        }
+      ]
+    },
+    "confidence": { "vendor_or_payer": "high", "document_date": "high", "total": "high" },
+    "status": "booked",
+    "notes": "Job name on the receipt is 1180 Quillfeather Ln. The card row of the same day restates it."
+  },
+  {
+    "file": "inbox/IMG_2077.jpg",
+    "doc_type": "unreadable",
+    "fields": {
+      "vendor_or_payer": null,
+      "payer_ein": null,
+      "document_date": null,
+      "currency": null,
+      "total": null
+    },
+    "confidence": { "vendor_or_payer": "low", "document_date": "low", "total": "low" },
+    "status": "unreadable",
+    "notes": "Photo too blurred to read any vendor, date or amount."
+  },
+  {
+    "file": "inbox/IMG_3318.jpg",
+    "doc_type": "receipt",
+    "fields": {
+      "vendor_or_payer": "Alpenglow Carpet Care",
+      "payer_ein": null,
+      "document_date": "2026-07-08",
+      "currency": "USD",
+      "total": "189.00",
+      "addresses": [
+        {
+          "as_printed": "1650 Brindlewood Ct Unit 4B",
+          "usps_standard": "1650 BRINDLEWOOD CT UNIT 4B",
+          "city": null,
+          "region": null,
+          "country": null
+        }
+      ]
+    },
+    "confidence": { "vendor_or_payer": "high", "document_date": "high", "total": "high" },
+    "status": "booked",
+    "notes": "Job address is the Brindlewood Condo. The rental checking row of 2026-07-09 restates it."
+  },
+  {
+    "file": "inbox/alpine_air_eticket.pdf",
+    "doc_type": "airline_receipt",
+    "fields": {
+      "vendor_or_payer": "Cascadia Air",
+      "payer_ein": null,
+      "document_date": "2026-07-22",
+      "currency": "USD",
+      "total": "548.40",
+      "other": {
+        "legs": [
+          { "date": "2026-08-17", "from": "Seattle", "to": "Chicago" },
+          { "date": "2026-08-21", "from": "Chicago", "to": "Seattle" }
+        ],
+        "travel_dates": ["2026-08-17", "2026-08-21"]
+      }
+    },
+    "confidence": { "vendor_or_payer": "high", "document_date": "high", "total": "high" },
+    "status": "booked",
+    "notes": "Purchased 2026-07-22, weeks before the trip, so the line carries no trip. Pages 2 to 6 are agreement text, not opened."
+  },
+  {
+    "file": "inbox/ashwood_water_heater_invoice.pdf",
+    "doc_type": "invoice",
+    "fields": {
+      "vendor_or_payer": "Mile High Plumbing LLC",
+      "payer_ein": null,
+      "document_date": "2026-09-03",
+      "currency": "USD",
+      "total": "1850.00",
+      "addresses": [
+        {
+          "as_printed": "1180 Quillfeather Ln, Denver, CO 80220",
+          "usps_standard": "1180 QUILLFEATHER LN",
+          "city": "Denver",
+          "region": "CO",
+          "country": "US"
+        }
+      ]
+    },
+    "confidence": { "vendor_or_payer": "high", "document_date": "high", "total": "high" },
+    "status": "booked",
+    "notes": "Tag set by the person's answer. The card row of the same day restates it."
+  },
+  {
+    "file": "inbox/austin_dinner.jpg",
+    "doc_type": "receipt",
+    "fields": {
+      "vendor_or_payer": "Pedernales Smokehouse",
+      "payer_ein": null,
+      "document_date": "2026-04-25",
+      "currency": "USD",
+      "total": "64.18",
+      "other": { "travel_dates": ["2026-04-25"] }
+    },
+    "confidence": { "vendor_or_payer": "high", "document_date": "high", "total": "high" },
+    "status": "booked",
+    "notes": "Meal on the Austin stop. The card row restates it."
+  },
+  {
+    "file": "inbox/austin_hotel_folio.pdf",
+    "doc_type": "hotel_folio",
+    "fields": {
+      "vendor_or_payer": "Capitol View Hotel",
+      "payer_ein": null,
+      "document_date": "2026-04-27",
+      "currency": "USD",
+      "total": "768.69",
+      "other": { "arrival": "2026-04-24", "departure": "2026-04-27" }
+    },
+    "confidence": { "vendor_or_payer": "high", "document_date": "high", "total": "high" },
+    "status": "booked",
+    "notes": "Room and tax only: one lodging line at the total. The card row restates it."
+  },
+  {
+    "file": "inbox/boulder_county_tax_bill_2026.pdf",
+    "doc_type": "property_tax_bill",
+    "fields": {
+      "vendor_or_payer": "Boulder County Treasurer",
+      "payer_ein": null,
+      "document_date": null,
+      "currency": "USD",
+      "total": "2086.44",
+      "addresses": [
+        {
+          "as_printed": "1650 Brindlewood Ct Unit 4B, Boulder",
+          "usps_standard": "1650 BRINDLEWOOD CT UNIT 4B",
+          "city": "Boulder",
+          "region": null,
+          "country": null
+        }
+      ],
+      "parcel_numbers": ["00000-00-041-000"]
+    },
+    "confidence": { "vendor_or_payer": "high", "total": "high" },
+    "status": "booked",
+    "notes": "Bill source of the April payment."
+  },
+  {
+    "file": "inbox/boulder_county_tax_receipt_0429.pdf",
+    "doc_type": "property_tax_payment",
+    "fields": {
+      "vendor_or_payer": "Boulder County Treasurer",
+      "payer_ein": null,
+      "document_date": "2026-04-29",
+      "currency": "USD",
+      "total": "2086.44",
+      "parcel_numbers": ["00000-00-041-000"]
+    },
+    "confidence": { "vendor_or_payer": "high", "document_date": "high", "total": "high" },
+    "status": "booked",
+    "notes": "Staged in tax_payments.json. The rental checking row restates it."
+  },
+  {
+    "file": "inbox/bramblecrest_roof_invoice.pdf",
+    "doc_type": "invoice",
+    "fields": {
+      "vendor_or_payer": "Bramblecrest Roofing & Exteriors",
+      "payer_ein": null,
+      "document_date": "2026-06-19",
+      "currency": "USD",
+      "total": "6045.00",
+      "addresses": [
+        {
+          "as_printed": "915 Saltgrass Bend, Colorado Springs, CO 80907",
+          "usps_standard": "915 SALTGRASS BND",
+          "city": "Colorado Springs",
+          "region": "CO",
+          "country": "US"
+        }
+      ]
+    },
+    "confidence": { "vendor_or_payer": "high", "document_date": "high", "total": "high" },
+    "status": "booked",
+    "notes": "Tag set by the person's answer. The rental checking row restates it."
+  },
+  {
+    "file": "inbox/brindlewood_1098_2026.pdf",
+    "doc_type": "mortgage_interest_statement",
+    "fields": {
+      "vendor_or_payer": "Tidewell Mortgage Co",
+      "payer_ein": "84-7781200",
+      "document_date": null,
+      "currency": "USD",
+      "total": "7416.83",
+      "addresses": [
+        {
+          "as_printed": "1650 BRINDLEWOOD CT UNIT 4B, BOULDER, CO 80304",
+          "usps_standard": "1650 BRINDLEWOOD CT UNIT 4B",
+          "city": "Boulder",
+          "region": "CO",
+          "country": "US"
+        }
+      ],
+      "form_boxes": { "1": "7416.83" }
+    },
+    "confidence": { "vendor_or_payer": "high", "total": "high" },
+    "status": "booked",
+    "notes": "Form 1098 box 1, dated the tax year's last day."
+  },
+  {
+    "file": "inbox/cascade_cu_1099int.pdf",
+    "doc_type": "form_1099_other",
+    "fields": {
+      "vendor_or_payer": "Fir Ridge Credit Union",
+      "payer_ein": "91-7654321",
+      "document_date": null,
+      "currency": "USD",
+      "total": "214.07",
+      "form_boxes": { "1": "214.07" }
+    },
+    "confidence": { "vendor_or_payer": "high", "total": "high" },
+    "status": "listed_only",
+    "notes": "1099-INT, listed only."
+  },
+  {
+    "file": "inbox/cedar_1099k_2026.pdf",
+    "doc_type": "form_1099_k",
+    "fields": {
+      "vendor_or_payer": "Stayhaven Inc",
+      "payer_ein": "94-2233445",
+      "document_date": null,
+      "currency": "USD",
+      "total": "18025.00",
+      "form_boxes": { "1a": "18025.00", "3": "23" }
+    },
+    "confidence": { "vendor_or_payer": "high", "total": "high" },
+    "status": "booked",
+    "notes": "Gross for Cedar Cabin, dated the tax year's last day."
+  },
+  {
+    "file": "inbox/cedar_deck_repair_receipt.pdf",
+    "doc_type": "receipt",
+    "fields": {
+      "vendor_or_payer": "Estes Park Hardware & Lumber",
+      "payer_ein": null,
+      "document_date": "2026-07-11",
+      "currency": "USD",
+      "total": "200.99",
+      "addresses": [
+        {
+          "as_printed": "48 Pinecone Hollow",
+          "usps_standard": "48 PINECONE HOLW",
+          "city": null,
+          "region": null,
+          "country": null
+        }
+      ]
+    },
+    "confidence": { "vendor_or_payer": "high", "document_date": "high", "total": "high" },
+    "status": "booked",
+    "notes": "Delivered to the cabin. The card row restates it."
+  },
+  {
+    "file": "inbox/cedar_hardware_itemised.pdf",
+    "doc_type": "receipt",
+    "fields": {
+      "vendor_or_payer": "Estes Park Hardware & Lumber",
+      "payer_ein": null,
+      "document_date": "2026-03-28",
+      "currency": "USD",
+      "total": "613.14",
+      "addresses": [
+        {
+          "as_printed": "48 Pinecone Hollow",
+          "usps_standard": "48 PINECONE HOLW",
+          "city": null,
+          "region": null,
+          "country": null
+        }
+      ]
+    },
+    "confidence": { "vendor_or_payer": "high", "document_date": "high", "total": "high" },
+    "status": "booked",
+    "notes": "Cabin opening supplies, one line at the printed total. The card row restates it."
+  },
+  {
+    "file": "inbox/cedar_linens_receipt.png",
+    "doc_type": "receipt",
+    "fields": {
+      "vendor_or_payer": "Mountain Home Goods",
+      "payer_ein": null,
+      "document_date": "2026-05-02",
+      "currency": "USD",
+      "total": "232.62",
+      "addresses": [
+        {
+          "as_printed": "48 Pinecone Hollow",
+          "usps_standard": "48 PINECONE HOLW",
+          "city": null,
+          "region": null,
+          "country": null
+        }
+      ]
+    },
+    "confidence": { "vendor_or_payer": "high", "document_date": "high", "total": "high" },
+    "status": "booked",
+    "notes": "Delivered to the cabin. The card row restates it."
+  },
+  {
+    "file": "inbox/cedar_propane_bill.pdf",
+    "doc_type": "invoice",
+    "fields": {
+      "vendor_or_payer": "Larimer Propane",
+      "payer_ein": null,
+      "document_date": "2026-02-18",
+      "currency": "USD",
+      "total": "312.40",
+      "addresses": [
+        {
+          "as_printed": "48 Pinecone Hollow, Estes Park, CO 80517",
+          "usps_standard": "48 PINECONE HOLW",
+          "city": "Estes Park",
+          "region": "CO",
+          "country": "US"
+        }
+      ]
+    },
+    "confidence": { "vendor_or_payer": "high", "document_date": "medium", "total": "high" },
+    "status": "booked",
+    "notes": "Delivery date used. The business checking row of 2026-02-20 restates it."
+  },
+  {
+    "file": "inbox/cedar_stayhaven_summary_2026.pdf",
+    "doc_type": "other",
+    "fields": {
+      "vendor_or_payer": "Stayhaven",
+      "payer_ein": null,
+      "document_date": null,
+      "currency": "USD",
+      "total": "17484.25",
+      "addresses": [
+        {
+          "as_printed": "48 Pinecone Hollow, Estes Park, CO 80517",
+          "usps_standard": "48 PINECONE HOLW",
+          "city": "Estes Park",
+          "region": "CO",
+          "country": "US"
+        }
+      ]
+    },
+    "confidence": { "vendor_or_payer": "high", "total": "high" },
+    "status": "booked",
+    "notes": "Host summary: 23 stays, 96 nights booked, 12 nights blocked by the host. The host service fee is booked from it; gross is booked from the 1099-K; payouts on the checking export restate it; occupancy tax collected and remitted by the platform books nothing. Pages 2 and 3 are agreement text, not opened."
+  },
+  {
+    "file": "inbox/cedar_turnover_cleaning.pdf",
+    "doc_type": "invoice",
+    "fields": {
+      "vendor_or_payer": "Estes Park Turnover Cleaning",
+      "payer_ein": null,
+      "document_date": "2026-12-20",
+      "currency": "USD",
+      "total": "2415.00",
+      "addresses": [
+        {
+          "as_printed": "48 Pinecone Hollow, Estes Park, CO 80517",
+          "usps_standard": "48 PINECONE HOLW",
+          "city": "Estes Park",
+          "region": "CO",
+          "country": "US"
+        }
+      ]
+    },
+    "confidence": { "vendor_or_payer": "high", "document_date": "high", "total": "high" },
+    "status": "booked",
+    "notes": "The business checking row of the same day restates it."
+  },
+  {
+    "file": "inbox/chase_card_2026.csv",
+    "doc_type": "card_or_bank_export",
+    "fields": { "vendor_or_payer": "Chase card", "currency": "USD" },
+    "confidence": { "vendor_or_payer": "high" },
+    "status": "booked",
+    "notes": "37 rows. Booked from the export: Adobe, the EVA Airways fare, the United fare and two Uber rides of the Denver trip. 5 personal rows not booked (streaming, grocery, music, a marketplace purchase, a warehouse store: NETFLIX.COM on 2026-01-05, WHOLEFDS on 2026-02-03, SPOTIFY on 2026-05-02, AMAZON MKTPL on 2026-07-19, COSTCO on 2026-12-09); 3 card payment rows not booked (AUTOMATIC PAYMENT on 2026-04-15, 2026-08-15 and 2026-12-15); every other row restates a receipt, invoice or folio of the batch."
+  },
+  {
+    "file": "inbox/cherry_creek_statement_2026.xlsx",
+    "doc_type": "property_manager_statement",
+    "fields": {
+      "vendor_or_payer": "Larkspur Property Management",
+      "currency": "USD",
+      "total": "26783",
+      "addresses": [
+        {
+          "as_printed": "1180 Quillfeather Ln, Denver CO 80220",
+          "usps_standard": "1180 QUILLFEATHER LN",
+          "city": "Denver",
+          "region": "CO",
+          "country": "US"
+        }
+      ]
+    },
+    "confidence": { "vendor_or_payer": "high" },
+    "status": "booked",
+    "notes": "12 rent rows, 12 management fee rows and one appliance replacement row booked; owner distributions book nothing."
+  },
+  {
+    "file": "inbox/chicago_breakfast_0821.png",
+    "doc_type": "receipt",
+    "fields": {
+      "vendor_or_payer": "Sunnyside West Loop",
+      "payer_ein": null,
+      "document_date": "2026-08-21",
+      "currency": "USD",
+      "total": "21.23"
+    },
+    "confidence": { "vendor_or_payer": "high", "document_date": "high", "total": "high" },
+    "status": "booked",
+    "notes": "Meal, Chicago trip."
+  },
+  {
+    "file": "inbox/chicago_coffee_0817.png",
+    "doc_type": "receipt",
+    "fields": {
+      "vendor_or_payer": "Terminal Grounds Coffee",
+      "payer_ein": null,
+      "document_date": "2026-08-17",
+      "currency": "USD",
+      "total": "10.00"
+    },
+    "confidence": { "vendor_or_payer": "high", "document_date": "high", "total": "high" },
+    "status": "booked",
+    "notes": "Meal, Chicago trip."
+  },
+  {
+    "file": "inbox/chicago_coffee_0818.jpg",
+    "doc_type": "receipt",
+    "fields": {
+      "vendor_or_payer": "Lakeshore Grand Lobby Cafe",
+      "payer_ein": null,
+      "document_date": "2026-08-18",
+      "currency": "USD",
+      "total": "10.50"
+    },
+    "confidence": { "vendor_or_payer": "high", "document_date": "high", "total": "high" },
+    "status": "booked",
+    "notes": "Meal, Chicago trip."
+  },
+  {
+    "file": "inbox/chicago_coffee_0820.png",
+    "doc_type": "receipt",
+    "fields": {
+      "vendor_or_payer": "Dapple Coffee Co",
+      "payer_ein": null,
+      "document_date": "2026-08-20",
+      "currency": "USD",
+      "total": "9.00"
+    },
+    "confidence": { "vendor_or_payer": "high", "document_date": "high", "total": "high" },
+    "status": "booked",
+    "notes": "Meal, Chicago trip."
+  },
+  {
+    "file": "inbox/chicago_dinner_0817.pdf",
+    "doc_type": "receipt",
+    "fields": {
+      "vendor_or_payer": "Northside Deep Dish Co",
+      "payer_ein": null,
+      "document_date": "2026-08-17",
+      "currency": "USD",
+      "total": "51.02"
+    },
+    "confidence": { "vendor_or_payer": "high", "document_date": "high", "total": "high" },
+    "status": "booked",
+    "notes": "Meal, total charged with tip. The card row restates it."
+  },
+  {
+    "file": "inbox/chicago_dinner_0818.pdf",
+    "doc_type": "receipt",
+    "fields": {
+      "vendor_or_payer": "The Granary Hall",
+      "payer_ein": null,
+      "document_date": "2026-08-18",
+      "currency": "USD",
+      "total": "53.64"
+    },
+    "confidence": { "vendor_or_payer": "high", "document_date": "high", "total": "high" },
+    "status": "booked",
+    "notes": "Meal. The card row restates it."
+  },
+  {
+    "file": "inbox/chicago_dinner_0820.pdf",
+    "doc_type": "receipt",
+    "fields": {
+      "vendor_or_payer": "Granary Street Chophouse",
+      "payer_ein": null,
+      "document_date": "2026-08-20",
+      "currency": "USD",
+      "total": "93.87"
+    },
+    "confidence": { "vendor_or_payer": "high", "document_date": "high", "total": "high" },
+    "status": "booked",
+    "notes": "Meal. The card row restates it."
+  },
+  {
+    "file": "inbox/chicago_lunch_0818.png",
+    "doc_type": "receipt",
+    "fields": {
+      "vendor_or_payer": "Wicker Park Sandwich Co",
+      "payer_ein": null,
+      "document_date": "2026-08-18",
+      "currency": "USD",
+      "total": "21.79"
+    },
+    "confidence": { "vendor_or_payer": "high", "document_date": "high", "total": "high" },
+    "status": "booked",
+    "notes": "Meal, Chicago trip."
+  },
+  {
+    "file": "inbox/chicago_lunch_0819.jpg",
+    "doc_type": "receipt",
+    "fields": {
+      "vendor_or_payer": "River North Slice",
+      "payer_ein": null,
+      "document_date": "2026-08-19",
+      "currency": "USD",
+      "total": "21.79"
+    },
+    "confidence": { "vendor_or_payer": "high", "document_date": "high", "total": "high" },
+    "status": "booked",
+    "notes": "Meal, Chicago trip."
+  },
+  {
+    "file": "inbox/chicago_lunch_0820.pdf",
+    "doc_type": "receipt",
+    "fields": {
+      "vendor_or_payer": "Greenleaf Bowls",
+      "payer_ein": null,
+      "document_date": "2026-08-20",
+      "currency": "USD",
+      "total": "17.82"
+    },
+    "confidence": { "vendor_or_payer": "high", "document_date": "high", "total": "high" },
+    "status": "booked",
+    "notes": "Meal, Chicago trip."
+  },
+  {
+    "file": "inbox/chicago_taxi_0817.pdf",
+    "doc_type": "receipt",
+    "fields": {
+      "vendor_or_payer": "Chicago Lakefront Cab",
+      "payer_ein": null,
+      "document_date": "2026-08-17",
+      "currency": "USD",
+      "total": "55.50",
+      "other": { "travel_dates": ["2026-08-17"] }
+    },
+    "confidence": { "vendor_or_payer": "high", "document_date": "high", "total": "high" },
+    "status": "booked",
+    "notes": "Airport to hotel. The card row restates it."
+  },
+  {
+    "file": "inbox/chicago_taxi_0821.pdf",
+    "doc_type": "receipt",
+    "fields": {
+      "vendor_or_payer": "Chicago Lakefront Cab",
+      "payer_ein": null,
+      "document_date": "2026-08-21",
+      "currency": "USD",
+      "total": "52.00",
+      "other": { "travel_dates": ["2026-08-21"] }
+    },
+    "confidence": { "vendor_or_payer": "high", "document_date": "high", "total": "high" },
+    "status": "booked",
+    "notes": "Hotel to airport. The card row restates it."
+  },
+  {
+    "file": "inbox/chinook_electric_jul2026.pdf",
+    "doc_type": "invoice",
+    "fields": {
+      "vendor_or_payer": "Chinook Gas & Electric",
+      "payer_ein": null,
+      "document_date": "2026-08-03",
+      "currency": "USD",
+      "total": "61.87",
+      "addresses": [
+        {
+          "as_printed": "1650 Brindlewood Ct Unit 4B, Boulder, CO 80304",
+          "usps_standard": "1650 BRINDLEWOOD CT UNIT 4B",
+          "city": "Boulder",
+          "region": "CO",
+          "country": "US"
+        }
+      ]
+    },
+    "confidence": { "vendor_or_payer": "high", "document_date": "high", "total": "high" },
+    "status": "booked",
+    "notes": "Paid by autopay 2026-08-03; the rental checking row restates it."
+  },
+  {
+    "file": "inbox/closing_statement_2019.pdf",
+    "doc_type": "closing_statement",
+    "fields": {
+      "vendor_or_payer": null,
+      "payer_ein": null,
+      "document_date": "2019-06-14",
+      "currency": "USD",
+      "total": "334000.00",
+      "addresses": [
+        {
+          "as_printed": "1180 Quillfeather Ln, Denver, CO 80220",
+          "usps_standard": "1180 QUILLFEATHER LN",
+          "city": "Denver",
+          "region": "CO",
+          "country": "US"
+        }
+      ]
+    },
+    "confidence": { "total": "high" },
+    "status": "support",
+    "notes": "Basis source for the staged purchase of 1180 Quillfeather Ln."
+  },
+  {
+    "file": "inbox/closing_statement_2021_brindlewood.pdf",
+    "doc_type": "closing_statement",
+    "fields": {
+      "vendor_or_payer": null,
+      "payer_ein": null,
+      "document_date": "2021-07-16",
+      "currency": "USD",
+      "total": "353860.00",
+      "addresses": [
+        {
+          "as_printed": "1650 Brindlewood Ct Unit 4B, Boulder, CO 80304",
+          "usps_standard": "1650 BRINDLEWOOD CT UNIT 4B",
+          "city": "Boulder",
+          "region": "CO",
+          "country": "US"
+        }
+      ]
+    },
+    "confidence": { "total": "high" },
+    "status": "support",
+    "notes": "Basis source for the staged purchase of Brindlewood Condo."
+  },
+  {
+    "file": "inbox/denver_food_bank.png",
+    "doc_type": "donation_receipt",
+    "fields": {
+      "vendor_or_payer": "Mile High Food Pantry",
+      "payer_ein": "84-0000001",
+      "document_date": "2026-11-28",
+      "currency": "USD",
+      "total": "250.00"
+    },
+    "confidence": { "vendor_or_payer": "high", "document_date": "high", "total": "high" },
+    "status": "register_only",
+    "notes": "Cash gift, nothing received in return. The business checking row restates it."
+  },
+  {
+    "file": "inbox/denver_tax_bill_2026.pdf",
+    "doc_type": "property_tax_bill",
+    "fields": {
+      "vendor_or_payer": "Denver County Treasury Division",
+      "payer_ein": null,
+      "document_date": null,
+      "currency": "USD",
+      "total": "2812.20",
+      "addresses": [
+        {
+          "as_printed": "1180 QUILLFEATHER LN",
+          "usps_standard": "1180 QUILLFEATHER LN",
+          "city": null,
+          "region": null,
+          "country": null
+        }
+      ],
+      "parcel_numbers": ["00000-00-017-000", "00000-00-018-000"]
+    },
+    "confidence": { "vendor_or_payer": "high", "total": "high" },
+    "status": "booked",
+    "notes": "Bill source of both installments."
+  },
+  {
+    "file": "inbox/eftps_q1_2026.pdf",
+    "doc_type": "other",
+    "fields": {
+      "vendor_or_payer": "EFTPS",
+      "payer_ein": null,
+      "document_date": "2026-04-15",
+      "currency": "USD",
+      "total": "1800.00"
+    },
+    "confidence": { "vendor_or_payer": "high", "document_date": "high", "total": "high" },
+    "status": "support",
+    "notes": "Estimated tax payment confirmation; nothing books from it. The business checking row restates it."
+  },
+  {
+    "file": "inbox/eftps_q2_2026.pdf",
+    "doc_type": "other",
+    "fields": {
+      "vendor_or_payer": "EFTPS",
+      "payer_ein": null,
+      "document_date": "2026-06-15",
+      "currency": "USD",
+      "total": "1800.00"
+    },
+    "confidence": { "vendor_or_payer": "high", "document_date": "high", "total": "high" },
+    "status": "support",
+    "notes": "Estimated tax payment confirmation; nothing books from it. The business checking row restates it."
+  },
+  {
+    "file": "inbox/el_paso_tax_bill_2026.pdf",
+    "doc_type": "property_tax_bill",
+    "fields": {
+      "vendor_or_payer": "El Paso County Treasurer",
+      "payer_ein": null,
+      "document_date": null,
+      "currency": "USD",
+      "total": "1742.18",
+      "addresses": [
+        {
+          "as_printed": "915 SALTGRASS BEND, COLORADO SPRINGS",
+          "usps_standard": "915 SALTGRASS BND",
+          "city": "Colorado Springs",
+          "region": null,
+          "country": null
+        }
+      ],
+      "parcel_numbers": ["00000-00-063-000"]
+    },
+    "confidence": { "vendor_or_payer": "high", "total": "high" },
+    "status": "booked",
+    "notes": "Bill source of the April payment."
+  },
+  {
+    "file": "inbox/el_paso_tax_receipt_0427.pdf",
+    "doc_type": "property_tax_payment",
+    "fields": {
+      "vendor_or_payer": "El Paso County Treasurer",
+      "payer_ein": null,
+      "document_date": "2026-04-27",
+      "currency": "USD",
+      "total": "1742.18",
+      "parcel_numbers": ["00000-00-063-000"]
+    },
+    "confidence": { "vendor_or_payer": "high", "document_date": "high", "total": "high" },
+    "status": "booked",
+    "notes": "Staged in tax_payments.json. The rental checking row restates it."
+  },
+  {
+    "file": "inbox/estes_park_dinner_0711.jpg",
+    "doc_type": "receipt",
+    "fields": {
+      "vendor_or_payer": "Elk & Aspen",
+      "payer_ein": null,
+      "document_date": "2026-07-11",
+      "currency": "USD",
+      "total": "44.57",
+      "other": { "travel_dates": ["2026-07-11"] }
+    },
+    "confidence": { "vendor_or_payer": "high", "document_date": "high", "total": "high" },
+    "status": "booked",
+    "notes": "Meal, Estes Park drive. The card row restates it."
+  },
+  {
+    "file": "inbox/estes_park_motel_folio.pdf",
+    "doc_type": "hotel_folio",
+    "fields": {
+      "vendor_or_payer": "Trail Ridge Motor Lodge",
+      "payer_ein": null,
+      "document_date": "2026-07-11",
+      "currency": "USD",
+      "total": "159.75",
+      "other": { "arrival": "2026-07-10", "departure": "2026-07-11" }
+    },
+    "confidence": { "vendor_or_payer": "high", "document_date": "high", "total": "high" },
+    "status": "booked",
+    "notes": "Room and tax only: one lodging line at the total. The card row restates it."
+  },
+  {
+    "file": "inbox/fir_ridge_rental_checking_2026.csv",
+    "doc_type": "card_or_bank_export",
+    "fields": { "vendor_or_payer": "Fir Ridge Credit Union rental checking", "currency": "USD" },
+    "confidence": { "vendor_or_payer": "high" },
+    "status": "booked",
+    "notes": "44 rows. Booked from the export per the person's notes: 11 rent deposits for Brindlewood Condo, 12 rent deposits for Saltgrass House, 4 HOA dues and 1 listing fee for the condo, 4 water and sewer bills for the house. The other 12 payment rows (insurance, repairs, taxes, services, electric, carpet care) restate documents of the batch, which book them."
+  },
+  {
+    "file": "inbox/garage_door_receipt.png",
+    "doc_type": "receipt",
+    "fields": {
+      "vendor_or_payer": "Kinnick Garage Door Co.",
+      "payer_ein": null,
+      "document_date": "2026-02-09",
+      "currency": "USD",
+      "total": "247.00",
+      "addresses": [
+        {
+          "as_printed": "915 Saltgrass Bend",
+          "usps_standard": "915 SALTGRASS BND",
+          "city": null,
+          "region": null,
+          "country": null
+        }
+      ]
+    },
+    "confidence": { "vendor_or_payer": "high", "document_date": "high", "total": "high" },
+    "status": "booked",
+    "notes": "Job address is Saltgrass House. The rental checking row of 2026-02-10 restates it."
+  },
+  {
+    "file": "inbox/harbor_1099nec_2026.pdf",
+    "doc_type": "form_1099_nec",
+    "fields": {
+      "vendor_or_payer": "Harbor Analytics LLC",
+      "payer_ein": "91-2345678",
+      "document_date": null,
+      "currency": "USD",
+      "total": "18400.00",
+      "form_boxes": { "1a": "18400.00" }
+    },
+    "confidence": { "vendor_or_payer": "high", "total": "high" },
+    "status": "booked",
+    "notes": "Dated the tax year's last day. Deposits from the payer on the business checking export restate it."
+  },
+  {
+    "file": "inbox/hearthstone_dp3_declaration_2026.pdf",
+    "doc_type": "insurance_premium",
+    "fields": {
+      "vendor_or_payer": "Hearthstone Mutual Insurance",
+      "payer_ein": null,
+      "document_date": "2026-05-29",
+      "currency": "USD",
+      "total": "1396.00",
+      "addresses": [
+        {
+          "as_printed": "915 Saltgrass Bend, Colorado Springs, CO 80907",
+          "usps_standard": "915 SALTGRASS BND",
+          "city": "Colorado Springs",
+          "region": "CO",
+          "country": "US"
+        }
+      ]
+    },
+    "confidence": { "vendor_or_payer": "high", "document_date": "high", "total": "high" },
+    "status": "booked",
+    "notes": "Paid in full on the printed date. The rental checking row restates it."
+  },
+  {
+    "file": "inbox/holloway_finch_invoice_2026.pdf",
+    "doc_type": "invoice",
+    "fields": {
+      "vendor_or_payer": "Holloway & Finch Property Services",
+      "payer_ein": null,
+      "document_date": "2026-01-09",
+      "currency": "USD",
+      "total": "1320.00",
+      "addresses": [
+        {
+          "as_printed": "915 Saltgrass Bend, Colorado Springs, CO 80907",
+          "usps_standard": "915 SALTGRASS BND",
+          "city": "Colorado Springs",
+          "region": "CO",
+          "country": "US"
+        }
+      ]
+    },
+    "confidence": { "vendor_or_payer": "high", "document_date": "high", "total": "high" },
+    "status": "booked",
+    "notes": "Paid date used. The rental checking row restates it."
+  },
+  {
+    "file": "inbox/home_electric_2026.pdf",
+    "doc_type": "other",
+    "fields": {
+      "vendor_or_payer": "Foothill Energy Co",
+      "payer_ein": null,
+      "document_date": "2026-12-31",
+      "currency": "USD",
+      "total": "1560.00",
+      "addresses": [
+        {
+          "as_printed": "4410 Windrow Ct N, Seattle, WA 98103",
+          "usps_standard": "4410 WINDROW CT N",
+          "city": "Seattle",
+          "region": "WA",
+          "country": "US"
+        }
+      ]
+    },
+    "confidence": { "vendor_or_payer": "high", "document_date": "high", "total": "high" },
+    "status": "booked",
+    "notes": "Staged in home_costs.json; the person confirmed it is the home with the office."
+  },
+  {
+    "file": "inbox/home_insurance_2026.pdf",
+    "doc_type": "insurance_premium",
+    "fields": {
+      "vendor_or_payer": "Fir Ridge Home Insurance",
+      "payer_ein": null,
+      "document_date": "2026-01-05",
+      "currency": "USD",
+      "total": "1140.00",
+      "addresses": [
+        {
+          "as_printed": "4410 Windrow Ct N, Seattle, WA 98103",
+          "usps_standard": "4410 WINDROW CT N",
+          "city": "Seattle",
+          "region": "WA",
+          "country": "US"
+        }
+      ]
+    },
+    "confidence": { "vendor_or_payer": "high", "document_date": "high", "total": "high" },
+    "status": "booked",
+    "notes": "Staged in home_costs.json; the person confirmed it is the home with the office. Pages 2 to 9 are agreement text, not opened."
+  },
+  {
+    "file": "inbox/insurance_premium.jpg",
+    "doc_type": "insurance_premium",
+    "fields": {
+      "vendor_or_payer": "Summit Mutual Insurance Co.",
+      "payer_ein": null,
+      "document_date": "2026-01-05",
+      "currency": "USD",
+      "total": "1188.00",
+      "addresses": [
+        {
+          "as_printed": "1180 Quillfeather Ln, Denver CO",
+          "usps_standard": "1180 QUILLFEATHER LN",
+          "city": "Denver",
+          "region": "CO",
+          "country": "US"
+        }
+      ]
+    },
+    "confidence": { "vendor_or_payer": "high", "document_date": "high", "total": "high" },
+    "status": "booked",
+    "notes": "The business checking row restates it."
+  },
+  {
+    "file": "inbox/k1_cascadia_2026.pdf",
+    "doc_type": "schedule_k1",
+    "fields": {
+      "vendor_or_payer": "Cascadia Ventures Fund III LP",
+      "payer_ein": "91-3344556",
+      "document_date": null,
+      "currency": "USD",
+      "tax_year": "2026",
+      "form_boxes": {
+        "1": "-1120",
+        "5": "86",
+        "8": "0",
+        "9a": "6450",
+        "13 code W": "240",
+        "20 code A": "86"
+      }
+    },
+    "confidence": { "vendor_or_payer": "high" },
+    "status": "support",
+    "notes": "Listed for the accountant; books nothing. Individual TIN present, omitted."
+  },
+  {
+    "file": "inbox/k1_riverbend_2026.pdf",
+    "doc_type": "schedule_k1",
+    "fields": {
+      "vendor_or_payer": "Riverbend Storage Partners LP",
+      "payer_ein": "84-5551234",
+      "document_date": null,
+      "currency": "USD",
+      "tax_year": "2026",
+      "form_boxes": { "1": "3420", "2": "-1210", "5": "0" }
+    },
+    "confidence": { "vendor_or_payer": "high" },
+    "status": "support",
+    "notes": "Listed for the accountant; books nothing. Individual TIN present, omitted."
+  },
+  {
+    "file": "inbox/lakeshore_grand_folio.pdf",
+    "doc_type": "hotel_folio",
+    "fields": {
+      "vendor_or_payer": "Lakeshore Grand Hotel",
+      "payer_ein": null,
+      "document_date": "2026-08-21",
+      "currency": "USD",
+      "total": "1103.42",
+      "other": { "arrival": "2026-08-17", "departure": "2026-08-21" }
+    },
+    "confidence": { "vendor_or_payer": "high", "document_date": "high", "total": "high" },
+    "status": "booked",
+    "notes": "No room-and-tax subtotal printed: each printed room and tax charge is its own line, in-room dining is a meal line. The card row restates it. Pages 2 to 4 are agreement text, not opened."
+  },
+  {
+    "file": "inbox/lakeview_checking_2026.csv",
+    "doc_type": "card_or_bank_export",
+    "fields": { "vendor_or_payer": "Lakeview Bank business checking", "currency": "USD" },
+    "confidence": { "vendor_or_payer": "high" },
+    "status": "booked",
+    "notes": "19 rows. One row booked from the export, the Estes Park Hardware Lumber purchase of August 3. Two grocery and personal transfer rows are personal and not booked (KING SOOPERS on 2026-09-09, ZELLE TO J RIVERA on 2026-10-05). The other 16 rows restate documents of the batch (insurance, distributions, propane, taxes, 1099 payers, platform payouts, donation, cleaning)."
+  },
+  {
+    "file": "inbox/laptop_invoice.pdf",
+    "doc_type": "invoice",
+    "fields": {
+      "vendor_or_payer": "Northlake Computers",
+      "payer_ein": null,
+      "document_date": "2026-03-14",
+      "currency": "USD",
+      "total": "1903.54",
+      "addresses": [
+        {
+          "as_printed": "4410 Windrow Ct N, Seattle, WA 98103",
+          "usps_standard": "4410 WINDROW CT N",
+          "city": "Seattle",
+          "region": "WA",
+          "country": "US"
+        }
+      ]
+    },
+    "confidence": { "vendor_or_payer": "high", "document_date": "high", "total": "high" },
+    "status": "booked",
+    "notes": "Laptop for Northpeak Consulting. The card row restates it. Pages 2 to 5 are agreement text, not opened."
+  },
+  {
+    "file": "inbox/lodestar_ho6_premium_2026.pdf",
+    "doc_type": "insurance_premium",
+    "fields": {
+      "vendor_or_payer": "Lodestar Insurance Co.",
+      "payer_ein": null,
+      "document_date": "2026-03-02",
+      "currency": "USD",
+      "total": "512.00",
+      "addresses": [
+        {
+          "as_printed": "1650 Brindlewood Ct Unit 4B, Boulder, CO 80304",
+          "usps_standard": "1650 BRINDLEWOOD CT UNIT 4B",
+          "city": "Boulder",
+          "region": "CO",
+          "country": "US"
+        }
+      ]
+    },
+    "confidence": { "vendor_or_payer": "high", "document_date": "high", "total": "high" },
+    "status": "booked",
+    "notes": "The rental checking row restates it."
+  },
+  {
+    "file": "inbox/lumen_1099nec.jpg",
+    "doc_type": "form_1099_nec",
+    "fields": {
+      "vendor_or_payer": "Lumen Health Inc",
+      "payer_ein": "47-8812345",
+      "document_date": null,
+      "currency": "USD",
+      "total": "9250.00",
+      "form_boxes": { "1a": "9250.00" }
+    },
+    "confidence": { "vendor_or_payer": "high", "total": "high" },
+    "status": "near_duplicate_of: inbox/lumen_1099nec_corrected.pdf",
+    "notes": "Original form, superseded by the corrected form from the same payer."
+  },
+  {
+    "file": "inbox/lumen_1099nec_corrected.pdf",
+    "doc_type": "form_1099_nec",
+    "fields": {
+      "vendor_or_payer": "Lumen Health Inc",
+      "payer_ein": "47-8812345",
+      "document_date": null,
+      "currency": "USD",
+      "total": "9520.00",
+      "form_boxes": { "1a": "9520.00" }
+    },
+    "confidence": { "vendor_or_payer": "high", "total": "high" },
+    "status": "booked",
+    "notes": "Corrected form; supersedes the original. Dated the tax year's last day."
+  },
+  {
+    "file": "inbox/northpeak_mileage_log_2026.pdf",
+    "doc_type": "other",
+    "fields": {
+      "vendor_or_payer": "Northpeak Consulting mileage log",
+      "payer_ein": null,
+      "document_date": null,
+      "currency": null,
+      "other": { "travel_dates": ["2026-07-10", "2026-07-11", "2026-07-12"] }
+    },
+    "confidence": { "vendor_or_payer": "high" },
+    "status": "support",
+    "notes": "Business miles 2840 in two bands, matching the staged vehicle; the July drive to the cabin is listed as not counted."
+  },
+  {
+    "file": "inbox/northpeak_office_floor_plan.png",
+    "doc_type": "other",
+    "fields": {
+      "vendor_or_payer": "Northpeak Consulting",
+      "payer_ein": null,
+      "document_date": null,
+      "currency": null
+    },
+    "confidence": { "vendor_or_payer": "high" },
+    "status": "support",
+    "notes": "Home office 168 sq ft of a 1400 sq ft home; matches the staged areas."
+  },
+  {
+    "file": "inbox/note_yard_work.jpg",
+    "doc_type": "receipt",
+    "fields": {
+      "vendor_or_payer": "Jake",
+      "payer_ein": null,
+      "document_date": "2026-07-19",
+      "currency": "USD",
+      "total": "300.00"
+    },
+    "confidence": { "vendor_or_payer": "high", "document_date": "high", "total": "high" },
+    "status": "booked",
+    "notes": "Handwritten cash note, names no place; booked unassigned and asked."
+  },
+  {
+    "file": "inbox/odyssey_service_invoice.pdf",
+    "doc_type": "invoice",
+    "fields": {
+      "vendor_or_payer": "Millrace Auto Service",
+      "payer_ein": null,
+      "document_date": "2026-08-22",
+      "currency": "USD",
+      "total": "439.00"
+    },
+    "confidence": { "vendor_or_payer": "high", "document_date": "high", "total": "high" },
+    "status": "booked",
+    "notes": "Vehicle expense for the Odyssey. The card row restates it."
+  },
+  {
+    "file": "inbox/office_depot_receipt.png",
+    "doc_type": "receipt",
+    "fields": {
+      "vendor_or_payer": "Office Depot",
+      "payer_ein": null,
+      "document_date": "2026-06-03",
+      "currency": "USD",
+      "total": "47.90"
+    },
+    "confidence": { "vendor_or_payer": "high", "document_date": "high", "total": "high" },
+    "status": "booked",
+    "notes": "The card row restates it."
+  },
+  {
+    "file": "inbox/plumber_invoice.pdf",
+    "doc_type": "invoice",
+    "fields": {
+      "vendor_or_payer": "Mile High Plumbing LLC",
+      "payer_ein": null,
+      "document_date": "2026-02-17",
+      "currency": "USD",
+      "total": "412.00",
+      "addresses": [
+        {
+          "as_printed": "1180 Quillfeather Ln, Denver, CO 80220",
+          "usps_standard": "1180 QUILLFEATHER LN",
+          "city": "Denver",
+          "region": "CO",
+          "country": "US"
+        }
+      ]
+    },
+    "confidence": { "vendor_or_payer": "high", "document_date": "high", "total": "high" },
+    "status": "booked",
+    "notes": ""
+  },
+  {
+    "file": "inbox/quarrystone_1098_2026.jpg",
+    "doc_type": "mortgage_interest_statement",
+    "fields": {
+      "vendor_or_payer": "Quarrystone Home Loans",
+      "payer_ein": "84-6620400",
+      "document_date": null,
+      "currency": "USD",
+      "total": "13054.62",
+      "addresses": [
+        {
+          "as_printed": "915 SALTGRASS BEND, COLORADO SPRINGS, CO 80907",
+          "usps_standard": "915 SALTGRASS BND",
+          "city": "Colorado Springs",
+          "region": "CO",
+          "country": "US"
+        }
+      ],
+      "form_boxes": { "1": "13054.62" }
+    },
+    "confidence": { "vendor_or_payer": "high", "total": "high" },
+    "status": "booked",
+    "notes": "Form 1098 box 1, dated the tax year's last day."
+  },
+  {
+    "file": "inbox/rideshare_0818_am.png",
+    "doc_type": "receipt",
+    "fields": {
+      "vendor_or_payer": "Lyft",
+      "payer_ein": null,
+      "document_date": "2026-08-18",
+      "currency": "USD",
+      "total": "16.95",
+      "other": { "travel_dates": ["2026-08-18"] }
+    },
+    "confidence": { "vendor_or_payer": "high", "document_date": "high", "total": "high" },
+    "status": "booked",
+    "notes": "The card row restates it."
+  },
+  {
+    "file": "inbox/rideshare_0818_pm.png",
+    "doc_type": "receipt",
+    "fields": {
+      "vendor_or_payer": "Lyft",
+      "payer_ein": null,
+      "document_date": "2026-08-18",
+      "currency": "USD",
+      "total": "17.40",
+      "other": { "travel_dates": ["2026-08-18"] }
+    },
+    "confidence": { "vendor_or_payer": "high", "document_date": "high", "total": "high" },
+    "status": "booked",
+    "notes": "The card row restates it."
+  },
+  {
+    "file": "inbox/rideshare_0819_am.png",
+    "doc_type": "receipt",
+    "fields": {
+      "vendor_or_payer": "Uber",
+      "payer_ein": null,
+      "document_date": "2026-08-19",
+      "currency": "USD",
+      "total": "15.80",
+      "other": { "travel_dates": ["2026-08-19"] }
+    },
+    "confidence": { "vendor_or_payer": "high", "document_date": "high", "total": "high" },
+    "status": "booked",
+    "notes": "The card row restates it."
+  },
+  {
+    "file": "inbox/rideshare_0820_pm.png",
+    "doc_type": "receipt",
+    "fields": {
+      "vendor_or_payer": "Uber",
+      "payer_ein": null,
+      "document_date": "2026-08-20",
+      "currency": "USD",
+      "total": "18.10",
+      "other": { "travel_dates": ["2026-08-20"] }
+    },
+    "confidence": { "vendor_or_payer": "high", "document_date": "high", "total": "high" },
+    "status": "booked",
+    "notes": "The card row restates it."
+  },
+  {
+    "file": "inbox/sagebrush_lawn_snow_2026.pdf",
+    "doc_type": "invoice",
+    "fields": {
+      "vendor_or_payer": "Sagebrush Lawn & Snow",
+      "payer_ein": null,
+      "document_date": "2026-11-04",
+      "currency": "USD",
+      "total": "1160.00",
+      "addresses": [
+        {
+          "as_printed": "915 Saltgrass Bend, Colorado Springs, CO 80907",
+          "usps_standard": "915 SALTGRASS BND",
+          "city": "Colorado Springs",
+          "region": "CO",
+          "country": "US"
+        }
+      ]
+    },
+    "confidence": { "vendor_or_payer": "high", "document_date": "high", "total": "high" },
+    "status": "booked",
+    "notes": "Paid date used. The rental checking row restates it."
+  },
+  {
+    "file": "inbox/saltgrass_closing_2023.pdf",
+    "doc_type": "closing_statement",
+    "fields": {
+      "vendor_or_payer": null,
+      "payer_ein": null,
+      "document_date": "2023-10-06",
+      "currency": "USD",
+      "total": "396240.00",
+      "addresses": [
+        {
+          "as_printed": "915 Saltgrass Bend, Colorado Springs, CO 80907",
+          "usps_standard": "915 SALTGRASS BND",
+          "city": "Colorado Springs",
+          "region": "CO",
+          "country": "US"
+        }
+      ]
+    },
+    "confidence": { "total": "high" },
+    "status": "support",
+    "notes": "Basis source for the staged purchase of Saltgrass House."
+  },
+  {
+    "file": "inbox/shell_fuel_0314.jpg",
+    "doc_type": "receipt",
+    "fields": {
+      "vendor_or_payer": "Shell",
+      "payer_ein": null,
+      "document_date": "2026-03-14",
+      "currency": "USD",
+      "total": "58.90"
+    },
+    "confidence": { "vendor_or_payer": "high", "document_date": "high", "total": "high" },
+    "status": "booked",
+    "notes": "Fuel in Seattle for the Odyssey. The card row restates it."
+  },
+  {
+    "file": "inbox/shell_fuel_0710.jpg",
+    "doc_type": "receipt",
+    "fields": {
+      "vendor_or_payer": "Shell",
+      "payer_ein": null,
+      "document_date": "2026-07-10",
+      "currency": "USD",
+      "total": "62.45",
+      "other": { "travel_dates": ["2026-07-10"] }
+    },
+    "confidence": { "vendor_or_payer": "high", "document_date": "high", "total": "high" },
+    "status": "booked",
+    "notes": "Fuel on the drive to Estes Park. The card row restates it."
+  },
+  {
+    "file": "inbox/sunspot_dishwasher_repair.pdf",
+    "doc_type": "invoice",
+    "fields": {
+      "vendor_or_payer": "Sunspot Appliance Repair",
+      "payer_ein": null,
+      "document_date": "2026-05-12",
+      "currency": "USD",
+      "total": "238.50",
+      "addresses": [
+        {
+          "as_printed": "1650 Brindlewood Ct Unit 4B, Boulder, CO 80304",
+          "usps_standard": "1650 BRINDLEWOOD CT UNIT 4B",
+          "city": "Boulder",
+          "region": "CO",
+          "country": "US"
+        }
+      ]
+    },
+    "confidence": { "vendor_or_payer": "high", "document_date": "high", "total": "high" },
+    "status": "booked",
+    "notes": "The rental checking row restates it."
+  },
+  {
+    "file": "inbox/taipei_einvoice.png",
+    "doc_type": "receipt",
+    "fields": {
+      "vendor_or_payer": "Din Tai Fung",
+      "payer_ein": null,
+      "document_date": "2026-04-19",
+      "currency": "TWD",
+      "total": "1280",
+      "other": { "travel_dates": ["2026-04-19"] }
+    },
+    "confidence": { "vendor_or_payer": "high", "document_date": "high", "total": "high" },
+    "status": "booked",
+    "notes": "Printed ROC year 115 converted to 2026 by adding 1911. Meal."
+  },
+  {
+    "file": "inbox/taipei_taxi.jpg",
+    "doc_type": "receipt",
+    "fields": {
+      "vendor_or_payer": "Taiwan Taxi",
+      "payer_ein": null,
+      "document_date": "2026-04-20",
+      "currency": "TWD",
+      "total": "350",
+      "other": { "travel_dates": ["2026-04-20"] }
+    },
+    "confidence": { "vendor_or_payer": "high", "document_date": "high", "total": "high" },
+    "status": "booked",
+    "notes": ""
+  },
+  {
+    "file": "inbox/tax_payment_confirmation_0227.pdf",
+    "doc_type": "property_tax_payment",
+    "fields": {
+      "vendor_or_payer": "Denver Treasury",
+      "payer_ein": null,
+      "document_date": "2026-02-27",
+      "currency": "USD",
+      "total": "1406.10",
+      "parcel_numbers": ["00000-00-017-000", "00000-00-018-000"]
+    },
+    "confidence": { "vendor_or_payer": "high", "document_date": "high", "total": "high" },
+    "status": "booked",
+    "notes": "First-half payment, staged in tax_payments.json. The business checking row restates it."
+  },
+  {
+    "file": "inbox/tax_payment_history.pdf",
+    "doc_type": "property_tax_payment",
+    "fields": {
+      "vendor_or_payer": "Denver Treasury",
+      "payer_ein": null,
+      "document_date": "2026-07-02",
+      "currency": "USD",
+      "total": "1406.10",
+      "parcel_numbers": ["00000-00-017-000", "00000-00-018-000"]
+    },
+    "confidence": { "vendor_or_payer": "high", "document_date": "high", "total": "high" },
+    "status": "booked",
+    "notes": "Restates the first-half payment of 2026-02-27 (carried by the confirmation); stays booked as the evidence for the second-half payment of 2026-06-12."
+  }
+]

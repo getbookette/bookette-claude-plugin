@@ -1,0 +1,88 @@
+{
+  "platform": "Lyft",
+  "payers": ["Lyft"],
+  "documents": [
+    {
+      "name": "Ride export CSV",
+      "columns": [
+        { "name": "Ride Date", "kind": "metadata", "confidence": "recalled" },
+        { "name": "Ride Time", "kind": "metadata", "confidence": "recalled" },
+        { "name": "Ride Type", "kind": "metadata", "confidence": "recalled" },
+        { "name": "Pickup Address", "kind": "metadata", "confidence": "recalled" },
+        { "name": "Dropoff Address", "kind": "metadata", "confidence": "recalled" },
+        { "name": "Ride Distance", "kind": "metadata", "confidence": "recalled" },
+        { "name": "Ride Duration", "kind": "metadata", "confidence": "recalled" },
+        {
+          "name": "Base Fare",
+          "kind": "gross-component",
+          "confidence": "recalled",
+          "sign": "positive"
+        },
+        {
+          "name": "Fare Cancellation",
+          "kind": "gross-component",
+          "confidence": "recalled",
+          "sign": "positive"
+        },
+        {
+          "name": "Prime Time",
+          "kind": "gross-component",
+          "confidence": "recalled",
+          "sign": "positive"
+        },
+        {
+          "name": "Total Fare",
+          "kind": "gross-component",
+          "confidence": "recalled",
+          "sign": "positive"
+        },
+        {
+          "name": "Gross Fare",
+          "kind": "gross-component",
+          "confidence": "recalled",
+          "sign": "positive"
+        },
+        { "name": "Lyft Fee", "kind": "fee", "confidence": "recalled", "sign": "positive" },
+        { "name": "Tip", "kind": "pass-through", "confidence": "recalled", "sign": "positive" },
+        { "name": "Tolls", "kind": "pass-through", "confidence": "recalled", "sign": "positive" },
+        { "name": "Bonus", "kind": "incentive", "confidence": "recalled", "sign": "positive" },
+        {
+          "name": "Total Payout",
+          "kind": "net",
+          "confidence": "recalled",
+          "sign": "positive"
+        }
+      ],
+      "gross": {
+        "basis": "stated-column",
+        "columns": ["Gross Fare"],
+        "carries": ["Lyft Fee", "Tolls"]
+      },
+      "net": { "basis": "stated-column", "columns": ["Total Payout"] },
+      "reconcile": {
+        "closed": true,
+        "equals": "net",
+        "terms": [
+          { "column": "Gross Fare", "sign": "positive" },
+          { "column": "Lyft Fee", "sign": "negative" },
+          { "column": "Tip", "sign": "positive" },
+          { "column": "Bonus", "sign": "positive" }
+        ]
+      }
+    }
+  ],
+  "provenance": [
+    {
+      "url": "https://help.lyft.com/hc/en-us/driver/articles/115012926967",
+      "what": "Tax information for drivers: the 1099-K and 1099-NEC forms and when each arrives. The page names the 1099-K issuer as Lyft and prints no legal filer name."
+    },
+    {
+      "url": "https://www.lyft.com/hub/posts/weekly-pay-statements",
+      "what": "Weekly pay statements: the statement lines, from ride earnings and tips through bonuses, cancel earnings and passenger payments"
+    },
+    {
+      "url": "https://help.lyft.com/hc/en-us/all/articles/115013080288-How-to-use-Driving-History",
+      "what": "How to use Driving History: the ride-level CSV download. No official Lyft page documents the export's CSV headers (the download is login-walled and shows driver-side amounts only), so every header here is recalled, and Gross Fare, Lyft Fee, Tolls and Bonus are research additions"
+    }
+  ]
+}

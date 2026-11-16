@@ -1,0 +1,200 @@
+#!/usr/bin/env node
+"use strict";
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+
+// apps/tui/src/plugin-hook-entry.ts
+var plugin_hook_entry_exports = {};
+__export(plugin_hook_entry_exports, {
+  DECISION_FILE: () => DECISION_FILE,
+  answerLine: () => answerLine,
+  nodeTooOld: () => nodeTooOld,
+  outsideBooketteFolder: () => outsideBooketteFolder,
+  writeAll: () => writeAll
+});
+module.exports = __toCommonJS(plugin_hook_entry_exports);
+var import_node_child_process = require("child_process");
+var import_node_fs2 = require("fs");
+var import_node_path2 = require("path");
+
+// apps/tui/src/core/layout.ts
+var import_node_fs = require("fs");
+var import_node_path = require("path");
+function booketteFolderOf(path) {
+  let current = (0, import_node_path.resolve)(path);
+  for (; ; ) {
+    if ((0, import_node_fs.existsSync)((0, import_node_path.join)(current, "bookette.json"))) return current;
+    const parent = (0, import_node_path.dirname)(current);
+    if (parent === current) return null;
+    current = parent;
+  }
+}
+
+// apps/tui/src/core/node-floor.ts
+var MIN_NODE_MAJOR = 24;
+var NODE_INSTALL_HINT = "Install Node.js ".concat(String(MIN_NODE_MAJOR), " or later: on macOS `brew install node`, on Linux the installer at https://nodejs.org/en/download.");
+var PLUGIN_OFF_HINT = "In Claude Code, the bookette plugin can be turned off with /plugin.";
+function oldNodeMessage(version) {
+  return "Bookette needs Node.js ".concat(String(MIN_NODE_MAJOR), " or later, and this is Node.js ").concat(version, ". ").concat(NODE_INSTALL_HINT, " ").concat(PLUGIN_OFF_HINT, "\n");
+}
+
+// apps/tui/src/plugin-hook-rules.ts
+var WATCHDOG_MS = 1e4;
+var ANSWER_DEADLINE_MS = 2 * WATCHDOG_MS;
+var REASONS = {
+  plugin_tool_not_allowed: "in a Bookette folder this session has the bookette tools, Read, Grep, Write, Edit, WebFetch and the books skill\u2019s scripts only",
+  plugin_skill_not_allowed: "in a Bookette folder only the bookette skill is loaded",
+  plugin_no_run: "no run is staged: call bookette_stage, then follow the skill over its runDir",
+  plugin_read_outside_run: "Read is confined to the staged runDir and the books skill\u2019s SKILL.md, reference/ and rules/",
+  plugin_read_skill_code: "the skill\u2019s scripts are tools, not reading material: run them as SKILL.md says, and read its SKILL.md, reference/ and rules/",
+  plugin_grep_args: "Grep takes an explicit path Read may read, and a glob with no .. segment and no leading /",
+  plugin_bash_syntax: "a command is one plain command line: words and quoted strings only, no pipes, redirections, substitutions, variables, globs or command lists",
+  plugin_bash_not_allowed: "Bash runs only the books skill\u2019s pipeline.js, read_sheet.js and fx.js over the staged run, pdftotext -layout <file> - on an inbox file, and ls; read a document with Read",
+  plugin_bash_args: "the script\u2019s arguments are not its usage over the staged run: pipeline.js start|build <runDir>, or digest <runDir> --id|--amount|--doc <value>",
+  plugin_answer_unconfirmed: "a choice that moves lines or records a place is stored only after the person has replied to it: put the question to the person as the review shows it, wait for their reply, then store their choice",
+  plugin_guard_failed: "the Bookette guard could not check this call, so it is refused",
+  plugin_guard_timeout: "the Bookette guard could not check this call in time, so it is refused"
+};
+function refuse(rule) {
+  return { allow: false, rule, reason: "Refused (".concat(rule, "): ").concat(REASONS[rule], ".") };
+}
+function hookOutput(decision) {
+  if (decision === null || decision.allow) return "";
+  return JSON.stringify({
+    hookSpecificOutput: {
+      hookEventName: "PreToolUse",
+      permissionDecision: "deny",
+      permissionDecisionReason: decision.reason
+    }
+  });
+}
+var FAIL_OPEN_FLAG = "--fail-open";
+function failsOpen(flag, input) {
+  if (!flag || input === null) return flag;
+  try {
+    return JSON.parse(input).hook_event_name !== "PreToolUse";
+  } catch (e) {
+    return true;
+  }
+}
+function failureOutput(failOpen, rule) {
+  return failOpen ? "" : hookOutput(refuse(rule));
+}
+
+// apps/tui/src/plugin-hook-entry.ts
+var DECISION_FILE = "plugin-hook-bin.js";
+function outsideBooketteFolder(projectDir) {
+  return projectDir !== void 0 && (0, import_node_path2.isAbsolute)(projectDir) && booketteFolderOf(projectDir) === null;
+}
+function nodeTooOld(version) {
+  return !(Number(version.split(".")[0]) >= MIN_NODE_MAJOR);
+}
+var PAUSE_CELL = typeof SharedArrayBuffer === "function" ? new Int32Array(new SharedArrayBuffer(4)) : null;
+function pause(ms) {
+  if (PAUSE_CELL === null) return;
+  try {
+    Atomics.wait(PAUSE_CELL, 0, 0, ms);
+  } catch (e) {
+  }
+}
+function writeAll(fd, text, write, deadline) {
+  let rest = Buffer.from(text, "utf8");
+  while (rest.length > 0) {
+    if (Date.now() >= deadline) return false;
+    let taken = 0;
+    try {
+      taken = write(fd, rest);
+    } catch (error) {
+      if (error.code !== "EAGAIN") return false;
+    }
+    if (taken > 0) rest = rest.subarray(taken);
+    else pause(5);
+  }
+  return true;
+}
+function answerLine(stdout) {
+  const end = stdout.indexOf("\n");
+  return end !== -1 && end === stdout.length - 1 ? stdout.slice(0, end) : null;
+}
+function main() {
+  const deadline = Date.now() + ANSWER_DEADLINE_MS;
+  const flag = process.argv.includes(FAIL_OPEN_FLAG);
+  let input = null;
+  let decision;
+  let settled = false;
+  const settle = (output, stderr) => {
+    if (settled) return;
+    settled = true;
+    if (output !== "") writeAll(1, "".concat(output, "\n"), import_node_fs2.writeSync, deadline);
+    writeAll(2, stderr, import_node_fs2.writeSync, deadline);
+    decision == null ? void 0 : decision.kill("SIGKILL");
+    process.exit(0);
+  };
+  const fail = (rule, stderr = "") => {
+    settle(failureOutput(failsOpen(flag, input), rule), stderr);
+  };
+  setTimeout(() => {
+    fail("plugin_guard_timeout");
+  }, WATCHDOG_MS);
+  process.on("uncaughtException", () => {
+    fail("plugin_guard_failed");
+  });
+  process.on("unhandledRejection", () => {
+    fail("plugin_guard_failed");
+  });
+  if (outsideBooketteFolder(process.env["CLAUDE_PROJECT_DIR"])) process.exit(0);
+  if (nodeTooOld(process.versions.node)) {
+    fail("plugin_guard_failed", oldNodeMessage(process.versions.node));
+    return;
+  }
+  const chunks = [];
+  process.stdin.on("data", (chunk) => chunks.push(chunk));
+  process.stdin.on("end", () => {
+    input = Buffer.concat(chunks).toString("utf8");
+    const child = (0, import_node_child_process.spawn)(
+      process.execPath,
+      [(0, import_node_path2.join)(__dirname, DECISION_FILE), ...flag ? [FAIL_OPEN_FLAG] : []],
+      { stdio: ["pipe", "pipe", "pipe"] }
+    );
+    decision = child;
+    const out = [];
+    const err = [];
+    const text = (chunks2) => Buffer.concat(chunks2).toString("utf8");
+    child.stdout.on("data", (chunk) => out.push(chunk));
+    child.stderr.on("data", (chunk) => err.push(chunk));
+    child.on("error", () => {
+      fail("plugin_guard_failed", text(err));
+    });
+    child.on("close", (code) => {
+      const answer = code === 0 ? answerLine(text(out)) : null;
+      if (answer === null) fail("plugin_guard_failed", text(err));
+      else settle(answer, text(err));
+    });
+    child.stdin.on("error", () => void 0);
+    child.stdin.end(input);
+  });
+}
+if (require.main === module) main();
+// Annotate the CommonJS export names for ESM import in node:
+0 && (module.exports = {
+  DECISION_FILE,
+  answerLine,
+  nodeTooOld,
+  outsideBooketteFolder,
+  writeAll
+});

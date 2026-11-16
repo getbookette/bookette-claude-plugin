@@ -1,0 +1,79 @@
+[
+  {
+    "turn": 1,
+    "tools": ["Read", "Read"],
+    "marker": null,
+    "usage": {
+      "input_tokens": 2,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 37309,
+      "output_tokens": 223
+    }
+  },
+  {
+    "turn": 2,
+    "tools": ["Read", "Read", "Read", "Read"],
+    "marker": null,
+    "usage": {
+      "input_tokens": 2,
+      "cache_read_input_tokens": 37309,
+      "cache_creation_input_tokens": 17318,
+      "output_tokens": 620
+    }
+  },
+  {
+    "turn": 3,
+    "tools": ["Edit", "Edit", "Edit"],
+    "marker": "out/export_rows.json",
+    "usage": {
+      "input_tokens": 2,
+      "cache_read_input_tokens": 54627,
+      "cache_creation_input_tokens": 30463,
+      "output_tokens": 1418
+    }
+  },
+  {
+    "turn": 4,
+    "tools": ["Bash"],
+    "marker": "pipeline.js build",
+    "usage": {
+      "input_tokens": 2,
+      "cache_read_input_tokens": 85090,
+      "cache_creation_input_tokens": 1841,
+      "output_tokens": 116
+    }
+  },
+  {
+    "turn": 5,
+    "tools": ["Bash"],
+    "marker": null,
+    "usage": {
+      "input_tokens": 2,
+      "cache_read_input_tokens": 86931,
+      "cache_creation_input_tokens": 1252,
+      "output_tokens": 65
+    }
+  },
+  {
+    "turn": 6,
+    "tools": ["Bash"],
+    "marker": "pipeline.js build",
+    "usage": {
+      "input_tokens": 2,
+      "cache_read_input_tokens": 88183,
+      "cache_creation_input_tokens": 80,
+      "output_tokens": 222
+    }
+  },
+  {
+    "turn": 7,
+    "tools": ["SubagentHandback"],
+    "marker": null,
+    "usage": {
+      "input_tokens": 2,
+      "cache_read_input_tokens": 88263,
+      "cache_creation_input_tokens": 438,
+      "output_tokens": 857
+    }
+  }
+]

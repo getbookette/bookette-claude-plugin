@@ -1,0 +1,320 @@
+[
+  {
+    "prompt": "What work did the Mile High Plumbing invoice of September 3 for the water heater at 1180 Quillfeather Ln cover?",
+    "help": "The invoice doesn't say what the job covered; your accountant needs to know what was done to the water heater.",
+    "options": [
+      {
+        "id": "new_unit",
+        "label": "The failed water heater was replaced with a new unit",
+        "effect": {
+          "kind": "ledger",
+          "field": "category",
+          "from": {
+            "type": "category",
+            "scheduleLine": "14",
+            "tag": null
+          },
+          "to": {
+            "type": "category",
+            "scheduleLine": "14",
+            "tag": "CAPITAL"
+          }
+        }
+      },
+      {
+        "id": "fixed_existing",
+        "label": "The existing water heater was fixed",
+        "effect": {
+          "kind": "ledger",
+          "field": "category",
+          "from": {
+            "type": "category",
+            "scheduleLine": "14",
+            "tag": null
+          },
+          "to": {
+            "type": "category",
+            "scheduleLine": "14",
+            "tag": "REPAIR"
+          }
+        }
+      }
+    ],
+    "allow_free_text": false,
+    "cites": ["L0005", "inbox/ashwood_water_heater_invoice.pdf"],
+    "blocking": true,
+    "key": "open_ashwood_water_heater_invoice_work"
+  },
+  {
+    "prompt": "What work did the Bramblecrest Roofing invoice of June 19 for 915 Saltgrass Bend cover?",
+    "help": "The invoice doesn't say what the roofing job covered; your accountant needs to know what was done to the roof.",
+    "options": [
+      {
+        "id": "slopes_only",
+        "label": "Replacing the hail-damaged north and west slopes only",
+        "effect": {
+          "kind": "ledger",
+          "field": "category",
+          "from": {
+            "type": "category",
+            "scheduleLine": "14",
+            "tag": null
+          },
+          "to": {
+            "type": "category",
+            "scheduleLine": "14",
+            "tag": "REPAIR"
+          }
+        }
+      },
+      {
+        "id": "whole_roof",
+        "label": "Work that was part of replacing the whole roof",
+        "effect": {
+          "kind": "ledger",
+          "field": "category",
+          "from": {
+            "type": "category",
+            "scheduleLine": "14",
+            "tag": null
+          },
+          "to": {
+            "type": "category",
+            "scheduleLine": "14",
+            "tag": "CAPITAL"
+          }
+        }
+      }
+    ],
+    "allow_free_text": false,
+    "cites": ["L0008", "inbox/bramblecrest_roof_invoice.pdf"],
+    "blocking": true,
+    "key": "open_bramblecrest_roof_invoice_work"
+  },
+  {
+    "prompt": "What was paid for 1180 Quillfeather Ln, bought in June 2019, and when was it first rented?",
+    "help": "What you paid and when it was first rented come from your closing papers; your accountant needs both for this property.",
+    "options": [
+      {
+        "id": "record_from_documents",
+        "label": "The gross amount on the 2019 closing statement and the land value on the Denver tax bill, first rented on the day in your note",
+        "effect": {
+          "kind": "asset_register",
+          "entityKey": "ent_1",
+          "entityName": "1180 Quillfeather Ln",
+          "description": "Purchase of 1180 Quillfeather Ln",
+          "assetKind": "REAL_PROPERTY",
+          "costBasisCents": 33400000,
+          "landValueCents": 6000000,
+          "placedInService": "2019-06-15"
+        }
+      },
+      {
+        "id": "other_figures",
+        "label": "Other figures than the documents show",
+        "effect": {
+          "kind": "none"
+        }
+      }
+    ],
+    "allow_free_text": false,
+    "cites": ["inbox/closing_statement_2019.pdf", "inbox/denver_tax_bill_2026.pdf"],
+    "blocking": false,
+    "key": "open_ent_1_purchase"
+  },
+  {
+    "prompt": "What was paid for the Brindlewood Condo, bought in July 2021, and when was it first rented?",
+    "help": "What you paid and when it was first rented come from your closing papers; your accountant needs both for this property.",
+    "options": [
+      {
+        "id": "record_from_documents",
+        "label": "The gross amount on the 2021 closing statement and the land value on the Boulder County tax bill, first rented on the day in your note",
+        "effect": {
+          "kind": "asset_register",
+          "entityKey": "ent_4",
+          "entityName": "Brindlewood Condo",
+          "description": "Purchase of Brindlewood Condo",
+          "assetKind": "REAL_PROPERTY",
+          "costBasisCents": 35386000,
+          "landValueCents": 5200000,
+          "placedInService": "2021-09-01"
+        }
+      },
+      {
+        "id": "other_figures",
+        "label": "Other figures than the documents show",
+        "effect": {
+          "kind": "none"
+        }
+      }
+    ],
+    "allow_free_text": false,
+    "cites": [
+      "inbox/closing_statement_2021_brindlewood.pdf",
+      "inbox/boulder_county_tax_bill_2026.pdf"
+    ],
+    "blocking": false,
+    "key": "open_ent_4_purchase"
+  },
+  {
+    "prompt": "What was paid for Saltgrass House, bought in October 2023, and when was it first rented?",
+    "help": "What you paid and when it was first rented come from your closing papers; your accountant needs both for this property.",
+    "options": [
+      {
+        "id": "record_from_documents",
+        "label": "The gross amount on the 2023 closing statement and the land value on the El Paso County tax bill, first rented on the day in your note",
+        "effect": {
+          "kind": "asset_register",
+          "entityKey": "ent_5",
+          "entityName": "Saltgrass House",
+          "description": "Purchase of Saltgrass House",
+          "assetKind": "REAL_PROPERTY",
+          "costBasisCents": 39624000,
+          "landValueCents": 8800000,
+          "placedInService": "2023-11-01"
+        }
+      },
+      {
+        "id": "other_figures",
+        "label": "Other figures than the documents show",
+        "effect": {
+          "kind": "none"
+        }
+      }
+    ],
+    "allow_free_text": false,
+    "cites": ["inbox/saltgrass_closing_2023.pdf", "inbox/el_paso_tax_bill_2026.pdf"],
+    "blocking": false,
+    "key": "open_ent_5_purchase"
+  },
+  {
+    "prompt": "Should the laptop on the Northlake Computers invoice of March 14 be recorded on the fixed-asset register for Northpeak Consulting?",
+    "help": "Equipment that lasts for years is listed apart from everyday costs; your accountant needs to know it was bought for the business.",
+    "options": [
+      {
+        "id": "record_equipment",
+        "label": "Record the laptop on the fixed-asset register, with its cost and date from the invoice",
+        "effect": {
+          "kind": "asset_register",
+          "entityKey": "ent_3",
+          "entityName": "Northpeak Consulting",
+          "description": "14-inch laptop, 32 GB memory, 1 TB",
+          "assetKind": "EQUIPMENT",
+          "costBasisCents": 190354,
+          "placedInService": "2026-03-14"
+        }
+      },
+      {
+        "id": "not_register",
+        "label": "Do not record it on the fixed-asset register",
+        "effect": {
+          "kind": "none"
+        }
+      }
+    ],
+    "allow_free_text": false,
+    "cites": ["L0113", "inbox/laptop_invoice.pdf"],
+    "blocking": false,
+    "key": "open_laptop_invoice_asset"
+  },
+  {
+    "prompt": "Which place was the Estes Park Hardware Lumber purchase of August 3 on the business checking export for?",
+    "help": "The document doesn't say which of your places it was for; your accountant keeps each place's costs apart.",
+    "options": [
+      {
+        "id": "cedar_cabin",
+        "label": "Cedar Cabin",
+        "effect": {
+          "kind": "ledger",
+          "field": "entity",
+          "from": null,
+          "to": {
+            "type": "entity",
+            "entityKey": "ent_2",
+            "entityName": "Cedar Cabin"
+          }
+        }
+      },
+      {
+        "id": "quillfeather",
+        "label": "1180 Quillfeather Ln",
+        "effect": {
+          "kind": "ledger",
+          "field": "entity",
+          "from": null,
+          "to": {
+            "type": "entity",
+            "entityKey": "ent_1",
+            "entityName": "1180 Quillfeather Ln"
+          }
+        }
+      },
+      {
+        "id": "brindlewood",
+        "label": "Brindlewood Condo",
+        "effect": {
+          "kind": "ledger",
+          "field": "entity",
+          "from": null,
+          "to": {
+            "type": "entity",
+            "entityKey": "ent_4",
+            "entityName": "Brindlewood Condo"
+          }
+        }
+      },
+      {
+        "id": "personal",
+        "label": "Personal, not one of my places",
+        "effect": {
+          "kind": "none"
+        }
+      }
+    ],
+    "allow_free_text": false,
+    "cites": ["L0112", "inbox/lakeview_checking_2026.csv"],
+    "blocking": false,
+    "key": "open_lakeview_checking_2026_placement"
+  },
+  {
+    "prompt": "What services, if any, did Cedar Cabin's hosting provide to guests besides the stay, such as meals or tours?",
+    "help": "Services are what guests got beyond the stay itself, such as meals, tours or daily cleaning; your accountant asks about them for a short-term rental.",
+    "options": [
+      {
+        "id": "none_provided",
+        "label": "No services beyond the stay were provided",
+        "effect": {
+          "kind": "none"
+        }
+      }
+    ],
+    "allow_free_text": true,
+    "cites": ["inbox/cedar_stayhaven_summary_2026.pdf"],
+    "blocking": false,
+    "key": "open_ent_2_services"
+  },
+  {
+    "key": "office_home_bills_q",
+    "prompt": "The Foothill Energy electric statement and the Fir Ridge Home Insurance declaration are for 4410 Windrow Ct N. Is that the home where the Northpeak Consulting office is?",
+    "help": "If the bills are for the home your office is in, your accountant reads them with the office's share of the home.",
+    "options": [
+      {
+        "id": "same_home",
+        "label": "Yes, it is the home with the office",
+        "effect": {
+          "kind": "none"
+        }
+      },
+      {
+        "id": "other_place",
+        "label": "No, it is another place",
+        "effect": {
+          "kind": "none"
+        }
+      }
+    ],
+    "allow_free_text": false,
+    "cites": ["inbox/home_electric_2026.pdf", "inbox/home_insurance_2026.pdf"],
+    "blocking": false
+  }
+]

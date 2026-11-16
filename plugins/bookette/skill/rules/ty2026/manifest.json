@@ -1,0 +1,414 @@
+{
+  "files": {
+    "mileage.json": [
+      {
+        "source_url": "https://www.irs.gov/tax-professionals/standard-mileage-rates",
+        "fetched": "2026-09-28"
+      },
+      {
+        "source_url": "https://www.irs.gov/newsroom/irs-sets-2026-business-standard-mileage-rate-at-725-cents-per-mile-up-25-cents",
+        "fetched": "2026-09-28"
+      },
+      {
+        "source_url": "https://www.irs.gov/irb/2026-29_irb",
+        "fetched": "2026-09-28"
+      }
+    ],
+    "rental_use.json": [
+      {
+        "source_url": "https://www.law.cornell.edu/uscode/text/26/280A",
+        "fetched": "2026-10-06"
+      },
+      {
+        "source_url": "https://www.law.cornell.edu/cfr/text/26/1.469-1T",
+        "fetched": "2026-10-06"
+      },
+      {
+        "source_url": "https://law.justia.com/cases/federal/appellate-courts/F2/694/556/116951/",
+        "fetched": "2026-10-06"
+      }
+    ],
+    "home_office.json": [
+      {
+        "source_url": "https://www.irs.gov/pub/irs-drop/rp-13-13.pdf",
+        "fetched": "2026-10-07"
+      },
+      {
+        "source_url": "https://www.irs.gov/publications/p587",
+        "fetched": "2026-10-07"
+      },
+      {
+        "source_url": "https://www.irs.gov/instructions/i8829",
+        "fetched": "2026-10-07"
+      }
+    ],
+    "per_diem.json": [
+      {
+        "source_url": "https://www.gsa.gov/system/files/FY2026_PerDiemMasterRatesFile.xlsx",
+        "fetched": "2026-09-28"
+      },
+      {
+        "source_url": "https://www.gsa.gov/system/files/FY2027_PerDiemRates_Validated090126.xlsx",
+        "fetched": "2026-09-28"
+      },
+      {
+        "source_url": "https://www.gsa.gov/travel/plan-a-trip/per-diem-rates/mie-breakdowns",
+        "fetched": "2026-09-28"
+      },
+      {
+        "source_url": "https://aoprals.state.gov/web920/per_diem.asp",
+        "fetched": "2026-09-28"
+      },
+      {
+        "source_url": "https://www.irs.gov/publications/p463",
+        "fetched": "2026-10-29"
+      }
+    ],
+    "schedule_lines.json": [
+      {
+        "source_url": "https://www.irs.gov/pub/irs-dft/f1040sc--dft.pdf",
+        "fetched": "2026-10-01"
+      },
+      {
+        "source_url": "https://www.irs.gov/pub/irs-dft/f1040se--dft.pdf",
+        "fetched": "2026-10-01"
+      }
+    ],
+    "depreciation.json": [
+      {
+        "source_url": "https://www.irs.gov/publications/p946",
+        "fetched": "2026-09-28"
+      },
+      {
+        "source_url": "https://www.irs.gov/publications/p527",
+        "fetched": "2026-09-28"
+      }
+    ],
+    "capital_costs.json": [
+      {
+        "source_url": "https://www.irs.gov/publications/p946",
+        "fetched": "2026-10-12"
+      },
+      {
+        "source_url": "https://www.irs.gov/businesses/small-businesses-self-employed/tangible-property-final-regulations",
+        "fetched": "2026-10-12"
+      }
+    ],
+    "fx/h10_aud.csv": [
+      {
+        "source_url": "https://www.federalreserve.gov/datadownload/choose.aspx?rel=h10",
+        "fetched": "2026-10-12"
+      }
+    ],
+    "fx/h10_brl.csv": [
+      {
+        "source_url": "https://www.federalreserve.gov/datadownload/choose.aspx?rel=h10",
+        "fetched": "2026-10-12"
+      }
+    ],
+    "fx/h10_cad.csv": [
+      {
+        "source_url": "https://www.federalreserve.gov/datadownload/choose.aspx?rel=h10",
+        "fetched": "2026-10-12"
+      }
+    ],
+    "fx/h10_chf.csv": [
+      {
+        "source_url": "https://www.federalreserve.gov/datadownload/choose.aspx?rel=h10",
+        "fetched": "2026-10-12"
+      }
+    ],
+    "fx/h10_cny.csv": [
+      {
+        "source_url": "https://www.federalreserve.gov/datadownload/choose.aspx?rel=h10",
+        "fetched": "2026-10-12"
+      }
+    ],
+    "fx/h10_dkk.csv": [
+      {
+        "source_url": "https://www.federalreserve.gov/datadownload/choose.aspx?rel=h10",
+        "fetched": "2026-10-12"
+      }
+    ],
+    "fx/h10_eur.csv": [
+      {
+        "source_url": "https://www.federalreserve.gov/datadownload/choose.aspx?rel=h10",
+        "fetched": "2026-10-12"
+      }
+    ],
+    "fx/h10_gbp.csv": [
+      {
+        "source_url": "https://www.federalreserve.gov/datadownload/choose.aspx?rel=h10",
+        "fetched": "2026-10-12"
+      }
+    ],
+    "fx/h10_hkd.csv": [
+      {
+        "source_url": "https://www.federalreserve.gov/datadownload/choose.aspx?rel=h10",
+        "fetched": "2026-10-12"
+      }
+    ],
+    "fx/h10_inr.csv": [
+      {
+        "source_url": "https://www.federalreserve.gov/datadownload/choose.aspx?rel=h10",
+        "fetched": "2026-10-12"
+      }
+    ],
+    "fx/h10_jpy.csv": [
+      {
+        "source_url": "https://www.federalreserve.gov/datadownload/choose.aspx?rel=h10",
+        "fetched": "2026-10-12"
+      }
+    ],
+    "fx/h10_krw.csv": [
+      {
+        "source_url": "https://www.federalreserve.gov/datadownload/choose.aspx?rel=h10",
+        "fetched": "2026-10-12"
+      }
+    ],
+    "fx/h10_lkr.csv": [
+      {
+        "source_url": "https://www.federalreserve.gov/datadownload/choose.aspx?rel=h10",
+        "fetched": "2026-10-12"
+      }
+    ],
+    "fx/h10_mxn.csv": [
+      {
+        "source_url": "https://www.federalreserve.gov/datadownload/choose.aspx?rel=h10",
+        "fetched": "2026-10-12"
+      }
+    ],
+    "fx/h10_myr.csv": [
+      {
+        "source_url": "https://www.federalreserve.gov/datadownload/choose.aspx?rel=h10",
+        "fetched": "2026-10-12"
+      }
+    ],
+    "fx/h10_nok.csv": [
+      {
+        "source_url": "https://www.federalreserve.gov/datadownload/choose.aspx?rel=h10",
+        "fetched": "2026-10-12"
+      }
+    ],
+    "fx/h10_nzd.csv": [
+      {
+        "source_url": "https://www.federalreserve.gov/datadownload/choose.aspx?rel=h10",
+        "fetched": "2026-10-12"
+      }
+    ],
+    "fx/h10_sek.csv": [
+      {
+        "source_url": "https://www.federalreserve.gov/datadownload/choose.aspx?rel=h10",
+        "fetched": "2026-10-12"
+      }
+    ],
+    "fx/h10_sgd.csv": [
+      {
+        "source_url": "https://www.federalreserve.gov/datadownload/choose.aspx?rel=h10",
+        "fetched": "2026-10-12"
+      }
+    ],
+    "fx/h10_thb.csv": [
+      {
+        "source_url": "https://www.federalreserve.gov/datadownload/choose.aspx?rel=h10",
+        "fetched": "2026-10-12"
+      }
+    ],
+    "fx/h10_twd.csv": [
+      {
+        "source_url": "https://www.federalreserve.gov/datadownload/choose.aspx?rel=h10",
+        "fetched": "2026-10-12"
+      }
+    ],
+    "fx/h10_veb.csv": [
+      {
+        "source_url": "https://www.federalreserve.gov/datadownload/choose.aspx?rel=h10",
+        "fetched": "2026-10-12"
+      }
+    ],
+    "fx/h10_zar.csv": [
+      {
+        "source_url": "https://www.federalreserve.gov/datadownload/choose.aspx?rel=h10",
+        "fetched": "2026-10-12"
+      }
+    ],
+    "fx/sources.json": [
+      {
+        "source_url": "https://www.federalreserve.gov/datadownload/choose.aspx?rel=h10",
+        "fetched": "2026-10-12"
+      }
+    ],
+    "fx/currencies.json": [
+      {
+        "source_url": "https://www.federalreserve.gov/datadownload/choose.aspx?rel=h10",
+        "fetched": "2026-10-12"
+      },
+      {
+        "source_url": "https://fiscaldata.treasury.gov/datasets/rates-of-exchange/",
+        "fetched": "2026-09-29"
+      }
+    ],
+    "fx/README.md": [
+      {
+        "source_url": "https://www.federalreserve.gov/datadownload/choose.aspx?rel=h10",
+        "fetched": "2026-09-30"
+      },
+      {
+        "source_url": "https://fiscaldata.treasury.gov/datasets/rates-of-exchange/",
+        "fetched": "2026-09-29"
+      }
+    ],
+    "platform_statements/README.md": [
+      {
+        "source_url": "https://github.com/getbookette/bookette/issues/1017#issuecomment-6175822255",
+        "fetched": "2026-10-15"
+      }
+    ],
+    "platform_statements/airbnb.json": [
+      {
+        "source_url": "https://www.airbnb.com/help/article/414",
+        "fetched": "2026-10-14"
+      },
+      {
+        "source_url": "https://www.airbnb.com/help/article/416",
+        "fetched": "2026-10-14"
+      },
+      {
+        "source_url": "https://www.airbnb.com/help/article/3632",
+        "fetched": "2026-10-14"
+      },
+      {
+        "source_url": "https://www.airbnb.com/help/article/304",
+        "fetched": "2026-10-14"
+      },
+      {
+        "source_url": "https://news.airbnb.com/en-uk/how-to-find-a-summary-of-your-airbnb-earnings",
+        "fetched": "2026-10-14"
+      }
+    ],
+    "platform_statements/vrbo.json": [
+      {
+        "source_url": "https://help.vrbo.com/articles/How-do-I-read-my-payout-summary-report",
+        "fetched": "2026-10-14"
+      },
+      {
+        "source_url": "https://help.vrbo.com/articles/How-do-I-export-my-payment-details",
+        "fetched": "2026-10-14"
+      },
+      {
+        "source_url": "https://help.vrbo.com/articles/About-partner-payouts",
+        "fetched": "2026-10-14"
+      },
+      {
+        "source_url": "https://help.vrbo.com/articles/About-1099-K-tax-form-reports",
+        "fetched": "2026-10-14"
+      },
+      {
+        "source_url": "https://help.vrbo.com/articles/Will-I-receive-a-tax-form",
+        "fetched": "2026-10-14"
+      },
+      {
+        "source_url": "https://help.vrbo.com/articles/Reconcile-a-1099-K-form",
+        "fetched": "2026-10-14"
+      },
+      {
+        "source_url": "https://help.vrbo.com/articles/About-the-stay-tax-report",
+        "fetched": "2026-10-14"
+      },
+      {
+        "source_url": "https://help.vrbo.com/articles/View-taxes-in-your-dashboard",
+        "fetched": "2026-10-14"
+      },
+      {
+        "source_url": "https://help.vrbo.com/articles/What-is-lodging-tax",
+        "fetched": "2026-10-14"
+      },
+      {
+        "source_url": "https://help.vrbo.com/articles/What-is-the-service-fee",
+        "fetched": "2026-10-14"
+      },
+      {
+        "source_url": "https://help.vrbo.com/articles/What-is-the-Bank-deposit-report",
+        "fetched": "2026-10-14"
+      },
+      {
+        "source_url": "https://help.vrbo.com/articles/Why-were-US-taxes-withheld-from-my-payouts",
+        "fetched": "2026-10-14"
+      },
+      {
+        "source_url": "https://help.vrbo.com/articles/When-are-funds-deposited-into-my-bank-account",
+        "fetched": "2026-10-14"
+      }
+    ],
+    "platform_statements/uber.json": [
+      {
+        "source_url": "https://www.uber.com/us/en/drive/tax-information",
+        "fetched": "2026-10-14"
+      },
+      {
+        "source_url": "https://help.uber.com/en/driving-and-delivering/article/-calculation-of-tax-using-your-annual-tax-summary?nodeId=a7d8d7c8-a291-4ac8-be02-558b3bbfb21a",
+        "fetched": "2026-10-14"
+      },
+      {
+        "source_url": "https://www.uber.com/au/en/blog/tax-summary",
+        "fetched": "2026-10-14"
+      },
+      {
+        "source_url": "https://help.uber.com/en/driving-and-delivering/article/understand-your-weekly-earnings-statements?nodeId=ceebe501-e329-4891-98dd-f1cc026137ad",
+        "fetched": "2026-10-14"
+      },
+      {
+        "source_url": "https://www.uber.com/us/en/blog/driver-statements",
+        "fetched": "2026-10-14"
+      },
+      {
+        "source_url": "https://help.uber.com/am/driving-and-delivering/article/other-fees-and-surcharges?nodeId=25f8f6b6-8d2e-43ce-ad4b-c5175b2281b0",
+        "fetched": "2026-10-14"
+      },
+      {
+        "source_url": "https://help.uber.com/en/driving-and-delivering/article/understanding-ubers-variable-service-fee?nodeId=7448ffcc-ab98-4a32-b7fc-e9c17a58bb41",
+        "fetched": "2026-10-14"
+      },
+      {
+        "source_url": "https://help.uber.com/en/driving-and-delivering/article/uber-driver-account-information?nodeId=9239ff04-6aab-4e83-91e5-fdb80378639c",
+        "fetched": "2026-10-14"
+      },
+      {
+        "source_url": "https://www.uber.com/us/en/blog/nyc-driver-benefits",
+        "fetched": "2026-10-14"
+      },
+      {
+        "source_url": "https://help.uber.com/en/driving-and-delivering/article/tax-summary-questions-?nodeId=f7266968-bc67-4217-9e0a-c216d6b61de3",
+        "fetched": "2026-10-14"
+      },
+      {
+        "source_url": "https://help.uber.com/driving-and-delivering/article/tax-summary-and-1099s-?nodeId=711e7793-2c57-4e48-94d5-537f2637dd2a",
+        "fetched": "2026-10-14"
+      }
+    ],
+    "platform_statements/doordash.json": [
+      {
+        "source_url": "https://help.doordash.com/en-us/dashers/article/common-dasher-tax-questions",
+        "fetched": "2026-10-14"
+      },
+      {
+        "source_url": "https://help.doordash.com/en-us/dashers/article/dasher-earnings-statements",
+        "fetched": "2026-10-14"
+      }
+    ],
+    "platform_statements/lyft.json": [
+      {
+        "source_url": "https://help.lyft.com/hc/en-us/driver/articles/115012926967",
+        "fetched": "2026-10-15"
+      },
+      {
+        "source_url": "https://www.lyft.com/hub/posts/weekly-pay-statements",
+        "fetched": "2026-10-15"
+      },
+      {
+        "source_url": "https://help.lyft.com/hc/en-us/all/articles/115013080288-How-to-use-Driving-History",
+        "fetched": "2026-10-15"
+      }
+    ]
+  }
+}

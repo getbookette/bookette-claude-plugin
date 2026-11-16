@@ -1,0 +1,13 @@
+{
+  "residential_rental": {
+    "recovery_years": "27.5",
+    "method": "straight_line",
+    "convention": "mid_month"
+  },
+  "commercial_rental": {
+    "recovery_years": "39",
+    "method": "straight_line",
+    "convention": "mid_month"
+  },
+  "rules_note": "The booked amount is Publication 946 (2025) chapter 4's fraction of the original basis, not the percentage tables: the tables in Publication 946's appendices and the example in Publication 527 differ in the cents. Mid-month convention; one rounding at the cent."
+}

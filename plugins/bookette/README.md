@@ -14,7 +14,9 @@ code, never from a model.
 Your books and files stay in the tax-year folder on your machine, and Bookette receives
 nothing. Inside your tax-year folder, hooks confine each tool call and record your turns. The
 model work is your own Claude Code session's, so it processes what it reads under Claude Code's
-own terms. The plugin itself downloads only the pinned bookette npm package, from the public
-npm registry; during a run the session may also fetch https pages on federal .gov domains: the
-plugin's confinement allows at most eight URLs a run and logs each in the folder's fetch log as
-a hash line. No Social Security number is stored as a data field.
+own terms. The plugin carries its own code and downloads nothing itself; during a run the
+session may fetch https pages on federal .gov domains: the plugin's confinement allows at most
+eight URLs a run and logs each in the folder's fetch log as a hash line. No Social Security
+number is stored as a data field.
+
+Bookette also runs as a web app at https://getbookette.com for people who keep their books without Claude Code.

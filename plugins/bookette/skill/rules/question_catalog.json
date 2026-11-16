@@ -1,0 +1,74 @@
+{
+  "entries": [
+    {
+      "key": "cedar_personal_use_cleaning_fee_q",
+      "effects": [{ "kind": "none" }],
+      "blast_radius": "none"
+    },
+    {
+      "key": "cedar_commission_line_q",
+      "effects": [{ "kind": "ledger", "field": "category" }],
+      "blast_radius": "none"
+    },
+    {
+      "key": "rent_reasonableness_q",
+      "effects": [{ "kind": "none" }],
+      "blast_radius": "none"
+    },
+    {
+      "key": "unassigned_line_entity_q",
+      "effects": [{ "kind": "ledger", "field": "entity" }],
+      "blast_radius": "needs_second_confirm"
+    },
+    {
+      "key": "line_category_q",
+      "effects": [{ "kind": "ledger", "field": "category" }],
+      "blast_radius": "needs_second_confirm"
+    },
+    {
+      "key": "office_home_bills_q",
+      "effects": [{ "kind": "none" }],
+      "blast_radius": "none"
+    }
+  ],
+  "open": {
+    "effects": [
+      { "kind": "none" },
+      { "kind": "ledger", "field": "category" },
+      { "kind": "ledger", "field": "entity" },
+      { "kind": "ledger", "field": "trip_assignment" },
+      { "kind": "ledger", "field": "settled" },
+      { "kind": "asset_register" },
+      { "kind": "entity_register" }
+    ],
+    "facts": [
+      { "fact": "register", "subject": "place", "recommended": true },
+      { "fact": "placement", "subject": "document", "recommended": true },
+      { "fact": "category", "subject": "document" },
+      { "fact": "work", "subject": "document" },
+      { "fact": "asset", "subject": "document" },
+      { "fact": "purchase", "subject": "entity" },
+      { "fact": "rental_days", "subject": "entity" },
+      { "fact": "personal_use", "subject": "entity" },
+      { "fact": "services", "subject": "entity" },
+      { "fact": "home_office", "subject": "entity" },
+      { "fact": "miles", "subject": "use" },
+      {
+        "fact": "pass_through",
+        "subject": "document",
+        "options": [
+          {
+            "id": "inside",
+            "label": "Inside the income column",
+            "effect": { "kind": "ledger", "field": "settled" }
+          },
+          {
+            "id": "own_income",
+            "label": "Its own income",
+            "effect": { "kind": "ledger", "field": "entity" }
+          }
+        ]
+      }
+    ]
+  }
+}

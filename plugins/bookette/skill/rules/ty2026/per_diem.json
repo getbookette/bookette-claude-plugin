@@ -1,0 +1,3952 @@
+{
+  "lookup": {
+    "host": "aoprals.state.gov",
+    "path_template": "/web920/per_diem_post_action.asp?PostName={city}",
+    "note": "Official source for keys this file does not carry: the U.S. Department of State foreign per diem table (Office of Allowances), published in monthly editions - the site names each edition's publication date and the effective date its rates start. {city} is the post name: the per-diem search returns a list of posts whose View links open the per-diem data; pick the post matching the trip's city and the effective date the source states. Fetched 2026-09-28."
+  },
+  "meal_limit_pct": "50",
+  "self_employed_note": "Self-employed individuals may use the M&IE rate for meals and incidental expenses only; lodging is recorded at actual cost. Rev. Proc. 2019-48 section 4.03.",
+  "first_last_day_note": "First and last day of travel use the GSA FirstLastDay amount, 75 percent of the M&IE rate.",
+  "same_day_note": "A trip that starts and ends on the same calendar day has no M&IE per diem: travel away from home is travel long enough to need sleep or rest (Publication 463, chapter 1, Traveling Away From Home). Its meal receipts are shown as recorded.",
+  "conus_mie": [
+    {
+      "effective_from": "2025-10-01",
+      "effective_to": "2026-09-30",
+      "standard": {
+        "mie": "68.00",
+        "first_last_day": "51.00"
+      },
+      "locations": {
+        "Birmingham, AL": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Jefferson"
+        },
+        "Gulf Shores, AL": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Baldwin"
+        },
+        "Huntsville, AL": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Madison"
+        },
+        "Mobile, AL": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Mobile"
+        },
+        "Hot Springs, AR": {
+          "mie": "68.00",
+          "first_last_day": "51.00",
+          "county": "Garland"
+        },
+        "Grand Canyon, AZ": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Coconino / Yavapai less the city of Sedona"
+        },
+        "Flagstaff, AZ": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Coconino / Yavapai less the city of Sedona"
+        },
+        "Kayenta, AZ": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Navajo"
+        },
+        "Phoenix, AZ": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Maricopa"
+        },
+        "Scottsdale, AZ": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Maricopa"
+        },
+        "Sedona, AZ": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "City Limits of Sedona"
+        },
+        "Tucson, AZ": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Pima"
+        },
+        "Antioch, CA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Contra Costa"
+        },
+        "Brentwood, CA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Contra Costa"
+        },
+        "Concord, CA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Contra Costa"
+        },
+        "Bakersfield, CA": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Kern"
+        },
+        "Ridgecrest, CA": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Kern"
+        },
+        "Barstow, CA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "San Bernardino"
+        },
+        "Ontario, CA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "San Bernardino"
+        },
+        "Victorville, CA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "San Bernardino"
+        },
+        "Death Valley, CA": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Inyo / NAWS China Lake"
+        },
+        "Eureka, CA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Humboldt"
+        },
+        "Arcata, CA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Humboldt"
+        },
+        "McKinleyville, CA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Humboldt"
+        },
+        "Fresno, CA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Fresno"
+        },
+        "Los Angeles, CA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Los Angeles / Orange / Ventura / Edwards AFB less the city of Santa Monica"
+        },
+        "Mammoth Lakes, CA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Mono"
+        },
+        "Mill Valley, CA": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Marin"
+        },
+        "San Rafael, CA": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Marin"
+        },
+        "Novato, CA": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Marin"
+        },
+        "Monterey, CA": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Monterey"
+        },
+        "Napa, CA": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Napa"
+        },
+        "Oakhurst, CA": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Madera "
+        },
+        "Oakland, CA": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Alameda"
+        },
+        "Palm Springs, CA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Riverside"
+        },
+        "Point Arena, CA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Mendocino"
+        },
+        "Gualala, CA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Mendocino"
+        },
+        "Sacramento, CA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Sacramento"
+        },
+        "San Diego, CA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "San Diego"
+        },
+        "San Francisco, CA": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "San Francisco"
+        },
+        "San Luis Obispo, CA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "San Luis Obispo"
+        },
+        "San Mateo, CA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "San Mateo"
+        },
+        "Foster City, CA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "San Mateo"
+        },
+        "Belmont, CA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "San Mateo"
+        },
+        "Santa Barbara, CA": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Santa Barbara"
+        },
+        "Santa Cruz, CA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Santa Cruz"
+        },
+        "Santa Monica, CA": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "City limits of Santa Monica"
+        },
+        "Santa Rosa, CA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Sonoma"
+        },
+        "South Lake Tahoe, CA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "El Dorado"
+        },
+        "Stockton, CA": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "San Joaquin"
+        },
+        "Sunnyvale, CA": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Santa Clara"
+        },
+        "Palo Alto, CA": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Santa Clara"
+        },
+        "San Jose, CA": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Santa Clara"
+        },
+        "Tahoe City, CA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Placer"
+        },
+        "Truckee, CA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Nevada "
+        },
+        "Visalia, CA": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Tulare"
+        },
+        "West Sacramento, CA": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Yolo"
+        },
+        "Davis, CA": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Yolo"
+        },
+        "Yosemite National Park, CA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Mariposa"
+        },
+        "Aspen, CO": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Pitkin"
+        },
+        "Boulder, CO": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Boulder / Broomfield"
+        },
+        "Broomfield, CO": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Boulder / Broomfield"
+        },
+        "Colorado Springs, CO": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "El Paso"
+        },
+        "Cortez, CO": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Montezuma"
+        },
+        "Crested Butte, CO": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Gunnison"
+        },
+        "Gunnison, CO": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Gunnison"
+        },
+        "Denver, CO": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Denver / Adams / Arapahoe / Jefferson"
+        },
+        "Aurora, CO": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Denver / Adams / Arapahoe / Jefferson"
+        },
+        "Douglas, CO": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Douglas"
+        },
+        "Durango, CO": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "La Plata"
+        },
+        "Fort Collins, CO": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Larimer"
+        },
+        "Loveland, CO": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Larimer"
+        },
+        "Grand Lake, CO": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Grand"
+        },
+        "Montrose, CO": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Montrose"
+        },
+        "Silverthorne, CO": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Summit"
+        },
+        "Breckenridge, CO": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Summit"
+        },
+        "Steamboat Springs, CO": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Routt"
+        },
+        "Telluride, CO": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "San Miguel"
+        },
+        "Vail, CO": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Eagle"
+        },
+        "Bridgeport, CT": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Fairfield"
+        },
+        "Danbury, CT": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Fairfield"
+        },
+        "Hartford, CT": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Hartford"
+        },
+        "New Haven, CT": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "New Haven"
+        },
+        "New London, CT": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "New London"
+        },
+        "Groton, CT": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "New London"
+        },
+        "District of Columbia, DC": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Washington DC (also the cities of Alexandria, Falls Church and Fairfax, and the counties of Arlington and Fairfax, in Virginia; and the counties of Montgomery and Prince George's in Maryland)"
+        },
+        "Lewes, DE": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Sussex"
+        },
+        "Wilmington, DE": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "New Castle"
+        },
+        "Boca Raton, FL": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Palm Beach / Hendry"
+        },
+        "Delray Beach, FL": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Palm Beach / Hendry"
+        },
+        "Jupiter, FL": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Palm Beach / Hendry"
+        },
+        "Bradenton, FL": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Manatee"
+        },
+        "Cocoa Beach, FL": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Brevard"
+        },
+        "Daytona Beach, FL": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Volusia"
+        },
+        "Fort Lauderdale, FL": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Broward"
+        },
+        "Fort Myers, FL": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Lee"
+        },
+        "Fort Walton Beach, FL": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Okaloosa / Walton"
+        },
+        "De Funiak Springs, FL": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Okaloosa / Walton"
+        },
+        "Gulf Breeze, FL": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Santa Rosa"
+        },
+        "Key West, FL": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Monroe"
+        },
+        "Miami, FL": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Miami-Dade"
+        },
+        "Naples, FL": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Collier"
+        },
+        "Orlando, FL": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Orange"
+        },
+        "Panama City, FL": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Bay"
+        },
+        "Pensacola, FL": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Escambia"
+        },
+        "Punta Gorda, FL": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Charlotte"
+        },
+        "Sarasota, FL": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Sarasota"
+        },
+        "Sebring, FL": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Highlands"
+        },
+        "St. Augustine, FL": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "St. Johns"
+        },
+        "Stuart, FL": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Martin"
+        },
+        "Tallahassee, FL": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Leon"
+        },
+        "Tampa, FL": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Pinellas / Hillsborough"
+        },
+        "St. Petersburg, FL": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Pinellas / Hillsborough"
+        },
+        "Vero Beach, FL": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Indian River"
+        },
+        "Athens, GA": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Clarke"
+        },
+        "Atlanta, GA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Fulton / Dekalb"
+        },
+        "Augusta, GA": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Richmond"
+        },
+        "Jekyll Island, GA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Glynn"
+        },
+        "Brunswick, GA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Glynn"
+        },
+        "Marietta, GA": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Cobb"
+        },
+        "Savannah, GA": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Chatham"
+        },
+        "Dallas, IA": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Dallas"
+        },
+        "Des Moines, IA": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Polk"
+        },
+        "Boise, ID": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Ada"
+        },
+        "Coeur d'Alene, ID": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Kootenai"
+        },
+        "Sun Valley, ID": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Blaine / Elmore"
+        },
+        "Ketchum, ID": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Blaine / Elmore"
+        },
+        "Bolingbrook, IL": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Will"
+        },
+        "Romeoville, IL": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Will"
+        },
+        "Lemont, IL": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Will"
+        },
+        "Chicago, IL": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Cook / Lake"
+        },
+        "East St. Louis, IL": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "St. Clair"
+        },
+        "O'Fallon, IL": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "St. Clair"
+        },
+        "Fairview Heights, IL": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "St. Clair"
+        },
+        "Oak Brook Terrace, IL": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "DuPage"
+        },
+        "Bloomington, IN": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Monroe"
+        },
+        "Indianapolis, IN": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Marion / Hamilton"
+        },
+        "Carmel, IN": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Marion / Hamilton"
+        },
+        "Lafayette, IN": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Tippecanoe"
+        },
+        "West Lafayette, IN": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Tippecanoe"
+        },
+        "Kansas City, KS": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Wyandotte / Johnson / Leavenworth"
+        },
+        "Overland Park, KS": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Wyandotte / Johnson / Leavenworth"
+        },
+        "Boone, KY": {
+          "mie": "68.00",
+          "first_last_day": "51.00",
+          "county": "Boone"
+        },
+        "Kenton, KY": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Kenton"
+        },
+        "Lexington, KY": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Fayette"
+        },
+        "Louisville, KY": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Jefferson"
+        },
+        "Alexandria, LA": {
+          "mie": "68.00",
+          "first_last_day": "51.00",
+          "county": "Allen / Jefferson Davis / Natchitoches / Rapides / Vernon Parishes"
+        },
+        "Leesville, LA": {
+          "mie": "68.00",
+          "first_last_day": "51.00",
+          "county": "Allen / Jefferson Davis / Natchitoches / Rapides / Vernon Parishes"
+        },
+        "Natchitoches, LA": {
+          "mie": "68.00",
+          "first_last_day": "51.00",
+          "county": "Allen / Jefferson Davis / Natchitoches / Rapides / Vernon Parishes"
+        },
+        "New Orleans, LA": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Orleans / Jefferson Parishes"
+        },
+        "Andover, MA": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Essex"
+        },
+        "Boston, MA": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Suffolk, city of Cambridge"
+        },
+        "Cambridge, MA": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Suffolk, city of Cambridge"
+        },
+        "Burlington, MA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Middlesex less the city of Cambridge"
+        },
+        "Woburn, MA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Middlesex less the city of Cambridge"
+        },
+        "Falmouth, MA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "City limits of Falmouth"
+        },
+        "Hyannis, MA": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Barnstable less the city of Falmouth"
+        },
+        "Martha's Vineyard, MA": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Dukes"
+        },
+        "Nantucket, MA": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Nantucket"
+        },
+        "Northampton, MA": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Hampshire"
+        },
+        "Pittsfield, MA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Berkshire"
+        },
+        "Plymouth, MA": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Plymouth / Bristol"
+        },
+        "Taunton, MA": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Plymouth / Bristol"
+        },
+        "New Bedford, MA": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Plymouth / Bristol"
+        },
+        "Quincy, MA": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Norfolk"
+        },
+        "Springfield, MA": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Hampden"
+        },
+        "Worcester, MA": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Worcester"
+        },
+        "Aberdeen, MD": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Harford"
+        },
+        "Bel Air, MD": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Harford"
+        },
+        "Belcamp, MD": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Harford"
+        },
+        "Annapolis, MD": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Anne Arundel"
+        },
+        "Baltimore City, MD": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Baltimore City"
+        },
+        "Cambridge, MD": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Dorchester / Talbot"
+        },
+        "St. Michaels, MD": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Dorchester / Talbot"
+        },
+        "Centreville, MD": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Queen Anne"
+        },
+        "Columbia, MD": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Howard"
+        },
+        "Ocean City, MD": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Worcester"
+        },
+        "Bar Harbor, ME": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Hancock / Knox"
+        },
+        "Rockport, ME": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Hancock / Knox"
+        },
+        "Kennebunk, ME": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "York "
+        },
+        "Kittery, ME": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "York "
+        },
+        "Sanford, ME": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "York "
+        },
+        "Portland, ME": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Cumberland / Sagadahoc"
+        },
+        "Ann Arbor, MI": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Washtenaw"
+        },
+        "Detroit, MI": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Wayne"
+        },
+        "Grand Rapids, MI": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Kent"
+        },
+        "Holland, MI": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Ottawa"
+        },
+        "Mackinac Island, MI": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Mackinac"
+        },
+        "Midland, MI": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Midland"
+        },
+        "Muskegon, MI": {
+          "mie": "68.00",
+          "first_last_day": "51.00",
+          "county": "Muskegon"
+        },
+        "Petoskey, MI": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Emmet"
+        },
+        "Pontiac, MI": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Oakland"
+        },
+        "Auburn Hills, MI": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Oakland"
+        },
+        "South Haven, MI": {
+          "mie": "68.00",
+          "first_last_day": "51.00",
+          "county": "Van Buren"
+        },
+        "Traverse City, MI": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Grand Traverse"
+        },
+        "Duluth, MN": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "St. Louis"
+        },
+        "Minneapolis, MN": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Hennepin / Ramsey"
+        },
+        "St. Paul, MN": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Hennepin / Ramsey"
+        },
+        "Rochester, MN": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Olmsted"
+        },
+        "Kansas City, MO": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Jackson / Clay / Cass / Platte"
+        },
+        "St. Louis, MO": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "St. Louis / St. Louis City / St. Charles"
+        },
+        "Oxford, MS": {
+          "mie": "68.00",
+          "first_last_day": "51.00",
+          "county": "Lafayette"
+        },
+        "Southaven, MS": {
+          "mie": "68.00",
+          "first_last_day": "51.00",
+          "county": "Desoto"
+        },
+        "Starkville, MS": {
+          "mie": "68.00",
+          "first_last_day": "51.00",
+          "county": "Oktibbeha"
+        },
+        "Big Sky, MT": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Gallatin/Park"
+        },
+        "West Yellowstone, MT": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Gallatin/Park"
+        },
+        "Gardiner, MT": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Gallatin/Park"
+        },
+        "Helena, MT": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Lewis and Clark"
+        },
+        "Kalispell, MT": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Flathead"
+        },
+        "Whitefish, MT": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Flathead"
+        },
+        "Missoula, MT": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Missoula"
+        },
+        "Asheville, NC": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Buncombe"
+        },
+        "Atlantic Beach, NC": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Carteret"
+        },
+        "Morehead City, NC": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Carteret"
+        },
+        "Chapel Hill, NC": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Orange"
+        },
+        "Charlotte, NC": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Mecklenburg"
+        },
+        "Durham, NC": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Durham"
+        },
+        "Fayetteville, NC": {
+          "mie": "68.00",
+          "first_last_day": "51.00",
+          "county": "Cumberland"
+        },
+        "Greensboro, NC": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Guilford"
+        },
+        "Kill Devil Hills, NC": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Dare"
+        },
+        "Raleigh, NC": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Wake"
+        },
+        "Wilmington, NC": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "New Hanover"
+        },
+        "Omaha, NE": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Douglas"
+        },
+        "Concord, NH": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Merrimack"
+        },
+        "Conway, NH": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Caroll"
+        },
+        "Durham, NH": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Strafford"
+        },
+        "Laconia, NH": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Belknap"
+        },
+        "Lebanon, NH": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Grafton"
+        },
+        "Lincoln, NH": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Grafton"
+        },
+        "West Lebanon, NH": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Grafton"
+        },
+        "Manchester, NH": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Hillsborough"
+        },
+        "Portsmouth, NH": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Rockingham"
+        },
+        "Cherry Hill, NJ": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Camden / Burlington"
+        },
+        "Moorestown, NJ": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Camden / Burlington"
+        },
+        "Eatontown, NJ": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Monmouth"
+        },
+        "Freehold, NJ": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Monmouth"
+        },
+        "Edison, NJ": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Middlesex "
+        },
+        "Piscataway, NJ": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Middlesex "
+        },
+        "Flemington, NJ": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Hunterdon"
+        },
+        "Newark, NJ": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Essex / Bergen / Hudson / Passaic"
+        },
+        "Parsippany, NJ": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Morris"
+        },
+        "Princeton, NJ": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Mercer"
+        },
+        "Trenton, NJ": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Mercer"
+        },
+        "Somerset, NJ": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Somerset"
+        },
+        "Springfield, NJ": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Union"
+        },
+        "Cranford, NJ": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Union"
+        },
+        "New Providence, NJ": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Union"
+        },
+        "Toms River, NJ": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Ocean"
+        },
+        "Albuquerque, NM": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Bernalillo"
+        },
+        "Carlsbad, NM": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Eddy"
+        },
+        "Santa Fe, NM": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Santa Fe"
+        },
+        "Taos, NM": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Taos"
+        },
+        "Incline Village, NV": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Washoe"
+        },
+        "Reno, NV": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Washoe"
+        },
+        "Sparks, NV": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Washoe"
+        },
+        "Las Vegas, NV": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Clark"
+        },
+        "Albany, NY": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Albany"
+        },
+        "Binghamton, NY": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Broome"
+        },
+        "Buffalo, NY": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Erie"
+        },
+        "Floral Park, NY": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Nassau"
+        },
+        "Garden City, NY": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Nassau"
+        },
+        "Great Neck, NY": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Nassau"
+        },
+        "Glens Falls, NY": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Warren"
+        },
+        "Ithaca, NY": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Tompkins"
+        },
+        "Kingston, NY": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Ulster"
+        },
+        "Lake Placid, NY": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Essex"
+        },
+        "New York City, NY": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Bronx / Kings / New York / Queens / Richmond"
+        },
+        "Niagara Falls, NY": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Niagara"
+        },
+        "Nyack, NY": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Rockland"
+        },
+        "Palisades, NY": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Rockland"
+        },
+        "Poughkeepsie, NY": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Dutchess"
+        },
+        "Riverhead, NY": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Suffolk"
+        },
+        "Ronkonkoma, NY": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Suffolk"
+        },
+        "Melville, NY": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Suffolk"
+        },
+        "Rochester, NY": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Monroe"
+        },
+        "Saratoga Springs, NY": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Saratoga / Schenectady"
+        },
+        "Schenectady, NY": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Saratoga / Schenectady"
+        },
+        "Syracuse, NY": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Onondaga / Oswego"
+        },
+        "Oswego, NY": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Onondaga / Oswego"
+        },
+        "Tarrytown, NY": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Westchester"
+        },
+        "White Plains, NY": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Westchester"
+        },
+        "New Rochelle, NY": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Westchester"
+        },
+        "Troy, NY": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Rensselaer"
+        },
+        "West Point, NY": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Orange"
+        },
+        "Cincinnati, OH": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Hamilton / Clermont"
+        },
+        "Cleveland, OH": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Cuyahoga"
+        },
+        "Columbus, OH": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Franklin"
+        },
+        "Dayton, OH": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Greene / Montgomery"
+        },
+        "Fairborn, OH": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Greene / Montgomery"
+        },
+        "Hamilton, OH": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Butler / Warren"
+        },
+        "Sandusky, OH": {
+          "mie": "68.00",
+          "first_last_day": "51.00",
+          "county": "Erie"
+        },
+        "Oklahoma City, OK": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Oklahoma"
+        },
+        "Beaverton, OR": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Washington"
+        },
+        "Bend, OR": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Deschutes"
+        },
+        "Clackamas, OR": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Clackamas"
+        },
+        "Eugene, OR": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Lane"
+        },
+        "Florence, OR": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Lane"
+        },
+        "Lincoln City, OR": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Lincoln"
+        },
+        "Portland, OR": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Multnomah"
+        },
+        "Seaside, OR": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Clatsop"
+        },
+        "Allentown, PA": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Lehigh / Northampton"
+        },
+        "Easton, PA": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Lehigh / Northampton"
+        },
+        "Bethlehem, PA": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Lehigh / Northampton"
+        },
+        "Bucks, PA": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Bucks"
+        },
+        "Chester, PA": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Delaware"
+        },
+        "Radnor, PA": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Delaware"
+        },
+        "Essington, PA": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Delaware"
+        },
+        "Gettysburg, PA": {
+          "mie": "68.00",
+          "first_last_day": "51.00",
+          "county": "Adams"
+        },
+        "Harrisburg, PA": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Dauphin County excluding Hershey"
+        },
+        "Hershey, PA": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Hershey"
+        },
+        "Lancaster, PA": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Lancaster"
+        },
+        "Malvern, PA": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Chester"
+        },
+        "Frazer, PA": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Chester"
+        },
+        "Berwyn, PA": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Chester"
+        },
+        "Montgomery, PA": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Montgomery"
+        },
+        "Philadelphia, PA": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Philadelphia"
+        },
+        "Pittsburgh, PA": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Allegheny"
+        },
+        "Reading, PA": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Berks"
+        },
+        "State College, PA": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Centre"
+        },
+        "Jamestown, RI": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Newport "
+        },
+        "Middletown, RI": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Newport "
+        },
+        "Newport, RI": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Newport "
+        },
+        "Providence, RI": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Providence / Bristol"
+        },
+        "Bristol, RI": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Providence / Bristol"
+        },
+        "Charleston, SC": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Charleston / Berkeley / Dorchester"
+        },
+        "Columbia, SC": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Richland / Lexington"
+        },
+        "Hilton Head, SC": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Beaufort"
+        },
+        "Myrtle Beach, SC": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Horry"
+        },
+        "Deadwood, SD": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Lawrence"
+        },
+        "Spearfish, SD": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Lawrence"
+        },
+        "Hot Springs, SD": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Fall River / Custer"
+        },
+        "Rapid City, SD": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Pennington"
+        },
+        "Brentwood, TN": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Williamson"
+        },
+        "Franklin, TN": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Williamson"
+        },
+        "Chattanooga, TN": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Hamilton"
+        },
+        "Knoxville, TN": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Knox"
+        },
+        "Memphis, TN": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Shelby"
+        },
+        "Nashville, TN": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Davidson"
+        },
+        "Arlington, TX": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Tarrant County / City of Grapevine"
+        },
+        "Fort Worth, TX": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Tarrant County / City of Grapevine"
+        },
+        "Grapevine, TX": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Tarrant County / City of Grapevine"
+        },
+        "Austin, TX": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Travis"
+        },
+        "Big Spring, TX": {
+          "mie": "68.00",
+          "first_last_day": "51.00",
+          "county": "Howard"
+        },
+        "Dallas, TX": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Dallas "
+        },
+        "Galveston, TX": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Galveston"
+        },
+        "Houston, TX": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Montgomery / Fort Bend / Harris"
+        },
+        "Midland, TX": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Midland / Andrews / Ector / Martin"
+        },
+        "Odessa, TX": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Midland / Andrews / Ector / Martin"
+        },
+        "Pecos, TX": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Reeves"
+        },
+        "Plano, TX": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Collin"
+        },
+        "San Antonio, TX": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Bexar"
+        },
+        "South Padre Island, TX": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Cameron"
+        },
+        "Moab, UT": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Grand"
+        },
+        "Park City, UT": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Summit"
+        },
+        "Provo, UT": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Utah"
+        },
+        "Salt Lake City, UT": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Salt Lake / Tooele"
+        },
+        "Blacksburg, VA": {
+          "mie": "68.00",
+          "first_last_day": "51.00",
+          "county": "Montgomery"
+        },
+        "Charlottesville, VA": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "City of Charlottesville / Albemarle"
+        },
+        "Loudoun, VA": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Loudoun"
+        },
+        "Lynchburg, VA": {
+          "mie": "68.00",
+          "first_last_day": "51.00",
+          "county": "Campbell / Lynchburg City"
+        },
+        "Richmond, VA": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "City of Richmond"
+        },
+        "Roanoke, VA": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "City limits of Roanoke"
+        },
+        "Virginia Beach, VA": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "City of Virginia Beach"
+        },
+        "Wallops Island, VA": {
+          "mie": "68.00",
+          "first_last_day": "51.00",
+          "county": "Accomack"
+        },
+        "Williamsburg, VA": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "James City / York Counties / City of Williamsburg"
+        },
+        "York, VA": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "James City / York Counties / City of Williamsburg"
+        },
+        "Burlington, VT": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Chittenden"
+        },
+        "Manchester, VT": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Bennington"
+        },
+        "Montpelier, VT": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Washington"
+        },
+        "Stowe, VT": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Lamoille"
+        },
+        "White River Junction, VT": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Windsor"
+        },
+        "Everett, WA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Snohomish"
+        },
+        "Lynnwood, WA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Snohomish"
+        },
+        "Ocean Shores, WA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Grays Harbor"
+        },
+        "Olympia, WA": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Thurston"
+        },
+        "Tumwater, WA": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Thurston"
+        },
+        "Port Angeles, WA": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Clallam / Jefferson"
+        },
+        "Port Townsend, WA": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Clallam / Jefferson"
+        },
+        "Richland, WA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Benton / Franklin"
+        },
+        "Pasco, WA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Benton / Franklin"
+        },
+        "Seattle, WA": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "King"
+        },
+        "Spokane, WA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Spokane"
+        },
+        "Tacoma, WA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Pierce"
+        },
+        "Vancouver, WA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Clark / Cowlitz / Skamania"
+        },
+        "Madison, WI": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Dane"
+        },
+        "Milwaukee, WI": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Milwaukee"
+        },
+        "Sturgeon Bay, WI": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Door"
+        },
+        "Charles Town, WV": {
+          "mie": "68.00",
+          "first_last_day": "51.00",
+          "county": "Jefferson"
+        },
+        "Charleston, WV": {
+          "mie": "68.00",
+          "first_last_day": "51.00",
+          "county": "Kanawha"
+        },
+        "Cody, WY": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Park"
+        },
+        "Jackson, WY": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Teton / Sublette"
+        },
+        "Pinedale, WY": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Teton / Sublette"
+        }
+      }
+    },
+    {
+      "effective_from": "2026-10-01",
+      "effective_to": "2027-09-30",
+      "standard": {
+        "mie": "68.00",
+        "first_last_day": "51.00"
+      },
+      "locations": {
+        "Birmingham, AL": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Jefferson"
+        },
+        "Gulf Shores, AL": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Baldwin"
+        },
+        "Huntsville, AL": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Madison"
+        },
+        "Mobile, AL": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Mobile"
+        },
+        "Hot Springs, AR": {
+          "mie": "68.00",
+          "first_last_day": "51.00",
+          "county": "Garland"
+        },
+        "Grand Canyon, AZ": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Coconino / Yavapai less the city of Sedona"
+        },
+        "Flagstaff, AZ": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Coconino / Yavapai less the city of Sedona"
+        },
+        "Kayenta, AZ": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Navajo"
+        },
+        "Phoenix, AZ": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Maricopa"
+        },
+        "Scottsdale, AZ": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Maricopa"
+        },
+        "Sedona, AZ": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "City Limits of Sedona"
+        },
+        "Tucson, AZ": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Pima"
+        },
+        "Antioch, CA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Contra Costa"
+        },
+        "Brentwood, CA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Contra Costa"
+        },
+        "Concord, CA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Contra Costa"
+        },
+        "Bakersfield, CA": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Kern"
+        },
+        "Ridgecrest, CA": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Kern"
+        },
+        "Barstow, CA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "San Bernardino"
+        },
+        "Ontario, CA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "San Bernardino"
+        },
+        "Victorville, CA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "San Bernardino"
+        },
+        "Death Valley, CA": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Inyo / NAWS China Lake"
+        },
+        "Eureka, CA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Humboldt"
+        },
+        "Arcata, CA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Humboldt"
+        },
+        "McKinleyville, CA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Humboldt"
+        },
+        "Fresno, CA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Fresno"
+        },
+        "Los Angeles, CA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Los Angeles / Orange / Ventura / Edwards AFB less the city of Santa Monica"
+        },
+        "Mammoth Lakes, CA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Mono"
+        },
+        "Mill Valley, CA": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Marin"
+        },
+        "San Rafael, CA": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Marin"
+        },
+        "Novato, CA": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Marin"
+        },
+        "Monterey, CA": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Monterey"
+        },
+        "Napa, CA": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Napa"
+        },
+        "Oakhurst, CA": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Madera"
+        },
+        "Oakland, CA": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Alameda"
+        },
+        "Palm Springs, CA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Riverside"
+        },
+        "Point Arena, CA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Mendocino"
+        },
+        "Gualala, CA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Mendocino"
+        },
+        "Sacramento, CA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Sacramento"
+        },
+        "San Diego, CA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "San Diego"
+        },
+        "San Francisco, CA": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "San Francisco"
+        },
+        "San Luis Obispo, CA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "San Luis Obispo"
+        },
+        "San Mateo, CA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "San Mateo"
+        },
+        "Foster City, CA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "San Mateo"
+        },
+        "Belmont, CA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "San Mateo"
+        },
+        "Santa Barbara, CA": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Santa Barbara"
+        },
+        "Santa Cruz, CA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Santa Cruz"
+        },
+        "Santa Monica, CA": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "City limits of Santa Monica"
+        },
+        "Santa Rosa, CA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Sonoma"
+        },
+        "South Lake Tahoe, CA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "El Dorado"
+        },
+        "Stockton, CA": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "San Joaquin"
+        },
+        "Sunnyvale, CA": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Santa Clara"
+        },
+        "Palo Alto, CA": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Santa Clara"
+        },
+        "San Jose, CA": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Santa Clara"
+        },
+        "Tahoe City, CA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Placer"
+        },
+        "Truckee, CA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Nevada"
+        },
+        "Visalia, CA": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Tulare"
+        },
+        "West Sacramento, CA": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Yolo"
+        },
+        "Davis, CA": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Yolo"
+        },
+        "Yosemite National Park, CA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Mariposa"
+        },
+        "Aspen, CO": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Pitkin"
+        },
+        "Boulder, CO": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Boulder / Broomfield"
+        },
+        "Broomfield, CO": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Boulder / Broomfield"
+        },
+        "Colorado Springs, CO": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "El Paso"
+        },
+        "Cortez, CO": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Montezuma"
+        },
+        "Crested Butte, CO": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Gunnison"
+        },
+        "Gunnison, CO": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Gunnison"
+        },
+        "Denver, CO": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Denver / Adams / Arapahoe / Jefferson"
+        },
+        "Aurora, CO": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Denver / Adams / Arapahoe / Jefferson"
+        },
+        "Douglas, CO": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Douglas"
+        },
+        "Durango, CO": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "La Plata"
+        },
+        "Fort Collins, CO": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Larimer"
+        },
+        "Loveland, CO": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Larimer"
+        },
+        "Grand Lake, CO": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Grand"
+        },
+        "Montrose, CO": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Montrose"
+        },
+        "Silverthorne, CO": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Summit"
+        },
+        "Breckenridge, CO": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Summit"
+        },
+        "Steamboat Springs, CO": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Routt"
+        },
+        "Telluride, CO": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "San Miguel"
+        },
+        "Vail, CO": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Eagle"
+        },
+        "Bridgeport, CT": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Fairfield"
+        },
+        "Danbury, CT": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Fairfield"
+        },
+        "Hartford, CT": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Hartford"
+        },
+        "New Haven, CT": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "New Haven"
+        },
+        "New London, CT": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "New London"
+        },
+        "Groton, CT": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "New London"
+        },
+        "District of Columbia, DC": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Washington DC (also the cities of Alexandria, Falls Church and Fairfax, and the counties of Arlington and Fairfax, in Virginia; and the counties of Montgomery and Prince George's in Maryland)"
+        },
+        "Lewes, DE": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Sussex"
+        },
+        "Wilmington, DE": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "New Castle"
+        },
+        "Boca Raton, FL": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Palm Beach / Hendry"
+        },
+        "Delray Beach, FL": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Palm Beach / Hendry"
+        },
+        "Jupiter, FL": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Palm Beach / Hendry"
+        },
+        "Bradenton, FL": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Manatee"
+        },
+        "Cocoa Beach, FL": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Brevard"
+        },
+        "Daytona Beach, FL": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Volusia"
+        },
+        "Fort Lauderdale, FL": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Broward"
+        },
+        "Fort Myers, FL": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Lee"
+        },
+        "Fort Walton Beach, FL": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Okaloosa / Walton"
+        },
+        "De Funiak Springs, FL": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Okaloosa / Walton"
+        },
+        "Gulf Breeze, FL": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Santa Rosa"
+        },
+        "Key West, FL": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Monroe"
+        },
+        "Miami, FL": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Miami-Dade"
+        },
+        "Naples, FL": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Collier"
+        },
+        "Orlando, FL": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Orange"
+        },
+        "Panama City, FL": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Bay"
+        },
+        "Pensacola, FL": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Escambia"
+        },
+        "Punta Gorda, FL": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Charlotte"
+        },
+        "Sarasota, FL": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Sarasota"
+        },
+        "Sebring, FL": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Highlands"
+        },
+        "St. Augustine, FL": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "St. Johns"
+        },
+        "Stuart, FL": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Martin"
+        },
+        "Tallahassee, FL": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Leon"
+        },
+        "Tampa, FL": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Pinellas / Hillsborough"
+        },
+        "St. Petersburg, FL": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Pinellas / Hillsborough"
+        },
+        "Vero Beach, FL": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Indian River"
+        },
+        "Athens, GA": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Clarke"
+        },
+        "Atlanta, GA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Fulton / Dekalb"
+        },
+        "Augusta, GA": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Richmond"
+        },
+        "Jekyll Island, GA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Glynn"
+        },
+        "Brunswick, GA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Glynn"
+        },
+        "Marietta, GA": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Cobb"
+        },
+        "Savannah, GA": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Chatham"
+        },
+        "Dallas, IA": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Dallas"
+        },
+        "Des Moines, IA": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Polk"
+        },
+        "Boise, ID": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Ada"
+        },
+        "Coeur d'Alene, ID": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Kootenai"
+        },
+        "Sun Valley, ID": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Blaine / Elmore"
+        },
+        "Ketchum, ID": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Blaine / Elmore"
+        },
+        "Bolingbrook, IL": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Will"
+        },
+        "Romeoville, IL": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Will"
+        },
+        "Lemont, IL": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Will"
+        },
+        "Chicago, IL": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Cook / Lake"
+        },
+        "East St. Louis, IL": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "St. Clair"
+        },
+        "O'Fallon, IL": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "St. Clair"
+        },
+        "Fairview Heights, IL": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "St. Clair"
+        },
+        "Oakbrook Terrace, IL": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "DuPage"
+        },
+        "Bloomington, IN": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Monroe"
+        },
+        "Indianapolis, IN": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Marion / Hamilton"
+        },
+        "Carmel, IN": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Marion / Hamilton"
+        },
+        "Lafayette, IN": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Tippecanoe"
+        },
+        "West Lafayette, IN": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Tippecanoe"
+        },
+        "Kansas City, KS": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Wyandotte / Johnson / Leavenworth"
+        },
+        "Overland Park, KS": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Wyandotte / Johnson / Leavenworth"
+        },
+        "Boone, KY": {
+          "mie": "68.00",
+          "first_last_day": "51.00",
+          "county": "Boone"
+        },
+        "Kenton, KY": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Kenton"
+        },
+        "Lexington, KY": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Fayette"
+        },
+        "Louisville, KY": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Jefferson"
+        },
+        "Alexandria, LA": {
+          "mie": "68.00",
+          "first_last_day": "51.00",
+          "county": "Allen / Jefferson Davis / Natchitoches / Rapides / Vernon Parishes"
+        },
+        "Leesville, LA": {
+          "mie": "68.00",
+          "first_last_day": "51.00",
+          "county": "Allen / Jefferson Davis / Natchitoches / Rapides / Vernon Parishes"
+        },
+        "Natchitoches, LA": {
+          "mie": "68.00",
+          "first_last_day": "51.00",
+          "county": "Allen / Jefferson Davis / Natchitoches / Rapides / Vernon Parishes"
+        },
+        "New Orleans, LA": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Orleans / Jefferson Parishes"
+        },
+        "Andover, MA": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Essex"
+        },
+        "Boston, MA": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Suffolk, city of Cambridge"
+        },
+        "Cambridge, MA": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Suffolk, city of Cambridge"
+        },
+        "Burlington, MA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Middlesex less the city of Cambridge"
+        },
+        "Woburn, MA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Middlesex less the city of Cambridge"
+        },
+        "Falmouth, MA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "City limits of Falmouth"
+        },
+        "Hyannis, MA": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Barnstable less the city of Falmouth"
+        },
+        "Martha's Vineyard, MA": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Dukes"
+        },
+        "Nantucket, MA": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Nantucket"
+        },
+        "Northampton, MA": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Hampshire"
+        },
+        "Pittsfield, MA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Berkshire"
+        },
+        "Plymouth, MA": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Plymouth / Bristol"
+        },
+        "Taunton, MA": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Plymouth / Bristol"
+        },
+        "New Bedford, MA": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Plymouth / Bristol"
+        },
+        "Quincy, MA": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Norfolk"
+        },
+        "Springfield, MA": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Hampden"
+        },
+        "Worcester, MA": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Worcester"
+        },
+        "Aberdeen, MD": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Harford"
+        },
+        "Bel Air, MD": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Harford"
+        },
+        "Belcamp, MD": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Harford"
+        },
+        "Annapolis, MD": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Anne Arundel"
+        },
+        "Baltimore City, MD": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Baltimore City"
+        },
+        "Cambridge, MD": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Dorchester / Talbot"
+        },
+        "St. Michaels, MD": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Dorchester / Talbot"
+        },
+        "Centreville, MD": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Queen Anne"
+        },
+        "Columbia, MD": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Howard"
+        },
+        "Ocean City, MD": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Worcester"
+        },
+        "Bar Harbor, ME": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Hancock / Knox"
+        },
+        "Rockport, ME": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Hancock / Knox"
+        },
+        "Kennebunk, ME": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "York"
+        },
+        "Kittery, ME": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "York"
+        },
+        "Sanford, ME": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "York"
+        },
+        "Portland, ME": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Cumberland / Sagadahoc"
+        },
+        "Ann Arbor, MI": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Washtenaw"
+        },
+        "Detroit, MI": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Wayne"
+        },
+        "Grand Rapids, MI": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Kent"
+        },
+        "Holland, MI": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Ottawa"
+        },
+        "Mackinac Island, MI": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Mackinac"
+        },
+        "Midland, MI": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Midland"
+        },
+        "Muskegon, MI": {
+          "mie": "68.00",
+          "first_last_day": "51.00",
+          "county": "Muskegon"
+        },
+        "Petoskey, MI": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Emmet"
+        },
+        "Pontiac, MI": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Oakland"
+        },
+        "Auburn Hills, MI": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Oakland"
+        },
+        "South Haven, MI": {
+          "mie": "68.00",
+          "first_last_day": "51.00",
+          "county": "Van Buren"
+        },
+        "Traverse City, MI": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Grand Traverse"
+        },
+        "Duluth, MN": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "St. Louis"
+        },
+        "Minneapolis, MN": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Hennepin / Ramsey"
+        },
+        "St. Paul, MN": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Hennepin / Ramsey"
+        },
+        "Rochester, MN": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Olmsted"
+        },
+        "Kansas City, MO": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Jackson / Clay / Cass / Platte"
+        },
+        "St. Louis, MO": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "St. Louis / St. Louis City / St. Charles"
+        },
+        "Oxford, MS": {
+          "mie": "68.00",
+          "first_last_day": "51.00",
+          "county": "Lafayette"
+        },
+        "Southaven, MS": {
+          "mie": "68.00",
+          "first_last_day": "51.00",
+          "county": "Desoto"
+        },
+        "Starkville, MS": {
+          "mie": "68.00",
+          "first_last_day": "51.00",
+          "county": "Oktibbeha"
+        },
+        "Big Sky, MT": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Gallatin/Park"
+        },
+        "West Yellowstone, MT": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Gallatin/Park"
+        },
+        "Gardiner, MT": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Gallatin/Park"
+        },
+        "Helena, MT": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Lewis and Clark"
+        },
+        "Kalispell, MT": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Flathead"
+        },
+        "Whitefish, MT": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Flathead"
+        },
+        "Missoula, MT": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Missoula"
+        },
+        "Asheville, NC": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Buncombe"
+        },
+        "Atlantic Beach, NC": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Carteret"
+        },
+        "Morehead City, NC": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Carteret"
+        },
+        "Chapel Hill, NC": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Orange"
+        },
+        "Charlotte, NC": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Mecklenburg"
+        },
+        "Durham, NC": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Durham"
+        },
+        "Fayetteville, NC": {
+          "mie": "68.00",
+          "first_last_day": "51.00",
+          "county": "Cumberland"
+        },
+        "Greensboro, NC": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Guilford"
+        },
+        "Kill Devil Hills, NC": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Dare"
+        },
+        "Raleigh, NC": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Wake"
+        },
+        "Wilmington, NC": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "New Hanover"
+        },
+        "Omaha, NE": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Douglas"
+        },
+        "Concord, NH": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Merrimack"
+        },
+        "Conway, NH": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Carroll"
+        },
+        "Durham, NH": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Strafford"
+        },
+        "Laconia, NH": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Belknap"
+        },
+        "Lebanon, NH": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Grafton"
+        },
+        "Lincoln, NH": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Grafton"
+        },
+        "West Lebanon, NH": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Grafton"
+        },
+        "Manchester, NH": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Hillsborough"
+        },
+        "Portsmouth, NH": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Rockingham"
+        },
+        "Cherry Hill, NJ": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Camden / Burlington"
+        },
+        "Moorestown, NJ": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Camden / Burlington"
+        },
+        "Eatontown, NJ": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Monmouth"
+        },
+        "Freehold, NJ": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Monmouth"
+        },
+        "Edison, NJ": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Middlesex"
+        },
+        "Piscataway, NJ": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Middlesex"
+        },
+        "Flemington, NJ": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Hunterdon"
+        },
+        "Newark, NJ": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Essex / Bergen / Hudson / Passaic"
+        },
+        "Parsippany, NJ": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Morris"
+        },
+        "Princeton, NJ": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Mercer"
+        },
+        "Trenton, NJ": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Mercer"
+        },
+        "Somerset, NJ": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Somerset"
+        },
+        "Springfield, NJ": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Union"
+        },
+        "Cranford, NJ": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Union"
+        },
+        "New Providence, NJ": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Union"
+        },
+        "Toms River, NJ": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Ocean"
+        },
+        "Albuquerque, NM": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Bernalillo"
+        },
+        "Carlsbad, NM": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Eddy"
+        },
+        "Santa Fe, NM": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Santa Fe"
+        },
+        "Taos, NM": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Taos"
+        },
+        "Incline Village, NV": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Washoe"
+        },
+        "Reno, NV": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Washoe"
+        },
+        "Sparks, NV": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Washoe"
+        },
+        "Las Vegas, NV": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Clark"
+        },
+        "Albany, NY": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Albany"
+        },
+        "Binghamton, NY": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Broome"
+        },
+        "Buffalo, NY": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Erie"
+        },
+        "Floral Park, NY": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Nassau"
+        },
+        "Garden City, NY": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Nassau"
+        },
+        "Great Neck, NY": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Nassau"
+        },
+        "Glens Falls, NY": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Warren"
+        },
+        "Ithaca, NY": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Tompkins"
+        },
+        "Kingston, NY": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Ulster"
+        },
+        "Lake Placid, NY": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Essex"
+        },
+        "New York City, NY": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Bronx / Kings / New York / Queens / Richmond"
+        },
+        "Niagara Falls, NY": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Niagara"
+        },
+        "Nyack, NY": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Rockland"
+        },
+        "Palisades, NY": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Rockland"
+        },
+        "Poughkeepsie, NY": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Dutchess"
+        },
+        "Riverhead, NY": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Suffolk"
+        },
+        "Ronkonkoma, NY": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Suffolk"
+        },
+        "Melville, NY": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Suffolk"
+        },
+        "Rochester, NY": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Monroe"
+        },
+        "Saratoga Springs, NY": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Saratoga / Schenectady"
+        },
+        "Schenectady, NY": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Saratoga / Schenectady"
+        },
+        "Syracuse, NY": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Onondaga / Oswego"
+        },
+        "Oswego, NY": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Onondaga / Oswego"
+        },
+        "Tarrytown, NY": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Westchester"
+        },
+        "White Plains, NY": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Westchester"
+        },
+        "New Rochelle, NY": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Westchester"
+        },
+        "Troy, NY": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Rensselaer"
+        },
+        "West Point, NY": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Orange"
+        },
+        "Cincinnati, OH": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Hamilton / Clermont"
+        },
+        "Cleveland, OH": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Cuyahoga"
+        },
+        "Columbus, OH": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Franklin"
+        },
+        "Dayton, OH": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Greene / Montgomery"
+        },
+        "Fairborn, OH": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Greene / Montgomery"
+        },
+        "Hamilton, OH": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Butler / Warren"
+        },
+        "Sandusky, OH": {
+          "mie": "68.00",
+          "first_last_day": "51.00",
+          "county": "Erie"
+        },
+        "Oklahoma City, OK": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Oklahoma"
+        },
+        "Beaverton, OR": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Washington"
+        },
+        "Bend, OR": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Deschutes"
+        },
+        "Clackamas, OR": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Clackamas"
+        },
+        "Eugene, OR": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Lane"
+        },
+        "Florence, OR": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Lane"
+        },
+        "Lincoln City, OR": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Lincoln"
+        },
+        "Portland, OR": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Multnomah"
+        },
+        "Seaside, OR": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Clatsop"
+        },
+        "Bucks, PA": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Bucks"
+        },
+        "Chester, PA": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Delaware"
+        },
+        "Radnor, PA": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Delaware"
+        },
+        "Essington, PA": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Delaware"
+        },
+        "Gettysburg, PA": {
+          "mie": "68.00",
+          "first_last_day": "51.00",
+          "county": "Adams"
+        },
+        "Harrisburg, PA": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Dauphin County excluding Hershey"
+        },
+        "Hershey, PA": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Hershey"
+        },
+        "Lancaster, PA": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Lancaster"
+        },
+        "Malvern, PA": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Chester"
+        },
+        "Frazer, PA": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Chester"
+        },
+        "Berwyn, PA": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Chester"
+        },
+        "Montgomery, PA": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Montgomery"
+        },
+        "Philadelphia, PA": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Philadelphia"
+        },
+        "Pittsburgh, PA": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Allegheny"
+        },
+        "Reading, PA": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Berks"
+        },
+        "State College, PA": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Centre"
+        },
+        "Jamestown, RI": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Newport"
+        },
+        "Middletown, RI": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Newport"
+        },
+        "Newport, RI": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Newport"
+        },
+        "Providence, RI": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Providence / Bristol"
+        },
+        "Bristol, RI": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Providence / Bristol"
+        },
+        "Charleston, SC": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Charleston / Berkeley / Dorchester"
+        },
+        "Columbia, SC": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Richland / Lexington"
+        },
+        "Hilton Head, SC": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Beaufort"
+        },
+        "Myrtle Beach, SC": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Horry"
+        },
+        "Deadwood, SD": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Lawrence"
+        },
+        "Spearfish, SD": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Lawrence"
+        },
+        "Hot Springs, SD": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Fall River / Custer"
+        },
+        "Rapid City, SD": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Pennington"
+        },
+        "Brentwood, TN": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Williamson"
+        },
+        "Franklin, TN": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Williamson"
+        },
+        "Chattanooga, TN": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Hamilton"
+        },
+        "Knoxville, TN": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Knox"
+        },
+        "Memphis, TN": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Shelby"
+        },
+        "Nashville, TN": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Davidson"
+        },
+        "Arlington, TX": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Tarrant County / City of Grapevine"
+        },
+        "Fort Worth, TX": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Tarrant County / City of Grapevine"
+        },
+        "Grapevine, TX": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Tarrant County / City of Grapevine"
+        },
+        "Austin, TX": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Travis"
+        },
+        "Big Spring, TX": {
+          "mie": "68.00",
+          "first_last_day": "51.00",
+          "county": "Howard"
+        },
+        "Dallas, TX": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Dallas"
+        },
+        "Galveston, TX": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Galveston"
+        },
+        "Houston, TX": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Montgomery / Fort Bend / Harris"
+        },
+        "Midland, TX": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Midland / Andrews / Ector / Martin"
+        },
+        "Odessa, TX": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Midland / Andrews / Ector / Martin"
+        },
+        "Pecos, TX": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Reeves"
+        },
+        "Plano, TX": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Collin"
+        },
+        "San Antonio, TX": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Bexar"
+        },
+        "South Padre Island, TX": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Cameron"
+        },
+        "Moab, UT": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Grand"
+        },
+        "Park City, UT": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Summit"
+        },
+        "Provo, UT": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Utah"
+        },
+        "Salt Lake City, UT": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Salt Lake / Tooele"
+        },
+        "Blacksburg, VA": {
+          "mie": "68.00",
+          "first_last_day": "51.00",
+          "county": "Montgomery"
+        },
+        "Charlottesville, VA": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "City of Charlottesville / Albemarle"
+        },
+        "Loudoun, VA": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Loudoun"
+        },
+        "Lynchburg, VA": {
+          "mie": "68.00",
+          "first_last_day": "51.00",
+          "county": "Campbell / Lynchburg City"
+        },
+        "Richmond, VA": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "City of Richmond"
+        },
+        "Roanoke, VA": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "City limits of Roanoke"
+        },
+        "Virginia Beach, VA": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "City of Virginia Beach"
+        },
+        "Wallops Island, VA": {
+          "mie": "68.00",
+          "first_last_day": "51.00",
+          "county": "Accomack"
+        },
+        "Williamsburg, VA": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "James City / York Counties / City of Williamsburg"
+        },
+        "York, VA": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "James City / York Counties / City of Williamsburg"
+        },
+        "Burlington, VT": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Chittenden"
+        },
+        "Manchester, VT": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Bennington"
+        },
+        "Montpelier, VT": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Washington"
+        },
+        "Stowe, VT": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Lamoille"
+        },
+        "White River Junction, VT": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Windsor"
+        },
+        "Everett, WA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Snohomish"
+        },
+        "Lynnwood, WA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Snohomish"
+        },
+        "Ocean Shores, WA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Grays Harbor"
+        },
+        "Olympia, WA": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Thurston"
+        },
+        "Tumwater, WA": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Thurston"
+        },
+        "Port Angeles, WA": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Clallam / Jefferson"
+        },
+        "Port Townsend, WA": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Clallam / Jefferson"
+        },
+        "Richland, WA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Benton / Franklin"
+        },
+        "Pasco, WA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Benton / Franklin"
+        },
+        "Seattle, WA": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "King"
+        },
+        "Spokane, WA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Spokane"
+        },
+        "Tacoma, WA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Pierce"
+        },
+        "Vancouver, WA": {
+          "mie": "86.00",
+          "first_last_day": "64.50",
+          "county": "Clark / Cowlitz / Skamania"
+        },
+        "Madison, WI": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Dane"
+        },
+        "Milwaukee, WI": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Milwaukee"
+        },
+        "Sturgeon Bay, WI": {
+          "mie": "80.00",
+          "first_last_day": "60.00",
+          "county": "Door"
+        },
+        "Charles Town, WV": {
+          "mie": "68.00",
+          "first_last_day": "51.00",
+          "county": "Jefferson"
+        },
+        "Charleston, WV": {
+          "mie": "68.00",
+          "first_last_day": "51.00",
+          "county": "Kanawha"
+        },
+        "Cody, WY": {
+          "mie": "74.00",
+          "first_last_day": "55.50",
+          "county": "Park"
+        },
+        "Jackson, WY": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Teton / Sublette"
+        },
+        "Pinedale, WY": {
+          "mie": "92.00",
+          "first_last_day": "69.00",
+          "county": "Teton / Sublette"
+        }
+      }
+    }
+  ],
+  "oconus_mie": [
+    {
+      "effective_from": "2025-12-01",
+      "locations": {
+        "Taipei, Taiwan": { "mie": "111.00", "first_last_day": "83.25", "country": "Taiwan" }
+      }
+    },
+    {
+      "effective_from": "2026-08-01",
+      "locations": {
+        "Taipei, Taiwan": { "mie": "107.00", "first_last_day": "80.25", "country": "Taiwan" }
+      }
+    }
+  ]
+}

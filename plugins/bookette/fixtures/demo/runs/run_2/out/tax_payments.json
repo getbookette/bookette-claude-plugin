@@ -1,0 +1,44 @@
+[
+  {
+    "payment_source": "inbox/tax_payment_confirmation_0227.pdf",
+    "date": "2026-02-27",
+    "amount": "1406.10",
+    "currency": "USD",
+    "bill_source": "inbox/denver_tax_bill_2026.pdf",
+    "parcels": [
+      { "number": "00000-00-017-000", "amount": "2109.15" },
+      { "number": "00000-00-018-000", "amount": "703.05" }
+    ],
+    "covered_parcels": []
+  },
+  {
+    "payment_source": "inbox/tax_payment_history.pdf",
+    "date": "2026-06-12",
+    "amount": "1406.10",
+    "currency": "USD",
+    "bill_source": "inbox/denver_tax_bill_2026.pdf",
+    "parcels": [
+      { "number": "00000-00-017-000", "amount": "2109.15" },
+      { "number": "00000-00-018-000", "amount": "703.05" }
+    ],
+    "covered_parcels": []
+  },
+  {
+    "payment_source": "inbox/boulder_county_tax_receipt_0429.pdf",
+    "date": "2026-04-29",
+    "amount": "2086.44",
+    "currency": "USD",
+    "bill_source": "inbox/boulder_county_tax_bill_2026.pdf",
+    "parcels": [{ "number": "00000-00-041-000", "amount": "2086.44" }],
+    "covered_parcels": []
+  },
+  {
+    "payment_source": "inbox/el_paso_tax_receipt_0427.pdf",
+    "date": "2026-04-27",
+    "amount": "1742.18",
+    "currency": "USD",
+    "bill_source": "inbox/el_paso_tax_bill_2026.pdf",
+    "parcels": [{ "number": "00000-00-063-000", "amount": "1742.18" }],
+    "covered_parcels": []
+  }
+]

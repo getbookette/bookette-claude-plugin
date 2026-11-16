@@ -1,0 +1,183 @@
+{
+  "tax_year": 2026,
+  "home": "Seattle, WA",
+  "vehicles_used_together": null,
+  "entities": [
+    {
+      "key": "ent_1",
+      "name": "1180 Quillfeather Ln",
+      "kind": "residential_rental",
+      "schedule": "E",
+      "address": "1180 Quillfeather Ln, Denver, CO 80220",
+      "ownership_pct": "100.00",
+      "parcels": ["00000-00-017-000", "00000-00-018-000"],
+      "assets": [
+        {
+          "description": "Purchase of 1180 Quillfeather Ln",
+          "kind": "real_property",
+          "class": "residential_rental",
+          "placed_in_service": "2019-06-15",
+          "cost_basis": "334000.00",
+          "land_value": "60000.00",
+          "disposed_on": null,
+          "prior_accumulated": null,
+          "answer_keys": ["open_ent_1_purchase"]
+        }
+      ]
+    },
+    {
+      "key": "ent_2",
+      "name": "Cedar Cabin",
+      "kind": "short_term_rental",
+      "schedule": "E",
+      "address": "48 Pinecone Hollow, Estes Park, CO 80517",
+      "ownership_pct": "100.00",
+      "fair_rental_days": 96,
+      "personal_use_days": 12,
+      "stay_count": 23
+    },
+    {
+      "key": "ent_3",
+      "name": "Northpeak Consulting",
+      "kind": "sole_proprietor",
+      "schedule": "C",
+      "activity": "Data engineering consulting",
+      "home_office": {
+        "office_sq_ft": "168",
+        "home_sq_ft": "1400"
+      },
+      "assets": [
+        {
+          "description": "14-inch laptop, 32 GB memory, 1 TB",
+          "kind": "equipment",
+          "class": "5_year_property",
+          "placed_in_service": "2026-03-14",
+          "cost_basis": "1903.54",
+          "disposed_on": null,
+          "prior_accumulated": null,
+          "answer_keys": ["open_laptop_invoice_asset"]
+        }
+      ]
+    },
+    {
+      "key": "ent_4",
+      "name": "Brindlewood Condo",
+      "kind": "residential_rental",
+      "schedule": "E",
+      "address": "1650 Brindlewood Ct Unit 4B, Boulder, CO 80304",
+      "ownership_pct": "100.00",
+      "parcels": ["00000-00-041-000"],
+      "assets": [
+        {
+          "description": "Purchase of Brindlewood Condo",
+          "kind": "real_property",
+          "class": "residential_rental",
+          "placed_in_service": "2021-09-01",
+          "cost_basis": "353860.00",
+          "land_value": "52000.00",
+          "disposed_on": null,
+          "prior_accumulated": null,
+          "answer_keys": ["open_ent_4_purchase"]
+        }
+      ]
+    },
+    {
+      "key": "ent_5",
+      "name": "Saltgrass House",
+      "kind": "residential_rental",
+      "schedule": "E",
+      "address": "915 Saltgrass Bend, Colorado Springs, CO 80907",
+      "ownership_pct": "100.00",
+      "parcels": ["00000-00-063-000"],
+      "assets": [
+        {
+          "description": "Purchase of Saltgrass House",
+          "kind": "real_property",
+          "class": "residential_rental",
+          "placed_in_service": "2023-11-01",
+          "cost_basis": "396240.00",
+          "land_value": "88000.00",
+          "disposed_on": null,
+          "prior_accumulated": null,
+          "answer_keys": ["open_ent_5_purchase"]
+        }
+      ]
+    }
+  ],
+  "trips": [
+    {
+      "key": "denver_apr",
+      "name": "Denver, Apr",
+      "entity": "ent_1",
+      "purpose": "the tenant turnover inspection",
+      "segments": [{ "location": "Denver, CO", "start": "2026-04-10", "end": "2026-04-12" }],
+      "documents": ["inbox/chase_card_2026.csv"],
+      "placed_by": "city"
+    },
+    {
+      "key": "taipei_austin_apr",
+      "name": "Taipei, Apr",
+      "entity": "ent_3",
+      "purpose": "client workshops",
+      "segments": [
+        { "location": "Taipei, Taiwan", "start": "2026-04-19", "end": "2026-04-20" },
+        { "location": "Austin, TX", "start": "2026-04-24", "end": "2026-04-27" }
+      ],
+      "documents": [
+        "inbox/taipei_einvoice.png",
+        "inbox/taipei_taxi.jpg",
+        "inbox/austin_hotel_folio.pdf",
+        "inbox/austin_dinner.jpg"
+      ],
+      "placed_by": "named"
+    },
+    {
+      "key": "estes_jul",
+      "name": "Estes Park, Jul",
+      "entity": "ent_2",
+      "purpose": "the cabin's turnover and deck repair",
+      "segments": [{ "location": "Estes Park, CO", "start": "2026-07-10", "end": "2026-07-12" }],
+      "documents": [
+        "inbox/estes_park_motel_folio.pdf",
+        "inbox/estes_park_dinner_0711.jpg",
+        "inbox/shell_fuel_0710.jpg",
+        "inbox/northpeak_mileage_log_2026.pdf"
+      ],
+      "placed_by": "city"
+    },
+    {
+      "key": "chicago_aug",
+      "name": "Chicago, Aug",
+      "entity": "ent_3",
+      "purpose": "a client visit at Meridian Logistics",
+      "segments": [{ "location": "Chicago, IL", "start": "2026-08-17", "end": "2026-08-21" }],
+      "documents": [
+        "inbox/alpine_air_eticket.pdf",
+        "inbox/lakeshore_grand_folio.pdf",
+        "inbox/chicago_taxi_0817.pdf",
+        "inbox/chicago_taxi_0821.pdf"
+      ],
+      "placed_by": "named"
+    }
+  ],
+  "vehicles": [
+    {
+      "key": "odyssey",
+      "description": "2019 Honda Odyssey",
+      "first_business_use_date": "2026-01-12",
+      "first_year_method": null,
+      "depreciation_taken": null,
+      "uses": [
+        {
+          "key": "odyssey_use",
+          "entity": "ent_3",
+          "business_miles": "2840",
+          "miles": [
+            { "from": "2026-01-01", "to": "2026-06-30", "miles": "2000" },
+            { "from": "2026-07-01", "to": "2026-12-31", "miles": "840" }
+          ]
+        }
+      ]
+    }
+  ]
+}

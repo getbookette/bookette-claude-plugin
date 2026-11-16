@@ -1,0 +1,24 @@
+{
+  "status": "success",
+  "turns": 8,
+  "usage": {
+    "input_tokens": 16,
+    "cache_read_input_tokens": 547039,
+    "cache_creation_input_tokens": 74458,
+    "output_tokens": 4174
+  },
+  "modelUsage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 16,
+      "cacheReadInputTokens": 547039,
+      "cacheCreationInputTokens": 74458,
+      "outputTokens": 4174
+    }
+  },
+  "total_cost_usd": 0,
+  "agent": {
+    "kind": "transcript",
+    "models": ["claude-sonnet-5-5"],
+    "note": "the books agent ran over the staged run directory outside the runner (demo-regenerate.ts record --transcript); the turn rows and token sums are read from its transcript, and no cost is recorded"
+  }
+}

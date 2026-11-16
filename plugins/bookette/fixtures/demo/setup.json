@@ -1,0 +1,45 @@
+{
+  "taxYear": 2026,
+  "home": "Seattle, WA",
+  "places": [
+    {
+      "kind": "RENTAL",
+      "name": "1180 Quillfeather Ln",
+      "address": "1180 Quillfeather Ln, Denver, CO 80220",
+      "ownershipPct": "100"
+    },
+    {
+      "kind": "STR_RENTAL",
+      "name": "Cedar Cabin",
+      "address": "48 Pinecone Hollow, Estes Park, CO 80517",
+      "ownershipPct": "100"
+    },
+    {
+      "kind": "BUSINESS",
+      "name": "Northpeak Consulting",
+      "activity": "Data engineering consulting"
+    },
+    {
+      "kind": "RENTAL",
+      "name": "Brindlewood Condo",
+      "address": "1650 Brindlewood Ct Unit 4B, Boulder, CO 80304",
+      "ownershipPct": "100"
+    },
+    {
+      "kind": "RENTAL",
+      "name": "Saltgrass House",
+      "address": "915 Saltgrass Bend, Colorado Springs, CO 80907",
+      "ownershipPct": "100"
+    }
+  ],
+  "notes": {
+    "year": "Bookette's demo folder. Every document here is synthetic, made by the fixture generator: no real person, account or address; retailer names appear as they do on real receipts.",
+    "entities": {
+      "ent_1": "Bought in June 2019 and first rented on 2019-06-15. The Denver trip of April 10-12 (the United flight and the two Uber rides on the card) was the tenant turnover inspection.",
+      "ent_2": "The cabin is let through Stayhaven. We used it ourselves for 12 nights in September. The drive to Estes Park on July 10-12 was for the cabin's turnover and deck repair.",
+      "ent_3": "The Odyssey is the only vehicle used for Northpeak; the July drive to the cabin was for the cabin, not Northpeak, and the log leaves it out. Northpeak's trips in 2026: Taipei and Austin in April (client workshops, one trip with two legs), and Chicago on August 17-21 (a client visit at Meridian Logistics).",
+      "ent_4": "Bought in July 2021 and first rented on 2021-09-01. We let it ourselves: the tenant pays rent into the Fir Ridge rental checking (D. Okonjo through June, M. Halvorsen from August 1). It stood empty in July, when we paid its power bill and listed it. The HOA dues on that account are the condo's.",
+      "ent_5": "Bought in October 2023 and first rented on 2023-11-01. We let it ourselves: the tenant, L. Fairweather, pays rent into the Fir Ridge rental checking. The water and sewer bills on that account are the house's, and Holloway & Finch inspects it for us."
+    }
+  }
+}

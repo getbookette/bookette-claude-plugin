@@ -1,0 +1,290 @@
+{
+  "platform": "Vrbo",
+  "payers": ["Vrbo"],
+  "documents": [
+    {
+      "name": "Payout summary report",
+      "columns": [
+        { "name": "Property ID", "kind": "metadata", "confidence": "documented" },
+        { "name": "Unit ID", "kind": "metadata", "confidence": "documented" },
+        { "name": "Address", "kind": "metadata", "confidence": "documented" },
+        { "name": "Reservation ID", "kind": "metadata", "confidence": "documented" },
+        { "name": "Traveler First Name", "kind": "metadata", "confidence": "documented" },
+        { "name": "Traveler Last Name", "kind": "metadata", "confidence": "documented" },
+        { "name": "Booking Status", "kind": "metadata", "confidence": "documented" },
+        { "name": "Check In", "kind": "metadata", "confidence": "documented" },
+        { "name": "Check Out", "kind": "metadata", "confidence": "documented" },
+        { "name": "Nights", "kind": "metadata", "confidence": "documented" },
+        { "name": "Payout Date", "kind": "metadata", "confidence": "documented" },
+        {
+          "name": "Gross Booking Amount",
+          "kind": "gross-component",
+          "confidence": "documented",
+          "sign": "varies",
+          "sign_note": "canceled and refunded stays post as negative rows; the 1099-K reconciliation sums the positive rows only"
+        },
+        {
+          "name": "Deductions",
+          "kind": "fee",
+          "confidence": "documented",
+          "sign": "varies",
+          "sign_note": "commissions and fees taken out of the rental amount; refund rows mirror the payment row's sign"
+        },
+        {
+          "name": "Payout",
+          "kind": "net",
+          "confidence": "documented",
+          "sign": "varies",
+          "sign_note": "the gross booking amount after its commissions and fees come out; refund rows mirror the payment row's sign"
+        },
+        {
+          "name": "Lodging Tax Owner Remits",
+          "kind": "tax-seller-remitted",
+          "confidence": "documented",
+          "sign": "varies",
+          "sign_note": "lodging tax Vrbo collects from the traveler and sends to the owner to remit; refund rows mirror the payment row's sign"
+        },
+        {
+          "name": "Tax Withheld",
+          "kind": "withholding",
+          "confidence": "documented",
+          "sign": "positive"
+        },
+        { "name": "Payout Currency", "kind": "metadata", "confidence": "documented" }
+      ],
+      "gross": { "basis": "stated-column", "columns": ["Gross Booking Amount"] },
+      "net": { "basis": "stated-column", "columns": ["Payout"] },
+      "reconcile": { "closed": false, "reason": "no-component-identity" }
+    },
+    {
+      "name": "Payment history report",
+      "columns": [
+        { "name": "RefID", "kind": "metadata", "confidence": "documented" },
+        { "name": "Payout ID", "kind": "metadata", "confidence": "documented" },
+        { "name": "Reservation ID", "kind": "metadata", "confidence": "documented" },
+        { "name": "Check In", "kind": "metadata", "confidence": "documented" },
+        { "name": "Check Out", "kind": "metadata", "confidence": "documented" },
+        { "name": "Number of Nights", "kind": "metadata", "confidence": "documented" },
+        { "name": "Source", "kind": "metadata", "confidence": "documented" },
+        { "name": "Subscription Model", "kind": "metadata", "confidence": "documented" },
+        { "name": "Payment Date", "kind": "metadata", "confidence": "documented" },
+        { "name": "Disbursement Date", "kind": "metadata", "confidence": "documented" },
+        { "name": "Payment Type", "kind": "metadata", "confidence": "documented" },
+        { "name": "Property ID", "kind": "metadata", "confidence": "documented" },
+        { "name": "Guest Name", "kind": "metadata", "confidence": "documented" },
+        { "name": "Payment Method", "kind": "metadata", "confidence": "documented" },
+        {
+          "name": "Taxable Revenue",
+          "kind": "gross-component",
+          "confidence": "documented",
+          "sign": "positive"
+        },
+        {
+          "name": "Non-Taxable Revenue",
+          "kind": "gross-component",
+          "confidence": "documented",
+          "sign": "positive"
+        },
+        {
+          "name": "Tax",
+          "kind": "tax-seller-remitted",
+          "confidence": "documented",
+          "sign": "positive"
+        },
+        {
+          "name": "Service Fee",
+          "kind": "fee-traveler-side",
+          "confidence": "documented",
+          "sign": "positive"
+        },
+        { "name": "Currency", "kind": "metadata", "confidence": "documented" },
+        { "name": "Commission", "kind": "fee", "confidence": "documented", "sign": "positive" },
+        {
+          "name": "VAT on Commission",
+          "kind": "fee",
+          "confidence": "documented",
+          "sign": "positive"
+        },
+        {
+          "name": "Paid By Guest",
+          "kind": "metadata",
+          "confidence": "documented",
+          "sign": "varies",
+          "sign_note": "refund rows post negative with no revenue listed"
+        },
+        {
+          "name": "Your Revenue",
+          "kind": "gross-component",
+          "confidence": "documented",
+          "sign": "positive"
+        },
+        {
+          "name": "Payment Processing Fee",
+          "kind": "fee",
+          "confidence": "documented",
+          "sign": "positive"
+        },
+        {
+          "name": "Deposit Amount",
+          "kind": "deposit",
+          "confidence": "documented",
+          "sign": "varies",
+          "sign_note": "the amount placed in the owner's account; escrowed damage deposits arrive on deposit rows and return on refund rows"
+        },
+        {
+          "name": "Stay Tax We Remit",
+          "kind": "tax-platform-remitted",
+          "confidence": "documented",
+          "sign": "positive"
+        },
+        {
+          "name": "Stay Tax You Remit",
+          "kind": "tax-seller-remitted",
+          "confidence": "documented",
+          "sign": "positive"
+        },
+        {
+          "name": "Payable To You",
+          "kind": "net",
+          "confidence": "documented",
+          "sign": "varies",
+          "sign_note": "the final amount owed to the owner after processing fees; deposit refunds and refund rows post negative"
+        },
+        {
+          "name": "Refundable Deposit",
+          "kind": "deposit",
+          "confidence": "documented",
+          "sign": "varies",
+          "sign_note": "escrowed damage deposits arrive on deposit rows and return on refund rows; a retained amount becomes gross"
+        },
+        {
+          "name": "Payout",
+          "kind": "net",
+          "confidence": "documented",
+          "sign": "varies",
+          "sign_note": "payments carry the amount paid to the owner; refund rows mirror the payment row's sign"
+        }
+      ],
+      "gross": {
+        "basis": "sum-of-components",
+        "columns": ["Taxable Revenue", "Non-Taxable Revenue", "Tax"],
+        "rows": ["earning"],
+        "carries": ["Stay Tax We Remit"]
+      },
+      "net": { "basis": "stated-column", "columns": ["Payable To You"] },
+      "rows": {
+        "column": "Payment Type",
+        "classes": {
+          "Payment": "earning",
+          "Extra Payment": "earning",
+          "Refund": "refund",
+          "Damage Deposit Payment": "deposit",
+          "Damage Deposit Refund": "deposit",
+          "Damage Deposit Claim": "earning"
+        }
+      },
+      "reconcile": { "closed": false, "reason": "no-component-identity" }
+    },
+    {
+      "name": "Stay tax report",
+      "columns": [
+        {
+          "name": "Taxes Vrbo paid",
+          "kind": "tax-platform-remitted",
+          "confidence": "documented",
+          "sign": "positive"
+        },
+        {
+          "name": "Taxes you pay",
+          "kind": "tax-seller-remitted",
+          "confidence": "documented",
+          "sign": "positive"
+        }
+      ],
+      "reconcile": { "closed": false, "reason": "no-net" }
+    },
+    {
+      "name": "Bank deposit report",
+      "columns": [
+        {
+          "name": "Payout",
+          "kind": "net",
+          "confidence": "documented",
+          "sign": "varies",
+          "sign_note": "per-reservation payout amounts include netting of refunds and debit amounts"
+        },
+        {
+          "name": "Total Payout",
+          "kind": "net",
+          "confidence": "documented",
+          "sign": "varies",
+          "sign_note": "the batch total per disbursement date and bank account; refunds and debits net against it"
+        }
+      ],
+      "net": { "basis": "stated-column", "columns": ["Total Payout"] },
+      "reconcile": { "closed": false, "reason": "stated-net" }
+    }
+  ],
+  "anchors": [
+    {
+      "name": "retained-deposit",
+      "summary": "Payout summary report",
+      "history": "Payment history report",
+      "claim_row": "Damage Deposit Claim"
+    }
+  ],
+  "provenance": [
+    {
+      "url": "https://help.vrbo.com/articles/How-do-I-read-my-payout-summary-report",
+      "what": "About your payout summary: the payout summary report's column names and the structural rules for gross booking amounts, lodging taxes and damage deposits"
+    },
+    {
+      "url": "https://help.vrbo.com/articles/How-do-I-export-my-payment-details",
+      "what": "Download your payment history: the payment history export's documented column headers and their definitions"
+    },
+    {
+      "url": "https://help.vrbo.com/articles/About-partner-payouts",
+      "what": "About your payouts: how payouts move to the owner's account and where payout adjustments appear"
+    },
+    {
+      "url": "https://help.vrbo.com/articles/About-1099-K-tax-form-reports",
+      "what": "About Tax Form 1099-K: when Vrbo issues the form and what its gross payment transactions report. The page names the 1099-K issuer as Vrbo and prints no legal filer name."
+    },
+    {
+      "url": "https://help.vrbo.com/articles/Will-I-receive-a-tax-form",
+      "what": "U.S. federal taxes: tax form eligibility for Vrbo payouts"
+    },
+    {
+      "url": "https://help.vrbo.com/articles/Reconcile-a-1099-K-form",
+      "what": "Reconcile your Form 1099-K: Box 1a against the sum of positive gross booking amounts, refund rows excluded"
+    },
+    {
+      "url": "https://help.vrbo.com/articles/About-the-stay-tax-report",
+      "what": "View your stay tax report: the Taxes Vrbo paid and Taxes you pay sections"
+    },
+    {
+      "url": "https://help.vrbo.com/articles/View-taxes-in-your-dashboard",
+      "what": "View your property's lodging taxes: owner-set tax rates and where they show"
+    },
+    {
+      "url": "https://help.vrbo.com/articles/What-is-lodging-tax",
+      "what": "Overview: lodging tax and the tax collection options a jurisdiction can require"
+    },
+    {
+      "url": "https://help.vrbo.com/articles/What-is-the-service-fee",
+      "what": "About Vrbo's service fee: the traveler-side service fee Vrbo keeps, never part of owner gross or owner payout"
+    },
+    {
+      "url": "https://help.vrbo.com/articles/What-is-the-Bank-deposit-report",
+      "what": "Download your bank deposit report: batches organized by disbursement date and bank account, with per-reservation payout amounts"
+    },
+    {
+      "url": "https://help.vrbo.com/articles/Why-were-US-taxes-withheld-from-my-payouts",
+      "what": "About U.S. tax withholding on payouts: the income tax Vrbo withholds and reports on Form 1042-S"
+    },
+    {
+      "url": "https://help.vrbo.com/articles/When-are-funds-deposited-into-my-bank-account",
+      "what": "Check your payment disbursement dates: when funds leave for the owner's bank"
+    }
+  ]
+}

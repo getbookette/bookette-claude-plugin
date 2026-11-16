@@ -1,0 +1,85 @@
+[
+  {
+    "kind": "unreadable",
+    "message": "inbox/IMG_2077.jpg is a small receipt photo too blurred to read its vendor, date or total, so no line is booked from it.",
+    "cites": ["inbox/IMG_2077.jpg"]
+  },
+  {
+    "kind": "near_duplicate",
+    "message": "inbox/tax_payment_history.pdf restates the Denver payment of 2026-02-27 that inbox/tax_payment_confirmation_0227.pdf carries; that payment is staged once from the confirmation, and the history is the only evidence for the payment of 2026-06-12.",
+    "cites": ["inbox/tax_payment_confirmation_0227.pdf", "inbox/tax_payment_history.pdf"]
+  },
+  {
+    "kind": "fair_rental_days",
+    "message": "Cedar Cabin is a short-term rental: the Stayhaven summary records 96 nights booked, 12 nights of owner use and 23 stays; the threshold predicates are on the report, and no services note is recorded.",
+    "cites": ["inbox/cedar_stayhaven_summary_2026.pdf"]
+  },
+  {
+    "kind": "personal_use",
+    "message": "Cedar Cabin records 12 days of personal use, taken from the Stayhaven summary and the person's note; the ratios are on the report.",
+    "cites": ["inbox/cedar_stayhaven_summary_2026.pdf"]
+  },
+  {
+    "kind": "missing_receipt",
+    "gap": "lodging",
+    "message": "No hotel stay is on record for the nights of 2026-04-10 and 2026-04-11 of the Denver trip.",
+    "cites": ["trip:denver_apr"]
+  },
+  {
+    "kind": "missing_receipt",
+    "gap": "meal",
+    "message": "No meal receipt is on record for the days 2026-04-10 to 2026-04-12 of the Denver trip.",
+    "cites": ["trip:denver_apr"]
+  },
+  {
+    "kind": "missing_receipt",
+    "gap": "lodging",
+    "message": "No hotel stay is on record for the night of 2026-04-19 of the Taipei stop of the Taipei and Austin trip.",
+    "cites": ["trip:taipei_austin_apr"]
+  },
+  {
+    "kind": "missing_receipt",
+    "gap": "meal",
+    "message": "No meal receipt is on record for 2026-04-20 in Taipei on the Taipei and Austin trip.",
+    "cites": ["trip:taipei_austin_apr"]
+  },
+  {
+    "kind": "missing_receipt",
+    "gap": "meal",
+    "message": "No meal receipts are on record for 2026-04-24, 2026-04-26 and 2026-04-27 in Austin on the Taipei and Austin trip.",
+    "cites": ["trip:taipei_austin_apr"]
+  },
+  {
+    "kind": "missing_receipt",
+    "gap": "lodging",
+    "message": "No hotel stay is on record for the night of 2026-07-11 of the Estes Park cabin trip.",
+    "cites": ["trip:estes_jul"]
+  },
+  {
+    "kind": "missing_receipt",
+    "gap": "meal",
+    "message": "No meal receipts are on record for 2026-07-10 and 2026-07-12 of the Estes Park cabin trip.",
+    "cites": ["trip:estes_jul"]
+  },
+  {
+    "kind": "missing_receipt",
+    "gap": "mileage",
+    "message": "The mileage log does not count the drive of 2026-07-10 to 2026-07-12 to the Estes Park cabin and back.",
+    "cites": ["trip:estes_jul", "inbox/northpeak_mileage_log_2026.pdf"]
+  },
+  {
+    "kind": "missing_receipt",
+    "message": "The EVA Airways fare on the card of 2026-03-02 prints no city and has no ticket in the batch; the ticket would show where it went and which trip it belongs to.",
+    "cites": ["L0018", "inbox/chase_card_2026.csv"]
+  },
+  {
+    "kind": "entity_unestablished",
+    "message": "The yard cleanup and haul-away paid in cash to Jake on 2026-07-19 is on inbox/note_yard_work.jpg, which names no property, so the line stays unassigned and the person places it from the books.",
+    "cites": ["L0116", "inbox/note_yard_work.jpg"]
+  },
+  {
+    "kind": "method_comparison",
+    "message": "The home office of Northpeak Consulting carries both readings, simplified and regular, in books.json, and the method is the accountant's choice.",
+    "cites": ["inbox/home_electric_2026.pdf", "inbox/home_insurance_2026.pdf"]
+  }
+]

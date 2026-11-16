@@ -1,3 +1,3 @@
 Copyright 2026 Bookette. All rights reserved.
 
-This plugin is distributed through the Claude plugin directory and the getbookette/bookette-claude-plugin marketplace repository; the npm bookette package it launches declares itself UNLICENSED.
+This plugin is distributed through the Claude plugin directory and the getbookette/bookette-claude-plugin marketplace repository. The code it carries is the npm bookette package's, which declares itself UNLICENSED; the third-party packages bundled into that code keep their own licenses, listed in THIRD_PARTY_LICENSES.txt.

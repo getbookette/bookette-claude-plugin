@@ -1,0 +1,85 @@
+[
+  {
+    "key": "open_lakeview_checking_2026_placement",
+    "prompt": "Which place was the Estes Park Hardware Lumber purchase of August 3 on the business checking export for?",
+    "help": "The document doesn't say which of your places it was for; your accountant keeps each place's costs apart.",
+    "options": [
+      {
+        "id": "ent_1",
+        "label": "1180 Quillfeather Ln",
+        "effect": {
+          "kind": "ledger",
+          "field": "entity",
+          "from": null,
+          "to": {
+            "type": "entity",
+            "entityKey": "ent_1",
+            "entityName": "1180 Quillfeather Ln"
+          }
+        }
+      },
+      {
+        "id": "ent_2",
+        "label": "Cedar Cabin",
+        "effect": {
+          "kind": "ledger",
+          "field": "entity",
+          "from": null,
+          "to": {
+            "type": "entity",
+            "entityKey": "ent_2",
+            "entityName": "Cedar Cabin"
+          }
+        }
+      },
+      {
+        "id": "ent_4",
+        "label": "Brindlewood Condo",
+        "effect": {
+          "kind": "ledger",
+          "field": "entity",
+          "from": null,
+          "to": {
+            "type": "entity",
+            "entityKey": "ent_4",
+            "entityName": "Brindlewood Condo"
+          }
+        }
+      },
+      {
+        "id": "ent_5",
+        "label": "Saltgrass House",
+        "effect": {
+          "kind": "ledger",
+          "field": "entity",
+          "from": null,
+          "to": {
+            "type": "entity",
+            "entityKey": "ent_5",
+            "entityName": "Saltgrass House"
+          }
+        }
+      }
+    ],
+    "allow_free_text": true,
+    "cites": ["L0112"],
+    "blocking": false
+  },
+  {
+    "key": "open_ent_2_services",
+    "prompt": "What services, if any, did Cedar Cabin's hosting provide to guests besides the stay, such as meals or tours?",
+    "help": "Services are what guests got beyond the stay itself, such as meals, tours or daily cleaning; your accountant asks about them for a short-term rental.",
+    "options": [
+      {
+        "id": "none_besides_stay",
+        "label": "None besides the stay",
+        "effect": {
+          "kind": "none"
+        }
+      }
+    ],
+    "allow_free_text": true,
+    "cites": ["inbox/cedar_stayhaven_summary_2026.pdf"],
+    "blocking": false
+  }
+]

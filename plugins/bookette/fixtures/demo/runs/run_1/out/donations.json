@@ -1,0 +1,11 @@
+[
+  {
+    "organization": "Mile High Food Pantry",
+    "date": "2026-11-28",
+    "amount": "250.00",
+    "currency": "USD",
+    "form": "cash",
+    "goods_services_amount": null,
+    "source_file": "inbox/denver_food_bank.png"
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "simplified_cents_per_sq_ft": "500",
+  "simplified_max_sq_ft": "300",
+  "schedule_c_line": {
+    "line": "30",
+    "label": "Expenses for business use of your home"
+  },
+  "rules_note": "Simplified method: 5 dollars per square foot of the area used regularly and exclusively for the business, up to 300 square feet, for a full year of use (Rev. Proc. 2013-13). Regular method: the business share of the home's costs by area, plus costs for the office alone (Form 8829 Parts I-II). Both readings are shown side by side and line 30 carries neither: the method is the accountant's choice. Depreciation of the home, the income limit and any carryover are listed and never applied. UNVERIFIED: the 2026 simplified rate (5 dollars) and cap (300 square feet) are the figures Rev. Proc. 2013-13 and Publication 587 (for use in preparing 2025 returns, read 2026-10-07) state; no source dated 2026 has been read (assumption C10)."
+}

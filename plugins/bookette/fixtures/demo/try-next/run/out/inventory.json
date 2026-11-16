@@ -1,0 +1,1239 @@
+{
+  "files": [
+    {
+      "file": "inbox/1098_mortgage_2026.pdf",
+      "sha256": "5f6337d4e5a0da0dece316a18ca60888ed2f067d0e18e456af1b489e34c49a93",
+      "bytes": 3883215,
+      "extension": ".pdf",
+      "pages": 1,
+      "duplicate_of": null,
+      "page_relevance": [
+        {
+          "page": 1,
+          "verdict": "unknown",
+          "reason": "no_text_layer",
+          "first_line": null
+        }
+      ],
+      "read_pages": ["1"]
+    },
+    {
+      "file": "inbox/IMG_2041 copy.png",
+      "sha256": "8fcf2c2e05336172058ccf6d29a521d6fb65c1f509e3b3a7b403b4fde78eca25",
+      "bytes": 708341,
+      "extension": ".png",
+      "pages": 1,
+      "duplicate_of": null
+    },
+    {
+      "file": "inbox/IMG_2077.jpg",
+      "sha256": "51f848fcc62798c790ebcbc4d3b1f43a6b5ebdfc0820421e6add93a5cfcd84c3",
+      "bytes": 11951,
+      "extension": ".jpg",
+      "pages": 1,
+      "duplicate_of": null
+    },
+    {
+      "file": "inbox/IMG_3318.jpg",
+      "sha256": "d0be4b04c2212bb053654c1f8488ec317ff0c41ad52f81fc2759b722ff6ec270",
+      "bytes": 55017,
+      "extension": ".jpg",
+      "pages": 1,
+      "duplicate_of": null
+    },
+    {
+      "file": "inbox/alpine_air_eticket.pdf",
+      "sha256": "626bdf3a0f82a454d5c164d72014262c34e361bbbdaadae845985441d8292c15",
+      "bytes": 7631,
+      "extension": ".pdf",
+      "pages": 6,
+      "duplicate_of": null,
+      "page_relevance": [
+        {
+          "page": 1,
+          "verdict": "relevant",
+          "reason": "first_page",
+          "first_line": "CASCADIA AIR - E-TICKET RECEIPT"
+        },
+        {
+          "page": 2,
+          "verdict": "boilerplate",
+          "reason": "agreement_text",
+          "first_line": "CASCADIA AIR - FARE RULES AND CONDITIONS OF CARRIAGE"
+        },
+        {
+          "page": 3,
+          "verdict": "boilerplate",
+          "reason": "agreement_text",
+          "first_line": "CASCADIA AIR - FARE RULES AND CONDITIONS OF CARRIAGE"
+        },
+        {
+          "page": 4,
+          "verdict": "boilerplate",
+          "reason": "agreement_text",
+          "first_line": "CASCADIA AIR - FARE RULES AND CONDITIONS OF CARRIAGE"
+        },
+        {
+          "page": 5,
+          "verdict": "boilerplate",
+          "reason": "agreement_text",
+          "first_line": "CASCADIA AIR - FARE RULES AND CONDITIONS OF CARRIAGE"
+        },
+        {
+          "page": 6,
+          "verdict": "boilerplate",
+          "reason": "agreement_text",
+          "first_line": "CASCADIA AIR - FARE RULES AND CONDITIONS OF CARRIAGE"
+        }
+      ],
+      "read_pages": ["1"]
+    },
+    {
+      "file": "inbox/ashwood_water_heater_invoice.pdf",
+      "sha256": "13540463a6e278e5181f9efa6069bd9155f5c16147ca704ea2ffdf09e0426e89",
+      "bytes": 1288,
+      "extension": ".pdf",
+      "pages": 1,
+      "duplicate_of": null,
+      "page_relevance": [
+        {
+          "page": 1,
+          "verdict": "relevant",
+          "reason": "first_page",
+          "first_line": "MILE HIGH PLUMBING LLC"
+        }
+      ],
+      "read_pages": ["1"]
+    },
+    {
+      "file": "inbox/austin_dinner.jpg",
+      "sha256": "a9d5d831d8b63fa999430ae63eb7843de6d33318c2dce12e1b2fa976061d8384",
+      "bytes": 57821,
+      "extension": ".jpg",
+      "pages": 1,
+      "duplicate_of": null
+    },
+    {
+      "file": "inbox/austin_hotel_folio.pdf",
+      "sha256": "9a685bb47d9f935b4a96f388686a1c2fa0820bb98a40ec2401de12151a5e967a",
+      "bytes": 2298,
+      "extension": ".pdf",
+      "pages": 1,
+      "duplicate_of": null,
+      "page_relevance": [
+        {
+          "page": 1,
+          "verdict": "relevant",
+          "reason": "first_page",
+          "first_line": "CAPITOL VIEW HOTEL"
+        }
+      ],
+      "read_pages": ["1"]
+    },
+    {
+      "file": "inbox/boulder_county_tax_bill_2026.pdf",
+      "sha256": "e61167fb9fc32fe5e7d740793a720ea21c93a987c4c09004a3689ffae0dc93e5",
+      "bytes": 1290,
+      "extension": ".pdf",
+      "pages": 1,
+      "duplicate_of": null,
+      "page_relevance": [
+        {
+          "page": 1,
+          "verdict": "relevant",
+          "reason": "first_page",
+          "first_line": "BOULDER COUNTY TREASURER"
+        }
+      ],
+      "read_pages": ["1"]
+    },
+    {
+      "file": "inbox/boulder_county_tax_receipt_0429.pdf",
+      "sha256": "631de32fe2a1818bc0604e6afbd874de42729720077559b2631ccea5f5be3955",
+      "bytes": 1166,
+      "extension": ".pdf",
+      "pages": 1,
+      "duplicate_of": null,
+      "page_relevance": [
+        {
+          "page": 1,
+          "verdict": "relevant",
+          "reason": "first_page",
+          "first_line": "BOULDER COUNTY TREASURER - PAYMENT RECEIPT"
+        }
+      ],
+      "read_pages": ["1"]
+    },
+    {
+      "file": "inbox/bramblecrest_roof_invoice.pdf",
+      "sha256": "c2a4964c68d052dedb0c64010769429c6d4288716064e0a2ffbcd75b4e829e22",
+      "bytes": 1395,
+      "extension": ".pdf",
+      "pages": 1,
+      "duplicate_of": null,
+      "page_relevance": [
+        {
+          "page": 1,
+          "verdict": "relevant",
+          "reason": "first_page",
+          "first_line": "BRAMBLECREST ROOFING & EXTERIORS"
+        }
+      ],
+      "read_pages": ["1"]
+    },
+    {
+      "file": "inbox/brindlewood_1098_2026.pdf",
+      "sha256": "fc1767d08e712617eecf9bd967c9a5bf9404b3d577a03a4d17b80d733d9eb2a6",
+      "bytes": 2357,
+      "extension": ".pdf",
+      "pages": 1,
+      "duplicate_of": null,
+      "page_relevance": [
+        {
+          "page": 1,
+          "verdict": "relevant",
+          "reason": "first_page",
+          "first_line": "8181                                                         VOID               "
+        }
+      ],
+      "read_pages": ["1"]
+    },
+    {
+      "file": "inbox/cascade_cu_1099int.pdf",
+      "sha256": "a69f51ce4dca7b7dbd8352d64c9e94553f679b420159e7bcb8d42105dd33fe7c",
+      "bytes": 2394,
+      "extension": ".pdf",
+      "pages": 1,
+      "duplicate_of": null,
+      "page_relevance": [
+        {
+          "page": 1,
+          "verdict": "relevant",
+          "reason": "first_page",
+          "first_line": "9292                                                         VOID               "
+        }
+      ],
+      "read_pages": ["1"]
+    },
+    {
+      "file": "inbox/cedar_1099k_2026.pdf",
+      "sha256": "82736b4b50f09726eac8ea48d534acbfd7b9e712d83ada8bca443bfb6b02588d",
+      "bytes": 2598,
+      "extension": ".pdf",
+      "pages": 1,
+      "duplicate_of": null,
+      "page_relevance": [
+        {
+          "page": 1,
+          "verdict": "relevant",
+          "reason": "first_page",
+          "first_line": "1010                                                         VOID               "
+        }
+      ],
+      "read_pages": ["1"]
+    },
+    {
+      "file": "inbox/cedar_deck_repair_receipt.pdf",
+      "sha256": "1a259dbf5c93db7819d23db1f867105efc968c399d7dfb3da45a7c5b6e52ed20",
+      "bytes": 1243,
+      "extension": ".pdf",
+      "pages": 1,
+      "duplicate_of": null,
+      "page_relevance": [
+        {
+          "page": 1,
+          "verdict": "relevant",
+          "reason": "first_page",
+          "first_line": "ESTES PARK HARDWARE & LUMBER"
+        }
+      ],
+      "read_pages": ["1"]
+    },
+    {
+      "file": "inbox/cedar_hardware_itemised.pdf",
+      "sha256": "9e6cfaf8fef36c969f85c29df994c8b8d7d53109e99c399cd348cf3c9867aa82",
+      "bytes": 2485,
+      "extension": ".pdf",
+      "pages": 2,
+      "duplicate_of": null,
+      "page_relevance": [
+        {
+          "page": 1,
+          "verdict": "relevant",
+          "reason": "first_page",
+          "first_line": "ESTES PARK HARDWARE & LUMBER"
+        },
+        {
+          "page": 2,
+          "verdict": "relevant",
+          "reason": "content",
+          "first_line": "Weatherstrip, door                 9.98"
+        }
+      ],
+      "read_pages": ["1-2"]
+    },
+    {
+      "file": "inbox/cedar_linens_receipt.png",
+      "sha256": "455bcc7ced1979dcb29013f1417333531cc053f39799f62c1717ee36f7558466",
+      "bytes": 31782,
+      "extension": ".png",
+      "pages": 1,
+      "duplicate_of": null
+    },
+    {
+      "file": "inbox/cedar_propane_bill.pdf",
+      "sha256": "7f5bb77d6052cf8786a0616bb60a0909b55b4bf81273ecc894d971a8b76f6846",
+      "bytes": 1110,
+      "extension": ".pdf",
+      "pages": 1,
+      "duplicate_of": null,
+      "page_relevance": [
+        {
+          "page": 1,
+          "verdict": "relevant",
+          "reason": "first_page",
+          "first_line": "LARIMER PROPANE"
+        }
+      ],
+      "read_pages": ["1"]
+    },
+    {
+      "file": "inbox/cedar_stayhaven_summary_2026.pdf",
+      "sha256": "d93cf77f5b020f5bf48ce5179f70e4c36376de95ef52e8b5b3123dc8c4cccf81",
+      "bytes": 3945,
+      "extension": ".pdf",
+      "pages": 3,
+      "duplicate_of": null,
+      "page_relevance": [
+        {
+          "page": 1,
+          "verdict": "relevant",
+          "reason": "first_page",
+          "first_line": "STAYHAVEN - HOST ANNUAL EARNINGS SUMMARY 2026"
+        },
+        {
+          "page": 2,
+          "verdict": "boilerplate",
+          "reason": "agreement_text",
+          "first_line": "STAYHAVEN - HOST TERMS"
+        },
+        {
+          "page": 3,
+          "verdict": "boilerplate",
+          "reason": "agreement_text",
+          "first_line": "STAYHAVEN - HOST TERMS"
+        }
+      ],
+      "read_pages": ["1"]
+    },
+    {
+      "file": "inbox/cedar_turnover_cleaning.pdf",
+      "sha256": "43abed3e1f14d5b9f052e23afd34b1e616a0e336f4d1cb5afb5a6dbc55a4057c",
+      "bytes": 1150,
+      "extension": ".pdf",
+      "pages": 1,
+      "duplicate_of": null,
+      "page_relevance": [
+        {
+          "page": 1,
+          "verdict": "relevant",
+          "reason": "first_page",
+          "first_line": "ESTES PARK TURNOVER CLEANING"
+        }
+      ],
+      "read_pages": ["1"]
+    },
+    {
+      "file": "inbox/chase_card_2026.csv",
+      "sha256": "732d77724f5dec6b95bbe687d52664fb6225732f5fa68455ab8d6ff02377202d",
+      "bytes": 2801,
+      "extension": ".csv",
+      "pages": 1,
+      "duplicate_of": null
+    },
+    {
+      "file": "inbox/cherry_creek_statement_2026.xlsx",
+      "sha256": "d5d9f95d84db527a17fc99ebb37481956a6391aaf7d4637219ff846ea53f283a",
+      "bytes": 6697,
+      "extension": ".xlsx",
+      "pages": 1,
+      "duplicate_of": null
+    },
+    {
+      "file": "inbox/chicago_breakfast_0821.png",
+      "sha256": "c9ce017a23585eb0037466c8ff1c54f7f0098b1cd6d43ba5dbcabb45fdcfbc6c",
+      "bytes": 22877,
+      "extension": ".png",
+      "pages": 1,
+      "duplicate_of": null
+    },
+    {
+      "file": "inbox/chicago_coffee_0817.png",
+      "sha256": "0577d7200d8aa4a75e0957e4822044093c08848e55af20112e64f380f6ba1ce9",
+      "bytes": 17921,
+      "extension": ".png",
+      "pages": 1,
+      "duplicate_of": null
+    },
+    {
+      "file": "inbox/chicago_coffee_0818.jpg",
+      "sha256": "91d63e1ed61030e4fa0cfa0b3fd7c6f53dd8147afb1aefb51b66084963129db1",
+      "bytes": 38740,
+      "extension": ".jpg",
+      "pages": 1,
+      "duplicate_of": null
+    },
+    {
+      "file": "inbox/chicago_coffee_0820.png",
+      "sha256": "9bffc225b557586dda84e3fc5316e32416e39e965392106ef7c21982c2fedf57",
+      "bytes": 18458,
+      "extension": ".png",
+      "pages": 1,
+      "duplicate_of": null
+    },
+    {
+      "file": "inbox/chicago_dinner_0817.pdf",
+      "sha256": "f1fa9f1d390f982c5d14dfb37ce68ab3e6dab23cdf7db7ad2cf1558852a9c4a6",
+      "bytes": 1213,
+      "extension": ".pdf",
+      "pages": 1,
+      "duplicate_of": null,
+      "page_relevance": [
+        {
+          "page": 1,
+          "verdict": "relevant",
+          "reason": "first_page",
+          "first_line": "NORTHSIDE DEEP DISH CO"
+        }
+      ],
+      "read_pages": ["1"]
+    },
+    {
+      "file": "inbox/chicago_dinner_0818.pdf",
+      "sha256": "524bdaca195528a7a7b257799263b1706cd7c4381fa0cad53988908f3695f6f9",
+      "bytes": 1166,
+      "extension": ".pdf",
+      "pages": 1,
+      "duplicate_of": null,
+      "page_relevance": [
+        {
+          "page": 1,
+          "verdict": "relevant",
+          "reason": "first_page",
+          "first_line": "THE GRANARY HALL"
+        }
+      ],
+      "read_pages": ["1"]
+    },
+    {
+      "file": "inbox/chicago_dinner_0820.pdf",
+      "sha256": "1fd5ce83979d2763246ee621ac2deaa8acbd1edaf51969c40e3f1c52b82cdc27",
+      "bytes": 1164,
+      "extension": ".pdf",
+      "pages": 1,
+      "duplicate_of": null,
+      "page_relevance": [
+        {
+          "page": 1,
+          "verdict": "relevant",
+          "reason": "first_page",
+          "first_line": "GRANARY STREET CHOPHOUSE"
+        }
+      ],
+      "read_pages": ["1"]
+    },
+    {
+      "file": "inbox/chicago_lunch_0818.png",
+      "sha256": "617b297703a185dd1fa10b0391dbd1daf9656afa075d9a3e2ac5b0fddd73b6d5",
+      "bytes": 28638,
+      "extension": ".png",
+      "pages": 1,
+      "duplicate_of": null
+    },
+    {
+      "file": "inbox/chicago_lunch_0819.jpg",
+      "sha256": "38f514b6cd0cff08e0410d694d6ade27f862fe6d45a2ce4d0c9e724b118b50fb",
+      "bytes": 52399,
+      "extension": ".jpg",
+      "pages": 1,
+      "duplicate_of": null
+    },
+    {
+      "file": "inbox/chicago_lunch_0820.pdf",
+      "sha256": "521e989488f1e35dd0812ecf80fd8df0487794f0a0df004ab312002420235a15",
+      "bytes": 1117,
+      "extension": ".pdf",
+      "pages": 1,
+      "duplicate_of": null,
+      "page_relevance": [
+        {
+          "page": 1,
+          "verdict": "relevant",
+          "reason": "first_page",
+          "first_line": "GREENLEAF BOWLS"
+        }
+      ],
+      "read_pages": ["1"]
+    },
+    {
+      "file": "inbox/chicago_taxi_0817.pdf",
+      "sha256": "6be02097c03b618c73c239b379ebb34140b72d61a9d7da764e33d0b680fed773",
+      "bytes": 1138,
+      "extension": ".pdf",
+      "pages": 1,
+      "duplicate_of": null,
+      "page_relevance": [
+        {
+          "page": 1,
+          "verdict": "relevant",
+          "reason": "first_page",
+          "first_line": "CHICAGO LAKEFRONT CAB"
+        }
+      ],
+      "read_pages": ["1"]
+    },
+    {
+      "file": "inbox/chicago_taxi_0821.pdf",
+      "sha256": "1db8279b34dd7fcc66c0fc6bc85ae85e63bda5119c24d7871d0cae52abdf380e",
+      "bytes": 1135,
+      "extension": ".pdf",
+      "pages": 1,
+      "duplicate_of": null,
+      "page_relevance": [
+        {
+          "page": 1,
+          "verdict": "relevant",
+          "reason": "first_page",
+          "first_line": "CHICAGO LAKEFRONT CAB"
+        }
+      ],
+      "read_pages": ["1"]
+    },
+    {
+      "file": "inbox/chinook_electric_jul2026.pdf",
+      "sha256": "a6b616dcbc871a67c8ba5c42af041961aa7d41c537208c619deba47ba47f9724",
+      "bytes": 1235,
+      "extension": ".pdf",
+      "pages": 1,
+      "duplicate_of": null,
+      "page_relevance": [
+        {
+          "page": 1,
+          "verdict": "relevant",
+          "reason": "first_page",
+          "first_line": "CHINOOK GAS & ELECTRIC"
+        }
+      ],
+      "read_pages": ["1"]
+    },
+    {
+      "file": "inbox/closing_statement_2019.pdf",
+      "sha256": "bdd591a6fc208468354760234fbd0a797b6fe569bb4688008bb8180d1aeb2aa3",
+      "bytes": 1243,
+      "extension": ".pdf",
+      "pages": 1,
+      "duplicate_of": null,
+      "page_relevance": [
+        {
+          "page": 1,
+          "verdict": "relevant",
+          "reason": "first_page",
+          "first_line": "SETTLEMENT STATEMENT"
+        }
+      ],
+      "read_pages": ["1"]
+    },
+    {
+      "file": "inbox/closing_statement_2021_brindlewood.pdf",
+      "sha256": "85b5a9bcb8575e37df374b15f37e66f2b147604567271240d06dd58c04f8ec36",
+      "bytes": 1258,
+      "extension": ".pdf",
+      "pages": 1,
+      "duplicate_of": null,
+      "page_relevance": [
+        {
+          "page": 1,
+          "verdict": "relevant",
+          "reason": "first_page",
+          "first_line": "SETTLEMENT STATEMENT"
+        }
+      ],
+      "read_pages": ["1"]
+    },
+    {
+      "file": "inbox/denver_food_bank.png",
+      "sha256": "b2a395adce88131416baa52f2a7e68ca662399e3e6fd8998d7f670fd02d4e767",
+      "bytes": 29552,
+      "extension": ".png",
+      "pages": 1,
+      "duplicate_of": null
+    },
+    {
+      "file": "inbox/denver_tax_bill_2026.pdf",
+      "sha256": "18788bca5b7ed431503b44d20bbcecde66774fbcae09fed7bacd695132e3d354",
+      "bytes": 1325,
+      "extension": ".pdf",
+      "pages": 1,
+      "duplicate_of": null,
+      "page_relevance": [
+        {
+          "page": 1,
+          "verdict": "relevant",
+          "reason": "first_page",
+          "first_line": "DENVER COUNTY TREASURY DIVISION"
+        }
+      ],
+      "read_pages": ["1"]
+    },
+    {
+      "file": "inbox/eftps_q1_2026.pdf",
+      "sha256": "9c330f7a07067f4e4053f0e112d6284b45204b790d3a8baa68d8c3c63518f288",
+      "bytes": 1187,
+      "extension": ".pdf",
+      "pages": 1,
+      "duplicate_of": null,
+      "page_relevance": [
+        {
+          "page": 1,
+          "verdict": "relevant",
+          "reason": "first_page",
+          "first_line": "EFTPS - ELECTRONIC FEDERAL TAX PAYMENT SYSTEM"
+        }
+      ],
+      "read_pages": ["1"]
+    },
+    {
+      "file": "inbox/eftps_q2_2026.pdf",
+      "sha256": "d1f35aad57cd8052bccacc1bc959904c1a835313db9f319a981084ae6cdda0d9",
+      "bytes": 1187,
+      "extension": ".pdf",
+      "pages": 1,
+      "duplicate_of": null,
+      "page_relevance": [
+        {
+          "page": 1,
+          "verdict": "relevant",
+          "reason": "first_page",
+          "first_line": "EFTPS - ELECTRONIC FEDERAL TAX PAYMENT SYSTEM"
+        }
+      ],
+      "read_pages": ["1"]
+    },
+    {
+      "file": "inbox/el_paso_tax_bill_2026.pdf",
+      "sha256": "9027e15b55f626a2c84b87bc14d3e7c6576e1373a8e2c431505d061b04cb2eb1",
+      "bytes": 1300,
+      "extension": ".pdf",
+      "pages": 1,
+      "duplicate_of": null,
+      "page_relevance": [
+        {
+          "page": 1,
+          "verdict": "relevant",
+          "reason": "first_page",
+          "first_line": "EL PASO COUNTY TREASURER"
+        }
+      ],
+      "read_pages": ["1"]
+    },
+    {
+      "file": "inbox/el_paso_tax_receipt_0427.pdf",
+      "sha256": "a82ca58e261118f40fb0a8acdcba5c7e3772ccc33d4253f5e4fef4f90d4d0f84",
+      "bytes": 1165,
+      "extension": ".pdf",
+      "pages": 1,
+      "duplicate_of": null,
+      "page_relevance": [
+        {
+          "page": 1,
+          "verdict": "relevant",
+          "reason": "first_page",
+          "first_line": "EL PASO COUNTY TREASURER - PAYMENT RECEIPT"
+        }
+      ],
+      "read_pages": ["1"]
+    },
+    {
+      "file": "inbox/estes_park_dinner_0711.jpg",
+      "sha256": "a1b4c8c6acbbbb5fa8dd57f445b24654bf25f755d3adfaf5f942f79828ea32d0",
+      "bytes": 58162,
+      "extension": ".jpg",
+      "pages": 1,
+      "duplicate_of": null
+    },
+    {
+      "file": "inbox/estes_park_motel_folio.pdf",
+      "sha256": "185faa8efeec252070cef91812c16916ae14a1bd6bd1dc9ed7bc306fbc5154a3",
+      "bytes": 2185,
+      "extension": ".pdf",
+      "pages": 1,
+      "duplicate_of": null,
+      "page_relevance": [
+        {
+          "page": 1,
+          "verdict": "relevant",
+          "reason": "first_page",
+          "first_line": "TRAIL RIDGE MOTOR LODGE"
+        }
+      ],
+      "read_pages": ["1"]
+    },
+    {
+      "file": "inbox/fir_ridge_rental_checking_2026.csv",
+      "sha256": "9dc86950f67d6e2b9c7796347a77841f6b6cf85f9b29373e6e2a11452494778c",
+      "bytes": 2522,
+      "extension": ".csv",
+      "pages": 1,
+      "duplicate_of": null
+    },
+    {
+      "file": "inbox/garage_door_receipt.png",
+      "sha256": "170df9e877b9afe923e3a5bb6513c71cba8a66b50c05d101c0f30dc88d74e515",
+      "bytes": 29115,
+      "extension": ".png",
+      "pages": 1,
+      "duplicate_of": null
+    },
+    {
+      "file": "inbox/harbor_1099nec_2026.pdf",
+      "sha256": "c5dad638a25d2e556d058a9cd4f055068d6b44d8f21e987372f380fa5718e4d6",
+      "bytes": 2157,
+      "extension": ".pdf",
+      "pages": 1,
+      "duplicate_of": null,
+      "page_relevance": [
+        {
+          "page": 1,
+          "verdict": "relevant",
+          "reason": "first_page",
+          "first_line": "7171                                                         VOID               "
+        }
+      ],
+      "read_pages": ["1"]
+    },
+    {
+      "file": "inbox/hearthstone_dp3_declaration_2026.pdf",
+      "sha256": "eb8d911cb545834cc9a757a28a58627cb9c9dfe290f88653f22c14fce99e1912",
+      "bytes": 1278,
+      "extension": ".pdf",
+      "pages": 1,
+      "duplicate_of": null,
+      "page_relevance": [
+        {
+          "page": 1,
+          "verdict": "relevant",
+          "reason": "first_page",
+          "first_line": "HEARTHSTONE MUTUAL INSURANCE"
+        }
+      ],
+      "read_pages": ["1"]
+    },
+    {
+      "file": "inbox/holloway_finch_invoice_2026.pdf",
+      "sha256": "888158b15faf37bd5e23a3a36831f611f9e4161ff0033cb39ef7545a5762b8dd",
+      "bytes": 1269,
+      "extension": ".pdf",
+      "pages": 1,
+      "duplicate_of": null,
+      "page_relevance": [
+        {
+          "page": 1,
+          "verdict": "relevant",
+          "reason": "first_page",
+          "first_line": "HOLLOWAY & FINCH PROPERTY SERVICES"
+        }
+      ],
+      "read_pages": ["1"]
+    },
+    {
+      "file": "inbox/home_electric_2026.pdf",
+      "sha256": "a2bf4955cec742d0437990c91362f2003b012c21ca52ee050b826d989ff79dc9",
+      "bytes": 1137,
+      "extension": ".pdf",
+      "pages": 1,
+      "duplicate_of": null,
+      "page_relevance": [
+        {
+          "page": 1,
+          "verdict": "relevant",
+          "reason": "first_page",
+          "first_line": "FOOTHILL ENERGY CO"
+        }
+      ],
+      "read_pages": ["1"]
+    },
+    {
+      "file": "inbox/home_insurance_2026.pdf",
+      "sha256": "4bea8908540306ecce64a3a188985e988794d1fa47dcfadfd6e83e10f28fc4ee",
+      "bytes": 11411,
+      "extension": ".pdf",
+      "pages": 9,
+      "duplicate_of": null,
+      "page_relevance": [
+        {
+          "page": 1,
+          "verdict": "relevant",
+          "reason": "first_page",
+          "first_line": "FIR RIDGE HOME INSURANCE"
+        },
+        {
+          "page": 2,
+          "verdict": "boilerplate",
+          "reason": "agreement_text",
+          "first_line": "FIR RIDGE HOME INSURANCE - POLICY CONDITIONS"
+        },
+        {
+          "page": 3,
+          "verdict": "boilerplate",
+          "reason": "agreement_text",
+          "first_line": "FIR RIDGE HOME INSURANCE - POLICY CONDITIONS"
+        },
+        {
+          "page": 4,
+          "verdict": "boilerplate",
+          "reason": "agreement_text",
+          "first_line": "FIR RIDGE HOME INSURANCE - POLICY CONDITIONS"
+        },
+        {
+          "page": 5,
+          "verdict": "boilerplate",
+          "reason": "agreement_text",
+          "first_line": "FIR RIDGE HOME INSURANCE - POLICY CONDITIONS"
+        },
+        {
+          "page": 6,
+          "verdict": "boilerplate",
+          "reason": "agreement_text",
+          "first_line": "FIR RIDGE HOME INSURANCE - POLICY CONDITIONS"
+        },
+        {
+          "page": 7,
+          "verdict": "boilerplate",
+          "reason": "agreement_text",
+          "first_line": "FIR RIDGE HOME INSURANCE - POLICY CONDITIONS"
+        },
+        {
+          "page": 8,
+          "verdict": "boilerplate",
+          "reason": "agreement_text",
+          "first_line": "FIR RIDGE HOME INSURANCE - POLICY CONDITIONS"
+        },
+        {
+          "page": 9,
+          "verdict": "boilerplate",
+          "reason": "agreement_text",
+          "first_line": "FIR RIDGE HOME INSURANCE - POLICY CONDITIONS"
+        }
+      ],
+      "read_pages": ["1"]
+    },
+    {
+      "file": "inbox/insurance_premium.jpg",
+      "sha256": "4c7ce940284c47e66c550a8783bcecea56e78d16a59a0e0906a009ee224e5784",
+      "bytes": 51535,
+      "extension": ".jpg",
+      "pages": 1,
+      "duplicate_of": null
+    },
+    {
+      "file": "inbox/k1_cascadia_2026.pdf",
+      "sha256": "48db714a255ce0fdd34d72006df34277a2d075068226745dc7f0031d6167711f",
+      "bytes": 3196,
+      "extension": ".pdf",
+      "pages": 1,
+      "duplicate_of": null,
+      "page_relevance": [
+        {
+          "page": 1,
+          "verdict": "relevant",
+          "reason": "first_page",
+          "first_line": "Schedule K-1                                          2026                      "
+        }
+      ],
+      "read_pages": ["1"]
+    },
+    {
+      "file": "inbox/k1_riverbend_2026.pdf",
+      "sha256": "e1fa8a734c8f5c906ca4ead6419e03756aad9afde10dec162f46ce132ae62625",
+      "bytes": 3171,
+      "extension": ".pdf",
+      "pages": 1,
+      "duplicate_of": null,
+      "page_relevance": [
+        {
+          "page": 1,
+          "verdict": "relevant",
+          "reason": "first_page",
+          "first_line": "Schedule K-1                                          2026                      "
+        }
+      ],
+      "read_pages": ["1"]
+    },
+    {
+      "file": "inbox/lakeshore_grand_folio.pdf",
+      "sha256": "aaec77f2cd81391d8bf080de52bf8eb21b3243f5f3c6283cfe872465e55587ef",
+      "bytes": 6193,
+      "extension": ".pdf",
+      "pages": 4,
+      "duplicate_of": null,
+      "page_relevance": [
+        {
+          "page": 1,
+          "verdict": "relevant",
+          "reason": "first_page",
+          "first_line": "LAKESHORE GRAND HOTEL"
+        },
+        {
+          "page": 2,
+          "verdict": "boilerplate",
+          "reason": "agreement_text",
+          "first_line": "LAKESHORE GRAND HOTEL - GUEST AGREEMENT AND HOTEL POLICIES"
+        },
+        {
+          "page": 3,
+          "verdict": "boilerplate",
+          "reason": "agreement_text",
+          "first_line": "LAKESHORE GRAND HOTEL - GUEST AGREEMENT AND HOTEL POLICIES"
+        },
+        {
+          "page": 4,
+          "verdict": "boilerplate",
+          "reason": "agreement_text",
+          "first_line": "LAKESHORE GRAND HOTEL - GUEST AGREEMENT AND HOTEL POLICIES"
+        }
+      ],
+      "read_pages": ["1"]
+    },
+    {
+      "file": "inbox/lakeview_checking_2026.csv",
+      "sha256": "938de13d26939685fa7352d8cbf7e799b33ef9284707c037e5f32daa58848392",
+      "bytes": 1065,
+      "extension": ".csv",
+      "pages": 1,
+      "duplicate_of": null
+    },
+    {
+      "file": "inbox/laptop_invoice.pdf",
+      "sha256": "48586c0766620219631ea9384a02afe1aefac11f7ed8272e6885aa3595c71aed",
+      "bytes": 6321,
+      "extension": ".pdf",
+      "pages": 5,
+      "duplicate_of": null,
+      "page_relevance": [
+        {
+          "page": 1,
+          "verdict": "relevant",
+          "reason": "first_page",
+          "first_line": "NORTHLAKE COMPUTERS"
+        },
+        {
+          "page": 2,
+          "verdict": "boilerplate",
+          "reason": "agreement_text",
+          "first_line": "NORTHLAKE COMPUTERS - TERMS OF SALE"
+        },
+        {
+          "page": 3,
+          "verdict": "boilerplate",
+          "reason": "agreement_text",
+          "first_line": "NORTHLAKE COMPUTERS - TERMS OF SALE"
+        },
+        {
+          "page": 4,
+          "verdict": "boilerplate",
+          "reason": "agreement_text",
+          "first_line": "NORTHLAKE COMPUTERS - TERMS OF SALE"
+        },
+        {
+          "page": 5,
+          "verdict": "boilerplate",
+          "reason": "agreement_text",
+          "first_line": "NORTHLAKE COMPUTERS - TERMS OF SALE"
+        }
+      ],
+      "read_pages": ["1"]
+    },
+    {
+      "file": "inbox/lodestar_ho6_premium_2026.pdf",
+      "sha256": "6d601af83425f4bd3fabf2a36f9aa250f980cde14f433b41ed17068cc69cfbfc",
+      "bytes": 1218,
+      "extension": ".pdf",
+      "pages": 1,
+      "duplicate_of": null,
+      "page_relevance": [
+        {
+          "page": 1,
+          "verdict": "relevant",
+          "reason": "first_page",
+          "first_line": "LODESTAR INSURANCE CO."
+        }
+      ],
+      "read_pages": ["1"]
+    },
+    {
+      "file": "inbox/lumen_1099nec.jpg",
+      "sha256": "200e973bc3e1640fa7ee1351b0773cb3d7e348572dcc8ad7570209c86020ae25",
+      "bytes": 378663,
+      "extension": ".jpg",
+      "pages": 1,
+      "duplicate_of": null
+    },
+    {
+      "file": "inbox/northpeak_mileage_log_2026.pdf",
+      "sha256": "ec87b78f4ec7070aeaa254e985b2b0ffa190fbb6b4616db505c4bda9be26183d",
+      "bytes": 1365,
+      "extension": ".pdf",
+      "pages": 1,
+      "duplicate_of": null,
+      "page_relevance": [
+        {
+          "page": 1,
+          "verdict": "relevant",
+          "reason": "first_page",
+          "first_line": "NORTHPEAK CONSULTING - VEHICLE MILEAGE LOG 2026"
+        }
+      ],
+      "read_pages": ["1"]
+    },
+    {
+      "file": "inbox/northpeak_office_floor_plan.png",
+      "sha256": "43af742b38fe8c8161aa7d54cffbc119439bc5ee1d819688453eac855499c13a",
+      "bytes": 20155,
+      "extension": ".png",
+      "pages": 1,
+      "duplicate_of": null
+    },
+    {
+      "file": "inbox/note_yard_work.jpg",
+      "sha256": "9304b7c83d6a4769c071950a8e72d1f976a77cbe8e0a491c935cec89b3badba3",
+      "bytes": 30397,
+      "extension": ".jpg",
+      "pages": 1,
+      "duplicate_of": null
+    },
+    {
+      "file": "inbox/odyssey_service_invoice.pdf",
+      "sha256": "9ec2aa594f9ff35cbdf32f35574d569221f9fea8b091c90ec888ab6aa8d83630",
+      "bytes": 1191,
+      "extension": ".pdf",
+      "pages": 1,
+      "duplicate_of": null,
+      "page_relevance": [
+        {
+          "page": 1,
+          "verdict": "relevant",
+          "reason": "first_page",
+          "first_line": "MILLRACE AUTO SERVICE"
+        }
+      ],
+      "read_pages": ["1"]
+    },
+    {
+      "file": "inbox/office_depot_receipt.png",
+      "sha256": "9cfacba99c9935390d7c6938da60c608b2b15ce7214f270c852e8933423ab049",
+      "bytes": 27569,
+      "extension": ".png",
+      "pages": 1,
+      "duplicate_of": null
+    },
+    {
+      "file": "inbox/plumber_invoice.pdf",
+      "sha256": "8a79dae37391f586c92533df84ba0d927e561a5e366359de2153b5ec86ffaa48",
+      "bytes": 1268,
+      "extension": ".pdf",
+      "pages": 1,
+      "duplicate_of": null,
+      "page_relevance": [
+        {
+          "page": 1,
+          "verdict": "relevant",
+          "reason": "first_page",
+          "first_line": "MILE HIGH PLUMBING LLC"
+        }
+      ],
+      "read_pages": ["1"]
+    },
+    {
+      "file": "inbox/quarrystone_1098_2026.jpg",
+      "sha256": "16d331b4e5e1feed9c074fdbe5e04fefb05587ef0f356ca2f82f89710d356f90",
+      "bytes": 402669,
+      "extension": ".jpg",
+      "pages": 1,
+      "duplicate_of": null
+    },
+    {
+      "file": "inbox/rideshare_0818_am.png",
+      "sha256": "0873da4f0b3632f0cbc7f2f450ebd554b12e8cfcf84f5096eabea607c7eeb02f",
+      "bytes": 19791,
+      "extension": ".png",
+      "pages": 1,
+      "duplicate_of": null
+    },
+    {
+      "file": "inbox/rideshare_0818_pm.png",
+      "sha256": "244fef200d19c12d4f4859b0597b73ce3d74ac1ef0c8f2f5ace2897a83639f50",
+      "bytes": 18926,
+      "extension": ".png",
+      "pages": 1,
+      "duplicate_of": null
+    },
+    {
+      "file": "inbox/rideshare_0819_am.png",
+      "sha256": "bcdc6438d2a1360df90266454a5ac7d06173242fcdb1023f025c10acf581e0c9",
+      "bytes": 20868,
+      "extension": ".png",
+      "pages": 1,
+      "duplicate_of": null
+    },
+    {
+      "file": "inbox/rideshare_0820_pm.png",
+      "sha256": "433e5de0827aae85d648b096bf5fbbd292d4b189fe5f1bf10147eeda26dafb05",
+      "bytes": 19421,
+      "extension": ".png",
+      "pages": 1,
+      "duplicate_of": null
+    },
+    {
+      "file": "inbox/sagebrush_lawn_snow_2026.pdf",
+      "sha256": "af4f9a01d4e136eef9490af08c8569def62f01d6f5f102fd7d8d6791ebbcc8e8",
+      "bytes": 1237,
+      "extension": ".pdf",
+      "pages": 1,
+      "duplicate_of": null,
+      "page_relevance": [
+        {
+          "page": 1,
+          "verdict": "relevant",
+          "reason": "first_page",
+          "first_line": "SAGEBRUSH LAWN & SNOW"
+        }
+      ],
+      "read_pages": ["1"]
+    },
+    {
+      "file": "inbox/saltgrass_closing_2023.pdf",
+      "sha256": "9e5a67afb09e72536ff6fec8f9736177e2aef9e8f96440b9ba0fac4d6a3d8520",
+      "bytes": 1259,
+      "extension": ".pdf",
+      "pages": 1,
+      "duplicate_of": null,
+      "page_relevance": [
+        {
+          "page": 1,
+          "verdict": "relevant",
+          "reason": "first_page",
+          "first_line": "SETTLEMENT STATEMENT"
+        }
+      ],
+      "read_pages": ["1"]
+    },
+    {
+      "file": "inbox/shell_fuel_0314.jpg",
+      "sha256": "e39e22312494910120b4d0d2f395bc8613ec11553b0951c95720deb6f044ab3f",
+      "bytes": 39178,
+      "extension": ".jpg",
+      "pages": 1,
+      "duplicate_of": null
+    },
+    {
+      "file": "inbox/shell_fuel_0710.jpg",
+      "sha256": "d62cc4207bc761ca24a43c9530ae114716b3146a80fa0e2fa43aaf94eb3195be",
+      "bytes": 40646,
+      "extension": ".jpg",
+      "pages": 1,
+      "duplicate_of": null
+    },
+    {
+      "file": "inbox/sunspot_dishwasher_repair.pdf",
+      "sha256": "85d9df9cfc02a75b71abf83780d8cd34e99ea843e196d0ce9e518618d94365ba",
+      "bytes": 1270,
+      "extension": ".pdf",
+      "pages": 1,
+      "duplicate_of": null,
+      "page_relevance": [
+        {
+          "page": 1,
+          "verdict": "relevant",
+          "reason": "first_page",
+          "first_line": "SUNSPOT APPLIANCE REPAIR"
+        }
+      ],
+      "read_pages": ["1"]
+    },
+    {
+      "file": "inbox/taipei_einvoice.png",
+      "sha256": "eea6fdb4e8017fecf9af6e19ee82d63d2735659e3a05491b804d59c6df53c02b",
+      "bytes": 37115,
+      "extension": ".png",
+      "pages": 1,
+      "duplicate_of": null
+    },
+    {
+      "file": "inbox/taipei_taxi.jpg",
+      "sha256": "9b8706f552f390cea9cf3031ec168d74c5ca448c6f068ed803ab51be6ef38cc9",
+      "bytes": 41020,
+      "extension": ".jpg",
+      "pages": 1,
+      "duplicate_of": null
+    },
+    {
+      "file": "inbox/tax_payment_confirmation_0227.pdf",
+      "sha256": "216a3218715d70891a8b27ea5e48cb8e44f111c9db15a6b65d2b9d54ba152280",
+      "bytes": 1195,
+      "extension": ".pdf",
+      "pages": 1,
+      "duplicate_of": null,
+      "page_relevance": [
+        {
+          "page": 1,
+          "verdict": "relevant",
+          "reason": "first_page",
+          "first_line": "DENVER TREASURY - ONLINE PAYMENT CONFIRMATION"
+        }
+      ],
+      "read_pages": ["1"]
+    },
+    {
+      "file": "inbox/tax_payment_history.pdf",
+      "sha256": "3fc8684f4f536b8e3813c26efb8bad7c4eb457c4455187271738a8a0aff7e268",
+      "bytes": 1188,
+      "extension": ".pdf",
+      "pages": 1,
+      "duplicate_of": null,
+      "page_relevance": [
+        {
+          "page": 1,
+          "verdict": "relevant",
+          "reason": "first_page",
+          "first_line": "Denver Treasury - Payment History"
+        }
+      ],
+      "read_pages": ["1"]
+    },
+    {
+      "file": "inbox/lumen_1099nec_corrected.pdf",
+      "sha256": "10dc9a9612a14e17f094ff6bbf2edf17927fedc56592c92eec8266f716b02b29",
+      "bytes": 2139,
+      "extension": ".pdf",
+      "pages": 1,
+      "duplicate_of": null,
+      "page_relevance": [
+        {
+          "page": 1,
+          "verdict": "relevant",
+          "reason": "first_page",
+          "first_line": "7171                                                         VOID               "
+        }
+      ],
+      "read_pages": ["1"]
+    }
+  ],
+  "totals": {
+    "files": 81,
+    "unique": 81,
+    "duplicates": 0,
+    "pages": 104,
+    "pages_skipped": 22
+  },
+  "possible_duplicates": []
+}

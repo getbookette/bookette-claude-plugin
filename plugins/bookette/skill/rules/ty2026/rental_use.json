@@ -1,0 +1,9 @@
+{
+  "rental_under_15_days": 15,
+  "personal_over_days": 14,
+  "personal_over_10_pct_of_rental": 10,
+  "average_stay_days_short": 7,
+  "average_stay_days_long": 30,
+  "interest_and_taxes_lines": { "E": ["12", "13a", "13b", "16"], "C": ["16a", "16b", "16c", "23"] },
+  "rules_note": "A dwelling rented fewer than 15 days in the year is reported from the facts recorded here; personal use over 14 days, or over 10 percent of the days rented, marks a dwelling as a residence for the year; an average stay of at most 7 days, or of at most 30, is the service level the recorded facts carry. The report shows each predicate, the recorded services note, and both allocations of the operating and of the interest-and-taxes cents - by rental days and by the year's length - with nothing booked from them."
+}

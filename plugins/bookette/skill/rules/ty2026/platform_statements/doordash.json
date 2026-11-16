@@ -1,0 +1,68 @@
+{
+  "platform": "DoorDash",
+  "payers": ["DoorDash"],
+  "documents": [
+    {
+      "name": "Weekly payouts CSV",
+      "columns": [
+        { "name": "Payout Date", "kind": "metadata", "confidence": "recalled" },
+        { "name": "Payout ID", "kind": "metadata", "confidence": "recalled" },
+        { "name": "Deliveries", "kind": "metadata", "confidence": "recalled" },
+        {
+          "name": "Base Pay",
+          "kind": "gross-component",
+          "confidence": "recalled",
+          "sign": "positive"
+        },
+        {
+          "name": "Promotions",
+          "kind": "gross-component",
+          "confidence": "recalled",
+          "sign": "positive"
+        },
+        { "name": "Tips", "kind": "pass-through", "confidence": "recalled", "sign": "positive" },
+        {
+          "name": "Cash on Delivery Collected",
+          "kind": "metadata",
+          "confidence": "recalled",
+          "sign": "positive"
+        },
+        {
+          "name": "Fast Pay Fee",
+          "kind": "fee",
+          "confidence": "recalled",
+          "sign": "positive"
+        },
+        {
+          "name": "Net Payout",
+          "kind": "net",
+          "confidence": "recalled",
+          "sign": "positive"
+        }
+      ],
+      "gross": { "basis": "sum-of-components", "columns": ["Base Pay", "Promotions"] },
+      "net": { "basis": "stated-column", "columns": ["Net Payout"] },
+      "reconcile": {
+        "closed": true,
+        "equals": "net",
+        "terms": [
+          { "column": "Base Pay", "sign": "positive" },
+          { "column": "Promotions", "sign": "positive" },
+          { "column": "Tips", "sign": "positive" },
+          { "column": "Fast Pay Fee", "sign": "negative" },
+          { "column": "Cash on Delivery Collected", "sign": "negative" }
+        ]
+      }
+    }
+  ],
+  "provenance": [
+    {
+      "url": "https://help.doordash.com/en-us/dashers/article/common-dasher-tax-questions",
+      "what": "Common Dasher tax questions: who receives a tax form and when it arrives. The page states the only tax form eligible Dashers receive is the 1099-NEC and names no 1099-K issuer."
+    },
+    {
+      "url": "https://help.doordash.com/en-us/dashers/article/dasher-earnings-statements",
+      "what": "Dasher earnings statements: the earnings screen in the Dasher app and the monthly statements. DoorDash documents no earnings CSV, so the weekly payouts CSV's headers here are recalled"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "source_file": "inbox/home_electric_2026.pdf",
+    "date": "2026-12-31",
+    "amount": "1560.00",
+    "currency": "USD",
+    "kind": "utilities",
+    "use": "home"
+  },
+  {
+    "source_file": "inbox/home_insurance_2026.pdf",
+    "date": "2026-01-05",
+    "amount": "1140.00",
+    "currency": "USD",
+    "kind": "insurance",
+    "use": "home"
+  }
+]

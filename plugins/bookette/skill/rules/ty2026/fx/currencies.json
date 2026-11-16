@@ -1,0 +1,34 @@
+{
+  "CAD": {
+    "h10_series": "RXI_N.B.CA",
+    "treasury_name": "Canada-Dollar"
+  },
+  "CNY": {
+    "h10_series": "RXI_N.B.CH",
+    "treasury_name": "China-Mainland, Peoples Republic of-Yuan Renminbi"
+  },
+  "EUR": {
+    "h10_series": "RXI$US_N.B.EU",
+    "treasury_name": "Euro Zone-Euro"
+  },
+  "GBP": {
+    "h10_series": "RXI$US_N.B.UK",
+    "treasury_name": "United Kingdom-Pound"
+  },
+  "JPY": {
+    "h10_series": "RXI_N.B.JA",
+    "treasury_name": "Japan-Yen"
+  },
+  "KRW": {
+    "h10_series": "RXI_N.B.KO",
+    "treasury_name": "Korea, South-Won"
+  },
+  "MXN": {
+    "h10_series": "RXI_N.B.MX",
+    "treasury_name": "Mexico-Peso"
+  },
+  "TWD": {
+    "h10_series": "RXI_N.B.TA",
+    "treasury_name": "Taiwan-Dollar"
+  }
+}

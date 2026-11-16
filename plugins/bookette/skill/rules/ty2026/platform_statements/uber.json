@@ -1,0 +1,171 @@
+{
+  "platform": "Uber",
+  "payers": ["Uber"],
+  "documents": [
+    {
+      "name": "Annual tax summary",
+      "columns": [
+        { "name": "Fare Breakdown", "kind": "gross-component", "confidence": "documented" },
+        {
+          "name": "Total tips",
+          "kind": "pass-through",
+          "confidence": "documented",
+          "sign": "positive"
+        },
+        {
+          "name": "Tolls",
+          "kind": "pass-through",
+          "confidence": "documented",
+          "sign": "positive"
+        },
+        {
+          "name": "Taxes",
+          "kind": "tax-platform-remitted",
+          "confidence": "recalled",
+          "sign": "positive"
+        },
+        {
+          "name": "Other Income Breakdown",
+          "kind": "incentive",
+          "confidence": "recalled",
+          "sign": "positive"
+        },
+        { "name": "Expense, Fees & Tax", "kind": "fee", "confidence": "documented" },
+        {
+          "name": "Total business miles (online miles)",
+          "kind": "metadata",
+          "confidence": "documented"
+        }
+      ],
+      "gross": { "basis": "stated-column", "columns": ["Fare Breakdown"] },
+      "reconcile": { "closed": false, "reason": "no-net" }
+    },
+    {
+      "name": "Weekly earnings statement",
+      "columns": [
+        { "name": "Type", "kind": "metadata", "confidence": "recalled" },
+        { "name": "Date", "kind": "metadata", "confidence": "recalled" },
+        { "name": "Time", "kind": "metadata", "confidence": "recalled" },
+        {
+          "name": "Trip or Order Fare",
+          "kind": "gross-component",
+          "confidence": "recalled",
+          "sign": "positive"
+        },
+        { "name": "Fare", "kind": "metadata", "confidence": "recalled", "sign": "positive" },
+        {
+          "name": "Service Fee",
+          "kind": "fee",
+          "confidence": "recalled",
+          "sign": "varies",
+          "sign_note": "Uber's share of the fare varies trip to trip; it is taken from driver earnings"
+        },
+        {
+          "name": "Booking Fee",
+          "kind": "fee",
+          "confidence": "recalled",
+          "sign": "varies",
+          "sign_note": "paid by the rider inside the fare, then charged back against driver earnings"
+        },
+        {
+          "name": "Taxes",
+          "kind": "tax-platform-remitted",
+          "confidence": "recalled",
+          "sign": "positive"
+        },
+        {
+          "name": "Tolls",
+          "kind": "pass-through",
+          "confidence": "recalled",
+          "sign": "positive"
+        },
+        { "name": "Tip", "kind": "pass-through", "confidence": "recalled", "sign": "positive" },
+        {
+          "name": "Promotions",
+          "kind": "incentive",
+          "confidence": "recalled",
+          "sign": "positive"
+        },
+        {
+          "name": "Total",
+          "kind": "net",
+          "confidence": "recalled",
+          "sign": "varies",
+          "sign_note": "the driver-side amount for the row; the Payout row posts negative so the week's rows net to zero"
+        }
+      ],
+      "gross": {
+        "basis": "stated-column",
+        "columns": ["Trip or Order Fare"],
+        "rows": ["earning"],
+        "carries": ["Service Fee", "Booking Fee", "Taxes", "Tolls", "Tip"]
+      },
+      "net": { "basis": "stated-column", "columns": ["Total"], "rows": ["payout"] },
+      "rows": {
+        "column": "Type",
+        "classes": {
+          "Ride": "earning",
+          "Delivery": "earning",
+          "Adjustment": "adjustment",
+          "Promotion": "earning",
+          "Payout": "payout"
+        }
+      },
+      "segments": [
+        { "name": "Uber rides", "rows": ["Ride"] },
+        { "name": "Uber Eats", "rows": ["Delivery"] }
+      ],
+      "reconcile": {
+        "closed": true,
+        "equals": "zero",
+        "terms": [{ "column": "Total", "sign": "positive" }]
+      }
+    }
+  ],
+  "provenance": [
+    {
+      "url": "https://www.uber.com/us/en/drive/tax-information",
+      "what": "Tax Season Guide: the annual tax summary's sections, the 1099-K and 1099-NEC split with their thresholds, and gross customer payments versus net deposits. The page names the 1099-K issuer as Uber and prints no legal filer name."
+    },
+    {
+      "url": "https://help.uber.com/en/driving-and-delivering/article/-calculation-of-tax-using-your-annual-tax-summary?nodeId=a7d8d7c8-a291-4ac8-be02-558b3bbfb21a",
+      "what": "Calculation of tax using your annual tax summary: the Fare Breakdown section, what gross earnings include, and the service and booking fees taken out"
+    },
+    {
+      "url": "https://www.uber.com/au/en/blog/tax-summary",
+      "what": "Uber's tax summary terms and definitions: gross fares, booking, split fare, city and airport fees, tolls, tips, promotions, service fee, and the section names (Australian edition, used for structure)"
+    },
+    {
+      "url": "https://help.uber.com/en/driving-and-delivering/article/understand-your-weekly-earnings-statements?nodeId=ceebe501-e329-4891-98dd-f1cc026137ad",
+      "what": "Understand your weekly earnings statements: the Weekly Summary, Detailed Fare Summary and Transaction History sections, the earning cycle, and the statement downloads"
+    },
+    {
+      "url": "https://www.uber.com/us/en/blog/driver-statements",
+      "what": "Track your earnings weekly: the redesigned statement blocks, including the weekly service fee block and prior-week adjustments"
+    },
+    {
+      "url": "https://help.uber.com/am/driving-and-delivering/article/other-fees-and-surcharges?nodeId=25f8f6b6-8d2e-43ce-ad4b-c5175b2281b0",
+      "what": "Other fees and surcharges: city fee, airport fee, booking fee and split fare fee behavior, and which summaries carry them"
+    },
+    {
+      "url": "https://help.uber.com/en/driving-and-delivering/article/understanding-ubers-variable-service-fee?nodeId=7448ffcc-ab98-4a32-b7fc-e9c17a58bb41",
+      "what": "Understanding Uber's variable service fee: the service fee varies trip to trip around a target share"
+    },
+    {
+      "url": "https://help.uber.com/en/driving-and-delivering/article/uber-driver-account-information?nodeId=9239ff04-6aab-4e83-91e5-fdb80378639c",
+      "what": "Driver account information: Earnings, Statements and the CSV download, and what the statements show"
+    },
+    {
+      "url": "https://www.uber.com/us/en/blog/nyc-driver-benefits",
+      "what": "NYC driver benefits: the Black Car Fund, funded by a surcharge on passenger trips"
+    },
+    {
+      "url": "https://help.uber.com/en/driving-and-delivering/article/tax-summary-questions-?nodeId=f7266968-bc67-4217-9e0a-c216d6b61de3",
+      "what": "Tax summary questions: what the summary contains and when the 1099 forms arrive"
+    },
+    {
+      "url": "https://help.uber.com/driving-and-delivering/article/tax-summary-and-1099s-?nodeId=711e7793-2c57-4e48-94d5-537f2637dd2a",
+      "what": "Tax summary and 1099s: the 1099-K and 1099-NEC opt-in and the federal reporting threshold"
+    }
+  ]
+}
