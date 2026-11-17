@@ -1,8 +1,25 @@
 {
   "name": "bookette",
-  "version": "0.2.0",
-  "description": "Keep a tax-year folder's books from your own Claude Code session: stage receipts and statements, follow the Bookette books skill over the run, import through Bookette's checks, then review questions and Abacus's figures.",
+  "displayName": "Tax Paperwork to Books by Bookette",
+  "version": "0.2.1",
+  "description": "For 1099 workers, landlords and short-term rental hosts: turn receipts, statements and 1099s into Schedule C and E books for your accountant. Tax-year bookkeeping in your own Claude Code session, K-1s included. Every figure comes from calculation code, never from a model. Your files stay in a folder on your machine; nothing is uploaded to Bookette. Bookette does not prepare or file a return or give tax advice.",
   "author": {
     "name": "Alan Ho"
-  }
+  },
+  "homepage": "https://getbookette.com",
+  "repository": "https://github.com/getbookette/bookette-claude-plugin",
+  "keywords": [
+    "tax",
+    "bookkeeping",
+    "receipts",
+    "1099",
+    "k-1",
+    "schedule-c",
+    "schedule-e",
+    "landlord",
+    "rental-property",
+    "short-term-rental",
+    "self-employed",
+    "accountant"
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "name": "bookette",
-  "version": "0.2.0",
-  "description": "The personal, file-based Bookette tool: a tax-year folder, the books runner, a headless CLI and the Ink interface",
+  "version": "0.2.1",
+  "description": "For 1099 workers, landlords and short-term rental hosts: turn receipts, statements and 1099s into Schedule C and E books for your accountant. Tax-year bookkeeping in your own Claude Code session, K-1s included. Every figure comes from calculation code, never from a model. Your files stay in a folder on your machine; nothing is uploaded to Bookette. Bookette does not prepare or file a return or give tax advice.",
   "license": "UNLICENSED",
   "repository": {
     "type": "git",

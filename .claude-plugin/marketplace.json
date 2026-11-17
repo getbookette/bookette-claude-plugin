@@ -3,12 +3,12 @@
   "owner": {
     "name": "Bookette"
   },
-  "description": "Bookette for Claude Code: books for a tax-year folder, kept in your own session.",
+  "description": "Tax-year bookkeeping for 1099 workers, landlords and short-term rental hosts, kept in a folder on your machine.",
   "plugins": [
     {
       "name": "bookette",
       "source": "./plugins/bookette",
-      "description": "Keep a tax-year folder's books from your own Claude Code session: stage receipts and statements, follow the Bookette books skill over the run, import through Bookette's checks, then review questions and Abacus's figures."
+      "description": "For 1099 workers, landlords and short-term rental hosts: turn receipts, statements and 1099s into Schedule C and E books for your accountant. Tax-year bookkeeping in your own Claude Code session, K-1s included. Every figure comes from calculation code, never from a model. Your files stay in a folder on your machine; nothing is uploaded to Bookette. Bookette does not prepare or file a return or give tax advice."
     }
   ]
 }

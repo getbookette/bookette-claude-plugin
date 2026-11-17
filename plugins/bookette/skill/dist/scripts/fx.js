@@ -3,297 +3,41 @@ if (Number(process.versions.node.split(".")[0]) < 24) {
   process.stderr.write("Bookette needs Node.js 24 or later, and this is Node.js " + process.versions.node + ". Install Node.js 24 or later: on macOS `brew install node`, on Linux the installer at https://nodejs.org/en/download. In Claude Code, the bookette plugin can be turned off with /plugin.\n");
   process.exit(1);
 }
-"use strict";
-var __defProp = Object.defineProperty;
-var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
-var __getOwnPropNames = Object.getOwnPropertyNames;
-var __hasOwnProp = Object.prototype.hasOwnProperty;
-var __export = (target, all) => {
-  for (var name in all)
-    __defProp(target, name, { get: all[name], enumerable: true });
-};
-var __copyProps = (to, from, except, desc) => {
-  if (from && typeof from === "object" || typeof from === "function") {
-    for (let key of __getOwnPropNames(from))
-      if (!__hasOwnProp.call(to, key) && key !== except)
-        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
-  }
-  return to;
-};
-var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
-
-// packages/books-skill/src/scripts/fx.ts
-var fx_exports = {};
-__export(fx_exports, {
-  FxError: () => FxError,
-  cliErrorLine: () => cliErrorLine,
-  fxPriceable: () => fxPriceable,
-  lookup: () => lookup,
-  readFxSnapshotBeside: () => readFxSnapshotBeside,
-  toUsd: () => toUsd
-});
-module.exports = __toCommonJS(fx_exports);
-var import_node_fs = require("node:fs");
-var import_node_path = require("node:path");
-
-// packages/books-skill/src/dates.ts
-function isValidDay(day) {
-  if (!/^\d{4}-\d{2}-\d{2}$/.test(day)) return false;
-  const ordinal = dayOrdinal(day);
-  return Number.isFinite(ordinal) && ordinalToDay(ordinal) === day;
-}
-function dayOrdinal(day) {
-  return Math.floor(Date.parse(`${day}T00:00:00Z`) / 864e5);
-}
-function ordinalToDay(ordinal) {
-  return new Date(ordinal * 864e5).toISOString().slice(0, 10);
-}
-
-// packages/books-skill/src/money.ts
-var SCALE = 10n ** 12n;
-var CENT_SCALE = 10n ** 10n;
-function parseDec(input) {
-  const match = /^([+-]?)(\d+)(?:\.(\d+))?$/.exec(input.trim());
-  if (!match) throw new Error(`not a decimal: ${input}`);
-  const [, sign = "", whole = "0", fraction = ""] = match;
-  if (fraction.length > 12) throw new Error(`too much precision: ${input}`);
-  const v = BigInt(whole + fraction.padEnd(12, "0"));
-  return { v: sign === "-" ? -v : v };
-}
-function toCents(d) {
-  return divideHalfUp(d.v, CENT_SCALE);
-}
-function divideHalfUp(num, den) {
-  const negative = num < 0n;
-  const abs = negative ? -num : num;
-  const q = abs / den;
-  const roundUp = (abs - q * den) * 2n >= den;
-  return negative ? -(q + (roundUp ? 1n : 0n)) : q + (roundUp ? 1n : 0n);
-}
-function fmtCents(cents) {
-  const negative = cents < 0n;
-  const abs = negative ? -cents : cents;
-  const whole = abs / 100n;
-  const pennies = abs % 100n;
-  return `${negative ? "-" : ""}${whole.toString()}.${pennies.toString().padStart(2, "0")}`;
-}
-var USD = new Intl.NumberFormat("en-US", {
-  style: "currency",
-  currency: "USD",
-  minimumFractionDigits: 2,
-  maximumFractionDigits: 2
-});
-var GROUPED = new Intl.NumberFormat("en-US", {
-  minimumFractionDigits: 2,
-  maximumFractionDigits: 2
-});
-
-// packages/books-skill/src/scripts/fx_snapshot.ts
-var FX_SNAPSHOT_PATH = "fx_snapshot.json";
-function readFxSnapshot(text) {
-  let parsed;
-  try {
-    parsed = JSON.parse(text);
-  } catch {
-    throw new TypeError("the fx snapshot is not valid JSON");
-  }
-  if (typeof parsed !== "object" || parsed === null || Array.isArray(parsed)) {
-    throw new TypeError("the fx snapshot is not a JSON object");
-  }
-  const snapshot = {};
-  for (const [currency, value] of Object.entries(parsed)) {
-    if (!/^[A-Z]{3}$/.test(currency)) {
-      throw new TypeError("the fx snapshot carries a currency key outside the ISO shape");
-    }
-    if (!Array.isArray(value)) {
-      throw new TypeError(`the fx snapshot's ${currency} rows are not a list`);
-    }
-    const rows = [];
-    for (const entry of value) {
-      if (typeof entry !== "object" || entry === null || Array.isArray(entry)) {
-        throw new TypeError(`a ${currency} row of the fx snapshot is not an object`);
-      }
-      const record = entry;
-      if (typeof record["rate_date"] !== "string" || !isValidDay(record["rate_date"])) {
-        throw new TypeError(`a ${currency} row of the fx snapshot carries no rate_date`);
-      }
-      if (typeof record["rate"] !== "string" || !/^\d+(\.\d+)?$/.test(record["rate"])) {
-        throw new TypeError(`a ${currency} row of the fx snapshot carries no decimal rate text`);
-      }
-      if (typeof record["source"] !== "string" || record["source"] === "") {
-        throw new TypeError(`a ${currency} row of the fx snapshot carries no source`);
-      }
-      rows.push({
-        rate_date: record["rate_date"],
-        rate: record["rate"],
-        source: record["source"]
-      });
-    }
-    snapshot[currency] = rows;
-  }
-  return snapshot;
-}
-
-// packages/books-skill/src/scripts/fx.ts
-var MAX_GAP_DAYS = 7;
-var FxError = class extends Error {
-  code;
-  constructor(code, message) {
-    super(message);
-    this.name = "FxError";
-    this.code = code;
-  }
-};
-var NO_RATE_EXIT = "book nothing for it: the build carries the line unpriced and the importer flags its row, so write no finding and mark no document needs_review, and never look a rate up";
-function lookup(rulesDir, currency, day, snapshot = null) {
-  if (!isValidDay(day)) throw new FxError("bad_date", `not a valid date: ${day}`);
-  const upper = currency.toUpperCase();
-  if (upper === "USD") return null;
-  const snapshotRows = snapshot?.[upper];
-  if (snapshotRows !== void 0 && snapshotRows.length > 0) {
-    return lookupSnapshot(upper, day, snapshotRows);
-  }
-  return lookupVendored(rulesDir, upper, day);
-}
-function lookupSnapshot(currency, day, rows) {
-  const h10 = rows.filter((row) => row.source.startsWith("h10:"));
-  if (h10.length > 0) {
-    let best = null;
-    for (const row of h10) {
-      if (row.rate_date <= day && (best === null || row.rate_date > best.rate_date)) best = row;
-    }
-    if (best === null || dayOrdinal(day) - dayOrdinal(best.rate_date) > MAX_GAP_DAYS) {
-      throw new FxError(
-        "no_rate",
-        `no ${currency} rate on ${day} or within ${String(MAX_GAP_DAYS)} days before in the run's rate snapshot: the snapshot has no rate for that day; ${NO_RATE_EXIT}`
-      );
-    }
-    return snapshotInfo(currency, day, best);
-  }
-  const quarterEnd = quarterEndOf(day);
-  const treasury = rows.find(
-    (row) => row.source.startsWith("treasury:") && row.rate_date === quarterEnd
-  );
-  if (treasury === void 0) {
-    throw new FxError(
-      "no_snapshot_quarter",
-      `the run's rate snapshot carries no ${currency} rate for the quarter ending ${quarterEnd}`
-    );
-  }
-  return snapshotInfo(currency, day, treasury);
-}
-function snapshotInfo(currency, day, row) {
-  return {
-    currency,
-    requested_date: day,
-    rate_date: row.rate_date,
-    rate: row.rate,
-    quote: "units_per_usd",
-    source: row.source
-  };
-}
-function quarterEndOf(day) {
-  const year = Number(day.slice(0, 4));
-  const endMonth = Math.ceil(Number(day.slice(5, 7)) / 3) * 3;
-  const endDay = endMonth === 3 || endMonth === 12 ? 31 : 30;
-  return `${String(year)}-${String(endMonth).padStart(2, "0")}-${String(endDay).padStart(2, "0")}`;
-}
-function lookupVendored(rulesDir, upper, day) {
-  const fxDir = (0, import_node_path.join)(rulesDir, "fx");
-  const sources = JSON.parse((0, import_node_fs.readFileSync)((0, import_node_path.join)(fxDir, "sources.json"), "utf8"));
-  const meta = sources[upper];
-  if (!meta) throw new FxError("no_source", `no exchange rate source for ${upper}`);
-  const lines = (0, import_node_fs.readFileSync)((0, import_node_path.join)(fxDir, meta.file), "utf8").split("\n");
-  let best = null;
-  for (const row of lines.slice(1)) {
-    if (!row.trim()) continue;
-    const [rowDay, rate] = row.split(",");
-    if (rowDay === void 0 || rate === void 0) continue;
-    if (rowDay <= day && (best === null || rowDay > best.rateDate)) {
-      best = { ordinal: dayOrdinal(rowDay), rateDate: rowDay, rate };
-    }
-  }
-  if (best === null || dayOrdinal(day) - best.ordinal > MAX_GAP_DAYS) {
-    throw new FxError(
-      "no_rate",
-      `no ${upper} rate on ${day} or within ${String(MAX_GAP_DAYS)} days before: the rules data has no rate for that day; ${NO_RATE_EXIT}`
-    );
-  }
-  return {
-    currency: upper,
-    requested_date: day,
-    rate_date: best.rateDate,
-    rate: best.rate.trim(),
-    quote: meta.quote,
-    source: meta.source
-  };
-}
-function readFxSnapshotBeside(workspace) {
-  const path = (0, import_node_path.join)(workspace, FX_SNAPSHOT_PATH);
-  if (!(0, import_node_fs.existsSync)(path)) return null;
-  return readFxSnapshot((0, import_node_fs.readFileSync)(path, "utf8"));
-}
-function fxPriceable(rulesDir, currency, day, snapshot = null) {
-  try {
-    lookup(rulesDir, currency, day, snapshot);
-    return true;
-  } catch {
-    return false;
-  }
-}
-function toUsd(rulesDir, currency, day, amount, snapshot = null) {
-  const info = lookup(rulesDir, currency, day, snapshot);
-  if (info === null) return { cents: toCents(amount), info: null };
-  const rate = parseDec(info.rate);
-  const cents = info.quote === "units_per_usd" ? divideHalfUp(amount.v * 100n, rate.v) : divideHalfUp(amount.v * rate.v, 10n ** 22n);
-  return { cents, info };
-}
-function readSnapshotFile(path) {
-  try {
-    return readFxSnapshot((0, import_node_fs.readFileSync)(path, "utf8"));
-  } catch {
-    throw new FxError(
-      "snapshot_unreadable",
-      "the fifth argument names no readable rate snapshot file: pass the path of a rate snapshot file, never its JSON inline"
-    );
-  }
-}
-function main(argv) {
-  const [rulesDir, currency, day, amount, snapshotPath] = argv;
-  if (rulesDir === void 0 || currency === void 0 || day === void 0) {
-    throw new FxError(
-      "usage",
-      "usage: fx.js <rules_dir> <currency> <YYYY-MM-DD> [amount] [snapshot_path], where snapshot_path is the path of a rate snapshot file"
-    );
-  }
-  const snapshot = snapshotPath === void 0 ? null : readSnapshotFile(snapshotPath);
-  if (amount !== void 0) {
-    const { cents, info } = toUsd(rulesDir, currency, day, parseDec(amount), snapshot);
-    console.log(JSON.stringify({ usd: fmtCents(cents), fx: info }, null, 2));
-  } else {
-    console.log(JSON.stringify(lookup(rulesDir, currency, day, snapshot), null, 2));
-  }
-}
-function cliErrorLine(error) {
-  const code = error instanceof FxError ? error.code : "internal";
-  const message = error instanceof Error ? error.message : String(error);
-  return JSON.stringify({ error: { code, message } });
-}
-if (require.main === module) {
-  try {
-    main(process.argv.slice(2));
-  } catch (error) {
-    process.stderr.write(`${cliErrorLine(error)}
-`);
-    process.exitCode = 1;
-  }
-}
-// Annotate the CommonJS export names for ESM import in node:
-0 && (module.exports = {
-  FxError,
-  cliErrorLine,
-  fxPriceable,
-  lookup,
-  readFxSnapshotBeside,
-  toUsd
-});
+"use strict";var __defProp=Object.defineProperty;var __getOwnPropDesc=Object.getOwnPropertyDescriptor;var __getOwnPropNames=Object.getOwnPropertyNames;var __hasOwnProp=Object.prototype.hasOwnProperty;var __export=(target,all)=>{for(var name in all)__defProp(target,name,{get:all[name],enumerable:true})};var __copyProps=(to,from,except,desc)=>{if(from&&typeof from==="object"||typeof from==="function"){
+for(let key of __getOwnPropNames(from))if(!__hasOwnProp.call(to,key)&&key!==except)__defProp(to,key,{get:()=>from[key],enumerable:!(desc=__getOwnPropDesc(from,key))||desc.enumerable})}return to};var __toCommonJS=mod=>__copyProps(__defProp({},"__esModule",{value:true}),mod);var fx_exports={};__export(fx_exports,{FxError:()=>FxError,cliErrorLine:()=>cliErrorLine,fxPriceable:()=>fxPriceable,lookup:()=>lookup,readFxSnapshotBeside:()=>readFxSnapshotBeside,toUsd:()=>toUsd});module.
+exports=__toCommonJS(fx_exports);var import_node_fs=require("node:fs");var import_node_path=require("node:path");function isValidDay(day){if(!/^\d{4}-\d{2}-\d{2}$/.test(day))return false;const ordinal=dayOrdinal(day);return Number.isFinite(ordinal)&&ordinalToDay(ordinal)===day}function dayOrdinal(day){return Math.
+floor(Date.parse(`${day}T00:00:00Z`)/864e5)}function ordinalToDay(ordinal){return new Date(ordinal*864e5).toISOString().slice(0,10)}var SCALE=10n**12n;var CENT_SCALE=10n**10n;function parseDec(input){const match=/^([+-]?)(\d+)(?:\.(\d+))?$/.exec(input.trim());if(!match)throw new Error(`not a decimal: ${input}`);const[,sign="",whole="\
+0",fraction=""]=match;if(fraction.length>12)throw new Error(`too much precision: ${input}`);const v=BigInt(whole+fraction.padEnd(12,"0"));return{v:sign==="-"?-v:v}}function toCents(d){return divideHalfUp(
+d.v,CENT_SCALE)}function divideHalfUp(num,den){const negative=num<0n;const abs=negative?-num:num;const q=abs/den;const roundUp=(abs-q*den)*2n>=den;return negative?-(q+(roundUp?1n:0n)):q+(roundUp?1n:0n)}
+function fmtCents(cents){const negative=cents<0n;const abs=negative?-cents:cents;const whole=abs/100n;const pennies=abs%100n;return`${negative?"-":""}${whole.toString()}.${pennies.toString().padStart(
+2,"0")}`}var USD=new Intl.NumberFormat("en-US",{style:"currency",currency:"USD",minimumFractionDigits:2,maximumFractionDigits:2});var GROUPED=new Intl.NumberFormat("en-US",{minimumFractionDigits:2,maximumFractionDigits:2});var FX_SNAPSHOT_PATH="fx_snapshot.json";function readFxSnapshot(text){let parsed;try{parsed=JSON.parse(text)}catch{throw new TypeError("the fx snapshot is not valid JSON")}if(typeof parsed!=="object"||parsed===null||Array.isArray(parsed)){throw new TypeError(
+"the fx snapshot is not a JSON object")}const snapshot={};for(const[currency,value]of Object.entries(parsed)){if(!/^[A-Z]{3}$/.test(currency)){throw new TypeError("the fx snapshot carries a currency k\
+ey outside the ISO shape")}if(!Array.isArray(value)){throw new TypeError(`the fx snapshot's ${currency} rows are not a list`)}const rows=[];for(const entry of value){if(typeof entry!=="object"||entry===
+null||Array.isArray(entry)){throw new TypeError(`a ${currency} row of the fx snapshot is not an object`)}const record=entry;if(typeof record["rate_date"]!=="string"||!isValidDay(record["rate_date"])){
+throw new TypeError(`a ${currency} row of the fx snapshot carries no rate_date`)}if(typeof record["rate"]!=="string"||!/^\d+(\.\d+)?$/.test(record["rate"])){throw new TypeError(`a ${currency} row of t\
+he fx snapshot carries no decimal rate text`)}if(typeof record["source"]!=="string"||record["source"]===""){throw new TypeError(`a ${currency} row of the fx snapshot carries no source`)}rows.push({rate_date:record["\
+rate_date"],rate:record["rate"],source:record["source"]})}snapshot[currency]=rows}return snapshot}var MAX_GAP_DAYS=7;var FxError=class extends Error{code;constructor(code,message){super(message);this.name="FxError";this.code=code}};var NO_RATE_EXIT="book nothing for it: the build carries the line \
+unpriced and the importer flags its row, so write no finding and mark no document needs_review, and never look a rate up";function lookup(rulesDir,currency,day,snapshot=null){if(!isValidDay(day))throw new FxError(
+"bad_date",`not a valid date: ${day}`);const upper=currency.toUpperCase();if(upper==="USD")return null;const snapshotRows=snapshot?.[upper];if(snapshotRows!==void 0&&snapshotRows.length>0){return lookupSnapshot(
+upper,day,snapshotRows)}return lookupVendored(rulesDir,upper,day)}function lookupSnapshot(currency,day,rows){const h10=rows.filter(row=>row.source.startsWith("h10:"));if(h10.length>0){let best=null;for(const row of h10){
+if(row.rate_date<=day&&(best===null||row.rate_date>best.rate_date))best=row}if(best===null||dayOrdinal(day)-dayOrdinal(best.rate_date)>MAX_GAP_DAYS){throw new FxError("no_rate",`no ${currency} rate on\
+ ${day} or within ${String(MAX_GAP_DAYS)} days before in the run's rate snapshot: the snapshot has no rate for that day; ${NO_RATE_EXIT}`)}return snapshotInfo(currency,day,best)}const quarterEnd=quarterEndOf(
+day);const treasury=rows.find(row=>row.source.startsWith("treasury:")&&row.rate_date===quarterEnd);if(treasury===void 0){throw new FxError("no_snapshot_quarter",`the run's rate snapshot carries no ${currency}\
+ rate for the quarter ending ${quarterEnd}`)}return snapshotInfo(currency,day,treasury)}function snapshotInfo(currency,day,row){return{currency,requested_date:day,rate_date:row.rate_date,rate:row.rate,
+quote:"units_per_usd",source:row.source}}function quarterEndOf(day){const year=Number(day.slice(0,4));const endMonth=Math.ceil(Number(day.slice(5,7))/3)*3;const endDay=endMonth===3||endMonth===12?31:30;
+return`${String(year)}-${String(endMonth).padStart(2,"0")}-${String(endDay).padStart(2,"0")}`}function lookupVendored(rulesDir,upper,day){const fxDir=(0,import_node_path.join)(rulesDir,"fx");const sources=JSON.
+parse((0,import_node_fs.readFileSync)((0,import_node_path.join)(fxDir,"sources.json"),"utf8"));const meta=sources[upper];if(!meta)throw new FxError("no_source",`no exchange rate source for ${upper}`);
+const lines=(0,import_node_fs.readFileSync)((0,import_node_path.join)(fxDir,meta.file),"utf8").split("\n");let best=null;for(const row of lines.slice(1)){if(!row.trim())continue;const[rowDay,rate]=row.
+split(",");if(rowDay===void 0||rate===void 0)continue;if(rowDay<=day&&(best===null||rowDay>best.rateDate)){best={ordinal:dayOrdinal(rowDay),rateDate:rowDay,rate}}}if(best===null||dayOrdinal(day)-best.
+ordinal>MAX_GAP_DAYS){throw new FxError("no_rate",`no ${upper} rate on ${day} or within ${String(MAX_GAP_DAYS)} days before: the rules data has no rate for that day; ${NO_RATE_EXIT}`)}return{currency:upper,
+requested_date:day,rate_date:best.rateDate,rate:best.rate.trim(),quote:meta.quote,source:meta.source}}function readFxSnapshotBeside(workspace){const path=(0,import_node_path.join)(workspace,FX_SNAPSHOT_PATH);
+if(!(0,import_node_fs.existsSync)(path))return null;return readFxSnapshot((0,import_node_fs.readFileSync)(path,"utf8"))}function fxPriceable(rulesDir,currency,day,snapshot=null){try{lookup(rulesDir,currency,
+day,snapshot);return true}catch{return false}}function toUsd(rulesDir,currency,day,amount,snapshot=null){const info=lookup(rulesDir,currency,day,snapshot);if(info===null)return{cents:toCents(amount),info:null};
+const rate=parseDec(info.rate);const cents=info.quote==="units_per_usd"?divideHalfUp(amount.v*100n,rate.v):divideHalfUp(amount.v*rate.v,10n**22n);return{cents,info}}function readSnapshotFile(path){try{
+return readFxSnapshot((0,import_node_fs.readFileSync)(path,"utf8"))}catch{throw new FxError("snapshot_unreadable","the fifth argument names no readable rate snapshot file: pass the path of a rate snap\
+shot file, never its JSON inline")}}function main(argv){const[rulesDir,currency,day,amount,snapshotPath]=argv;if(rulesDir===void 0||currency===void 0||day===void 0){throw new FxError("usage","usage: f\
+x.js <rules_dir> <currency> <YYYY-MM-DD> [amount] [snapshot_path], where snapshot_path is the path of a rate snapshot file")}const snapshot=snapshotPath===void 0?null:readSnapshotFile(snapshotPath);if(amount!==
+void 0){const{cents,info}=toUsd(rulesDir,currency,day,parseDec(amount),snapshot);console.log(JSON.stringify({usd:fmtCents(cents),fx:info},null,2))}else{console.log(JSON.stringify(lookup(rulesDir,currency,
+day,snapshot),null,2))}}function cliErrorLine(error){const code=error instanceof FxError?error.code:"internal";const message=error instanceof Error?error.message:String(error);return JSON.stringify({error:{
+code,message}})}if(require.main===module){try{main(process.argv.slice(2))}catch(error){process.stderr.write(`${cliErrorLine(error)}
+`);process.exitCode=1}}0&&(module.exports={FxError,cliErrorLine,fxPriceable,lookup,readFxSnapshotBeside,toUsd});

@@ -1,8 +1,18 @@
 # Bookette
 
-Bookette keeps a tax-year folder's books in your own Claude Code session. It serves 1099
-workers, landlords and short-term rental hosts, turning receipts, bank and card statements,
-1099s and K-1s into books with Schedule C and Schedule E categories for your accountant.
+Bookette turns a tax year's paperwork into books. It serves 1099 workers, landlords and
+short-term rental hosts: drop in receipts, bank and card statements, 1099s and K-1s, and get
+books with Schedule C and Schedule E categories, ready for your accountant.
+
+Try asking:
+
+- I drive for a rideshare app and rent out a cabin. Set up my 2026 books.
+- I got two K-1s and a pile of receipts. What do you still need from me?
+- Export my Schedule E books for my accountant.
+
+Bookette keeps books. It does not prepare or file a tax return, choose a tax treatment or give
+tax advice; where the rules allow alternatives it shows each result side by side for your
+accountant.
 
 The plugin loads the Bookette books skill, a /bookette:demo skill that fills an empty folder
 with a synthetic demo year when you type it, and the bookette_* MCP tools over stdio. The
@@ -18,5 +28,9 @@ own terms. The plugin carries its own code and downloads nothing itself; during 
 session may fetch https pages on federal .gov domains: the plugin's confinement allows at most
 eight URLs a run and logs each in the folder's fetch log as a hash line. No Social Security
 number is stored as a data field.
+
+Requires Claude Code and Node.js 24 or later.
+
+Questions or problems: support@getbookette.com.
 
 Bookette also runs as a web app at https://getbookette.com for people who keep their books without Claude Code.
